@@ -105,7 +105,7 @@
 	const AGILITY      ; 61
 	const QUICK_ATTACK ; 62
 	const RAGE         ; 63
-	const TELEPORT     ; 64
+	const CALM_MIND    ; 64
 	const NIGHT_SHADE  ; 65
 	const MIMIC        ; 66
 	const SCREECH      ; 67
@@ -212,5 +212,6 @@ DEF NUM_ATTACKS EQU const_value - 1
 	const HIDEPIC_ANIM ; monster disappears
 	const ROCK_ANIM ; throw rock
 	const BAIT_ANIM ; throw bait
+	const FLY_UP_ANIM ; fly up
 
 DEF NUM_ATTACK_ANIMS EQU const_value - 1

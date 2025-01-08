@@ -99,7 +99,7 @@ MoveNames::
 	li "AGILITY"
 	li "QUICK ATTACK"
 	li "RAGE"
-	li "TELEPORT"
+	li "CALM MIND"
 	li "NIGHT SHADE"
 	li "MIMIC"
 	li "SCREECH"

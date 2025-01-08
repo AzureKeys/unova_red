@@ -13,7 +13,6 @@ ExclamationPointMoveSets:
 ; set 2
 	db MEDITATE
 	db AGILITY
-	db TELEPORT
 	db MIMIC
 	db DOUBLE_TEAM
 	db BIDE ; corrected JP grammar: moved from set 1 in pokered

@@ -99,7 +99,7 @@ AttackAnimationPointers:
 	dw AgilityAnim
 	dw QuickAttackAnim
 	dw RageAnim
-	dw TeleportAnim
+	dw CalmMindAnim
 	dw NightShadeAnim
 	dw MimicAnim
 	dw ScreechAnim
@@ -203,6 +203,7 @@ AttackAnimationPointers:
 	dw HidePicAnim
 	dw ThrowRockAnim
 	dw ThrowBaitAnim
+	dw FlyUpAnim
 	assert_table_length NUM_ATTACK_ANIMS
 
 ; each animation is a list of subanimations
@@ -723,6 +724,7 @@ HypnosisAnim:
 	db -1 ; end
 
 MeditateAnim:
+CalmMindAnim:
 	battle_anim MEDITATE, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLE_1_SQUARE_CLOSING, 1, 6
 	battle_anim NO_MOVE, SE_DARK_SCREEN_FLASH
@@ -744,8 +746,8 @@ RageAnim:
 	battle_anim RAGE, SUBANIM_0_STAR_TWICE, 0, 6
 	db -1 ; end
 
-TeleportAnim:
-	battle_anim TELEPORT, SE_SQUISH_MON_PIC
+FlyUpAnim:
+	battle_anim SKY_ATTACK, SE_SQUISH_MON_PIC
 	battle_anim NO_MOVE, SE_SHOOT_BALLS_UPWARD
 	db -1 ; end
 

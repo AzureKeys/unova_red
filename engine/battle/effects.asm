@@ -866,10 +866,7 @@ SwitchAndTeleportEffect:
 	jr nc, .playerMoveWasSuccessful ; if so, allow teleporting
 	ld c, 50
 	call DelayFrames
-	ld a, [wPlayerMoveNum]
-	cp TELEPORT
-	jp nz, PrintDidntAffectText
-	jp PrintButItFailedText_
+	jp PrintDidntAffectText
 .playerMoveWasSuccessful
 	call ReadPlayerMonCurHPAndStatus
 	xor a
@@ -882,10 +879,7 @@ SwitchAndTeleportEffect:
 	ld c, 50
 	call DelayFrames
 	ld hl, IsUnaffectedText
-	ld a, [wPlayerMoveNum]
-	cp TELEPORT
-	jp nz, PrintText
-	jp PrintButItFailedText_
+	jp PrintText
 .handleEnemy
 	ld a, [wIsInBattle]
 	dec a
@@ -908,10 +902,7 @@ SwitchAndTeleportEffect:
 	jr nc, .enemyMoveWasSuccessful
 	ld c, 50
 	call DelayFrames
-	ld a, [wEnemyMoveNum]
-	cp TELEPORT
-	jp nz, PrintDidntAffectText
-	jp PrintButItFailedText_
+	jp PrintDidntAffectText
 .enemyMoveWasSuccessful
 	call ReadPlayerMonCurHPAndStatus
 	xor a
@@ -924,19 +915,13 @@ SwitchAndTeleportEffect:
 	ld c, 50
 	call DelayFrames
 	ld hl, IsUnaffectedText
-	ld a, [wEnemyMoveNum]
-	cp TELEPORT
-	jp nz, PrintText
-	jp ConditionalPrintButItFailed
+	jp PrintText
 .playAnimAndPrintText
 	push af
 	call PlayBattleAnimation
 	ld c, 20
 	call DelayFrames
 	pop af
-	ld hl, RanFromBattleText
-	cp TELEPORT
-	jr z, .printText
 	ld hl, RanAwayScaredText
 	cp ROAR
 	jr z, .printText
@@ -1049,7 +1034,7 @@ ChargeEffect:
 	cp FLY_EFFECT
 	jr nz, .notFly
 	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
-	ld b, TELEPORT ; load Teleport's animation
+	ld b, FLY_UP_ANIM
 .notFly
 	ld a, [de]
 	cp DIG

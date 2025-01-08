@@ -9,6 +9,5 @@ FieldMoveDisplayData:
 	db STRENGTH,   5, $0A
 	db FLASH,      6, $0C
 	db DIG,        7, $0C
-	db TELEPORT,   8, $0A
-	db SOFTBOILED, 9, $08
+	db SOFTBOILED, 8, $08
 	db -1 ; end

@@ -3,7 +3,7 @@ MoveNames::
 	li "POUND"
 	li "KARATE CHOP"
 	li "DOUBLESLAP"
-	li "COMET PUNCH"
+	li "GIGA DRAIN"
 	li "MEGA PUNCH"
 	li "PAY DAY"
 	li "FIRE PUNCH"

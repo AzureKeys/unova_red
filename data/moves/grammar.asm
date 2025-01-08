@@ -16,7 +16,6 @@ ExclamationPointMoveSets:
 	db MIMIC
 	db DOUBLE_TEAM
 	db BIDE ; corrected JP grammar: moved from set 1 in pokered
-	db BARRAGE
 	db 0 ; end set
 
 ; set 3
@@ -51,15 +50,11 @@ ExclamationPointMoveSets:
 	db MINIMIZE
 	db WITHDRAW
 	db DEFENSE_CURL
-	db METRONOME
 	db LICK
-	db CLAMP
-	db CONSTRICT
 	db POISON_GAS
 	db LEECH_LIFE
 	db BUBBLE
 	db FLASH
-	db SPLASH
 	db ACID_ARMOR
 	db FURY_SWIPES
 	db REST

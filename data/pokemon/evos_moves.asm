@@ -246,7 +246,6 @@ ClefairyEvosMoves:
 	db 13, SING
 	db 18, DOUBLESLAP
 	db 24, MINIMIZE
-	db 31, METRONOME
 	db 39, DEFENSE_CURL
 	db 48, LIGHT_SCREEN
 	db 0
@@ -347,7 +346,7 @@ GrimerEvosMoves:
 ; Learnset
 	db 30, POISON_GAS
 	db 33, MINIMIZE
-	db 37, SLUDGE
+	db 37, SLUDGE_BOMB
 	db 42, HARDEN
 	db 48, SCREECH
 	db 55, ACID_ARMOR
@@ -388,13 +387,11 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
 	db 18, HEADBUTT
 	db 25, LEER
 	db 31, FOCUS_ENERGY
 	db 38, THRASH
-	db 43, BONEMERANG
 	db 46, RAGE
 	db 0
 
@@ -433,9 +430,7 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, TRANSFORM
 	db 20, MEGA_PUNCH
-	db 30, METRONOME
 	db 40, PSYCHIC_M
 	db 0
 
@@ -456,7 +451,6 @@ ShellderEvosMoves:
 	db 0
 ; Learnset
 	db 18, SUPERSONIC
-	db 23, CLAMP
 	db 30, AURORA_BEAM
 	db 39, LEER
 	db 50, ICE_BEAM
@@ -471,8 +465,6 @@ TentacoolEvosMoves:
 	db 13, WRAP
 	db 18, POISON_STING
 	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 33, BARRIER
 	db 40, SCREECH
 	db 48, HYDRO_PUMP
 	db 0
@@ -777,7 +769,6 @@ MagmarEvosMoves:
 	db 36, LEER
 	db 39, CONFUSE_RAY
 	db 43, FIRE_PUNCH
-	db 48, SMOKESCREEN
 	db 52, SMOG
 	db 55, FLAMETHROWER
 	db 0
@@ -815,8 +806,7 @@ KoffingEvosMoves:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 37, SMOKESCREEN
+	db 32, SLUDGE_BOMB
 	db 40, SELFDESTRUCT
 	db 45, HAZE
 	db 48, EXPLOSION
@@ -1039,7 +1029,6 @@ KrabbyEvosMoves:
 	db 20, VICEGRIP
 	db 25, GUILLOTINE
 	db 30, STOMP
-	db 35, CRABHAMMER
 	db 40, HARDEN
 	db 0
 
@@ -1163,7 +1152,6 @@ HorseaEvosMoves:
 	db EVOLVE_LEVEL, 32, SEADRA
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
 	db 24, LEER
 	db 30, WATER_GUN
 	db 37, AGILITY
@@ -1174,7 +1162,6 @@ SeadraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
 	db 24, LEER
 	db 30, WATER_GUN
 	db 41, AGILITY
@@ -1223,7 +1210,6 @@ OmanyteEvosMoves:
 ; Learnset
 	db 34, HORN_ATTACK
 	db 39, LEER
-	db 46, SPIKE_CANNON
 	db 53, HYDRO_PUMP
 	db 0
 
@@ -1233,7 +1219,6 @@ OmastarEvosMoves:
 ; Learnset
 	db 34, HORN_ATTACK
 	db 39, LEER
-	db 44, SPIKE_CANNON
 	db 49, HYDRO_PUMP
 	db 0
 
@@ -1569,7 +1554,6 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 63, BARRIER
 	db 66, PSYCHIC_M
 	db 70, RECOVER
 	db 75, MIST
@@ -1612,7 +1596,7 @@ MukEvosMoves:
 ; Learnset
 	db 30, POISON_GAS
 	db 33, MINIMIZE
-	db 37, SLUDGE
+	db 37, SLUDGE_BOMB
 	db 45, HARDEN
 	db 53, SCREECH
 	db 60, ACID_ARMOR
@@ -1631,7 +1615,6 @@ KinglerEvosMoves:
 	db 20, VICEGRIP
 	db 25, GUILLOTINE
 	db 34, STOMP
-	db 42, CRABHAMMER
 	db 49, HARDEN
 	db 0
 
@@ -1639,7 +1622,6 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 50, SPIKE_CANNON
 	db 0
 
 MissingNo8CEvosMoves:
@@ -1668,8 +1650,7 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 39, SMOKESCREEN
+	db 32, SLUDGE_BOMB
 	db 43, SELFDESTRUCT
 	db 49, HAZE
 	db 53, EXPLOSION
@@ -1689,13 +1670,11 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
 	db 13, TAIL_WHIP
 	db 18, HEADBUTT
 	db 25, LEER
 	db 33, FOCUS_ENERGY
 	db 41, THRASH
-	db 48, BONEMERANG
 	db 55, RAGE
 	db 0
 
@@ -1799,8 +1778,6 @@ TentacruelEvosMoves:
 	db 13, WRAP
 	db 18, POISON_STING
 	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 35, BARRIER
 	db 43, SCREECH
 	db 50, HYDRO_PUMP
 	db 0

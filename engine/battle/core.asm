@@ -369,10 +369,6 @@ MainInBattleLoop:
 	ld b, 0
 	add hl, bc
 	ld a, [hl]
-	cp METRONOME ; a MIRROR MOVE check is missing, might lead to a desync in link battles
-	             ; when combined with multi-turn moves
-	jr nz, .specialMoveNotUsed
-	ld [wPlayerSelectedMove], a
 .specialMoveNotUsed
 	callfar SwitchEnemyMon
 .noLinkBattle
@@ -3365,17 +3361,12 @@ playerCheckIfFlyOrChargeEffect:
 MirrorMoveCheck:
 	ld a, [wPlayerMoveEffect]
 	cp MIRROR_MOVE_EFFECT
-	jr nz, .metronomeCheck
+	jr nz, .next
 	call MirrorMoveCopyMove
 	jp z, ExecutePlayerMoveDone
 	xor a
 	ld [wMonIsDisobedient], a
 	jp CheckIfPlayerNeedsToChargeUp ; if Mirror Move was successful go back to damage calculation for copied move
-.metronomeCheck
-	cp METRONOME_EFFECT
-	jr nz, .next
-	call MetronomePickMove
-	jp CheckIfPlayerNeedsToChargeUp ; Go back to damage calculation for the move picked by Metronome
 .next
 	ld a, [wPlayerMoveEffect]
 	ld hl, ResidualEffects2
@@ -5301,34 +5292,6 @@ ReloadMoveData:
 	and a
 	ret
 
-; function that picks a random move for metronome
-MetronomePickMove:
-	xor a
-	ld [wAnimationType], a
-	ld a, METRONOME
-	call PlayMoveAnimation ; play Metronome's animation
-; values for player turn
-	ld de, wPlayerMoveNum
-	ld hl, wPlayerSelectedMove
-	ldh a, [hWhoseTurn]
-	and a
-	jr z, .pickMoveLoop
-; values for enemy turn
-	ld de, wEnemyMoveNum
-	ld hl, wEnemySelectedMove
-; loop to pick a random number in the range of valid moves used by Metronome
-.pickMoveLoop
-	call BattleRandom
-	and a
-	jr z, .pickMoveLoop
-	cp STRUGGLE
-	assert NUM_ATTACKS == STRUGGLE ; random numbers greater than STRUGGLE are not moves
-	jr nc, .pickMoveLoop
-	cp METRONOME
-	jr z, .pickMoveLoop
-	ld [hl], a
-	jr ReloadMoveData
-
 ; this function increments the current move's PP
 ; it's used to prevent moves that run another move within the same turn
 ; (like Mirror Move and Metronome) from losing 2 PP
@@ -5596,7 +5559,7 @@ MoveHitTest:
 .enemyMistCheck
 ; if move effect is from $12 to $19 inclusive or $3a to $41 inclusive
 ; i.e. the following moves
-; GROWL, TAIL WHIP, LEER, STRING SHOT, SAND-ATTACK, SMOKESCREEN, KINESIS,
+; GROWL, TAIL WHIP, LEER, STRING SHOT, SAND-ATTACK,
 ; FLASH, CONVERSION*, HAZE*, SCREECH, LIGHT SCREEN*, REFLECT*
 ; the moves that are marked with an asterisk are not affected since this
 ; function is not called when those moves are used
@@ -5923,11 +5886,6 @@ EnemyCheckIfMirrorMoveEffect:
 	jp z, ExecuteEnemyMoveDone
 	jp CheckIfEnemyNeedsToChargeUp
 .notMirrorMoveEffect
-	cp METRONOME_EFFECT
-	jr nz, .notMetronomeEffect
-	call MetronomePickMove
-	jp CheckIfEnemyNeedsToChargeUp
-.notMetronomeEffect
 	ld a, [wEnemyMoveEffect]
 	ld hl, ResidualEffects2
 	ld de, $1

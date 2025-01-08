@@ -20,9 +20,9 @@
 	     LIGHT_SCREEN, BRICK_BREAK,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     MEGA_DRAIN,   SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    CALM_MIND,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, EGG_BOMB,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     SOFTBOILED,   DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER,    \
+	     SELFDESTRUCT, SHADOW_BALL,     FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     SLUDGE_BOMB,   DREAM_EATER,  SKY_ATTACK,   REST,         THUNDER_WAVE, \
 	     PSYWAVE,      EXPLOSION,    ROCK_SLIDE,   TRI_ATTACK,   SUBSTITUTE,   \
 	     CUT,          FLY,          SURF,         STRENGTH,     FLASH
 	; end

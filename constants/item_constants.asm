@@ -191,13 +191,13 @@ DEF TM01 EQU const_value
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9
 	add_tm BIDE         ; $EA
-	add_tm METRONOME    ; $EB
+	add_tm FLAMETHROWER ; $EB
 	add_tm SELFDESTRUCT ; $EC
-	add_tm EGG_BOMB     ; $ED
+	add_tm SHADOW_BALL  ; $ED
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm SKULL_BASH   ; $F0
-	add_tm SOFTBOILED   ; $F1
+	add_tm SLUDGE_BOMB  ; $F1
 	add_tm DREAM_EATER  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4

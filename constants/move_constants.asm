@@ -113,59 +113,59 @@
 	const RECOVER      ; 69
 	const HARDEN       ; 6a
 	const MINIMIZE     ; 6b
-	const SMOKESCREEN  ; 6c
+	const MUD_SHOT     ; 6c
 	const CONFUSE_RAY  ; 6d
 	const WITHDRAW     ; 6e
 	const DEFENSE_CURL ; 6f
-	const BARRIER      ; 70
+	const IRON_DEFENSE ; 70
 	const LIGHT_SCREEN ; 71
 	const HAZE         ; 72
 	const REFLECT      ; 73
 	const FOCUS_ENERGY ; 74
 	const BIDE         ; 75
-	const METRONOME    ; 76
+	const DRAGON_CLAW  ; 76
 	const MIRROR_MOVE  ; 77
 	const SELFDESTRUCT ; 78
-	const EGG_BOMB     ; 79
+	const SHADOW_BALL  ; 79
 	const LICK         ; 7a
 	const SMOG         ; 7b
-	const SLUDGE       ; 7c
-	const BONE_CLUB    ; 7d
+	const SLUDGE_BOMB  ; 7c
+	const FAINT_ATTACK ; 7d
 	const FIRE_BLAST   ; 7e
 	const WATERFALL    ; 7f
-	const CLAMP        ; 80
+	const CRUNCH       ; 80
 	const SWIFT        ; 81
 	const SKULL_BASH   ; 82
-	const SPIKE_CANNON ; 83
-	const CONSTRICT    ; 84
+	const TAIL_SLAP    ; 83
+	const NIGHT_SLASH  ; 84
 	const AMNESIA      ; 85
-	const KINESIS      ; 86
-	const SOFTBOILED   ; 87
+	const NIGHT_DAZE   ; 86
+	const METAL_CLAW   ; 87
 	const HI_JUMP_KICK ; 88
 	const GLARE        ; 89
 	const DREAM_EATER  ; 8a
 	const POISON_GAS   ; 8b
-	const BARRAGE      ; 8c
+	const IRON_HEAD    ; 8c
 	const LEECH_LIFE   ; 8d
-	const LOVELY_KISS  ; 8e
+	const GEAR_GRIND   ; 8e
 	const SKY_ATTACK   ; 8f
-	const TRANSFORM    ; 90
+	const QUIVER_DANCE ; 90
 	const BUBBLE       ; 91
 	const DIZZY_PUNCH  ; 92
 	const SPORE        ; 93
 	const FLASH        ; 94
 	const PSYWAVE      ; 95
-	const SPLASH       ; 96
+	const HEAD_CHARGE  ; 96
 	const ACID_ARMOR   ; 97
-	const CRABHAMMER   ; 98
+	const STORM_THROW  ; 98
 	const EXPLOSION    ; 99
 	const FURY_SWIPES  ; 9a
-	const BONEMERANG   ; 9b
+	const SACRED_SWORD ; 9b
 	const REST         ; 9c
 	const ROCK_SLIDE   ; 9d
 	const HYPER_FANG   ; 9e
 	const SHARPEN      ; 9f
-	const CONVERSION   ; a0
+	const SHIFT_GEAR   ; a0
 	const TRI_ATTACK   ; a1
 	const SUPER_FANG   ; a2
 	const SLASH        ; a3

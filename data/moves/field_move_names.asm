@@ -7,4 +7,3 @@ FieldMoveNames:
 	db "STRENGTH@"
 	db "FLASH@"
 	db "DIG@"
-	db "SOFTBOILED@"

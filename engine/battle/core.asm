@@ -4946,9 +4946,6 @@ ApplyAttackToEnemyPokemon:
 	jr z, .storeDamage
 	cp NIGHT_SHADE
 	jr z, .storeDamage
-	ld b, SONICBOOM_DAMAGE ; 20
-	cp SONICBOOM
-	jr z, .storeDamage
 	ld b, DRAGON_RAGE_DAMAGE ; 40
 	cp DRAGON_RAGE
 	jr z, .storeDamage
@@ -5064,9 +5061,6 @@ ApplyAttackToPlayerPokemon:
 	cp SEISMIC_TOSS
 	jr z, .storeDamage
 	cp NIGHT_SHADE
-	jr z, .storeDamage
-	ld b, SONICBOOM_DAMAGE
-	cp SONICBOOM
 	jr z, .storeDamage
 	ld b, DRAGON_RAGE_DAMAGE
 	cp DRAGON_RAGE

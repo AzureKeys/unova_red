@@ -11,7 +11,7 @@
 	const DOUBLESLAP   ; 03
 	const GIGA_DRAIN   ; 04
 	const MEGA_PUNCH   ; 05
-	const PAY_DAY      ; 06
+	const X_SCISSOR    ; 06
 	const FIRE_PUNCH   ; 07
 	const ICE_PUNCH    ; 08
 	const THUNDERPUNCH ; 09
@@ -32,7 +32,7 @@
 	const DOUBLE_KICK  ; 18
 	const MEGA_KICK    ; 19
 	const JUMP_KICK    ; 1a
-	const ROLLING_KICK ; 1b
+	const BUG_BITE     ; 1b
 	const SAND_ATTACK  ; 1c
 	const HEADBUTT     ; 1d
 	const HORN_ATTACK  ; 1e
@@ -54,7 +54,7 @@
 	const ROAR         ; 2e
 	const SING         ; 2f
 	const SUPERSONIC   ; 30
-	const SONICBOOM    ; 31
+	const AIR_SLASH    ; 31
 	const DISABLE      ; 32
 	const ACID         ; 33
 	const EMBER        ; 34
@@ -70,8 +70,8 @@
 	const AURORA_BEAM  ; 3e
 	const HYPER_BEAM   ; 3f
 	const PECK         ; 40
-	const DRILL_PECK   ; 41
-	const SUBMISSION   ; 42
+	const HURRICANE    ; 41
+	const BRICK_BREAK  ; 42
 	const LOW_KICK     ; 43
 	const COUNTER      ; 44
 	const SEISMIC_TOSS ; 45

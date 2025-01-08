@@ -6,7 +6,7 @@ MoveSoundTable:
 	db SFX_DOUBLESLAP,         $00, $80 ; DOUBLESLAP
 	db SFX_BATTLE_24,          $40, $c0 ; GIGA_DRAIN
 	db SFX_BATTLE_0D,          $00, $40 ; MEGA_PUNCH
-	db SFX_SILPH_SCOPE,        $00, $ff ; PAY_DAY
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; X_SCISSOR
 	db SFX_BATTLE_0D,          $10, $60 ; FIRE_PUNCH
 	db SFX_BATTLE_0D,          $20, $80 ; ICE_PUNCH
 	db SFX_BATTLE_0D,          $00, $a0 ; THUNDERPUNCH
@@ -27,7 +27,7 @@ MoveSoundTable:
 	db SFX_BATTLE_17,          $f0, $40 ; DOUBLE_KICK
 	db SFX_SUPER_EFFECTIVE,    $00, $80 ; MEGA_KICK
 	db SFX_BATTLE_17,          $00, $80 ; JUMP_KICK
-	db SFX_BATTLE_21,          $10, $80 ; ROLLING_KICK
+	db SFX_BATTLE_1E,          $00, $80 ; BUG_BITE
 	db SFX_BATTLE_1B,          $01, $a0 ; SAND_ATTACK
 	db SFX_BATTLE_18,          $00, $80 ; HEADBUTT
 	db SFX_BATTLE_1E,          $00, $60 ; HORN_ATTACK
@@ -49,7 +49,7 @@ MoveSoundTable:
 	db SFX_BATTLE_0B,          $00, $40 ; ROAR
 	db SFX_BATTLE_35,          $00, $80 ; SING
 	db SFX_BATTLE_27,          $40, $60 ; SUPERSONIC
-	db SFX_BATTLE_27,          $00, $80 ; SONICBOOM
+	db SFX_NOT_VERY_EFFECTIVE, $01, $ff ; AIR_SLASH
 	db SFX_BATTLE_27,          $ff, $40 ; DISABLE
 	db SFX_BATTLE_2A,          $80, $c0 ; ACID
 	db SFX_BATTLE_19,          $10, $a0 ; EMBER
@@ -65,8 +65,8 @@ MoveSoundTable:
 	db SFX_BATTLE_28,          $00, $80 ; AURORA_BEAM
 	db SFX_BATTLE_36,          $00, $80 ; HYPER_BEAM
 	db SFX_PECK,               $01, $a0 ; PECK
-	db SFX_BATTLE_13,          $f0, $20 ; DRILL_PECK
-	db SFX_BATTLE_23,          $01, $c0 ; SUBMISSION
+	db SFX_BATTLE_12,          $00, $c0 ; HURRICANE
+	db SFX_BATTLE_23,          $01, $c0 ; BRICK_BREAK
 	db SFX_BATTLE_23,          $00, $80 ; LOW_KICK
 	db SFX_SUPER_EFFECTIVE,    $00, $e0 ; COUNTER
 	db SFX_BATTLE_26,          $01, $60 ; SEISMIC_TOSS

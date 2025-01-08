@@ -259,7 +259,6 @@ SpearowEvosMoves:
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
 	db 36, AGILITY
 	db 0
 
@@ -268,7 +267,6 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 36, SWIFT
@@ -596,7 +594,6 @@ FearowEvosMoves:
 	db 9, LEER
 	db 15, FURY_ATTACK
 	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
 	db 43, AGILITY
 	db 0
 
@@ -674,7 +671,6 @@ MachokeEvosMoves:
 	db 25, LEER
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
 	db 0
 
 MrMimeEvosMoves:
@@ -692,7 +688,6 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
 	db 38, JUMP_KICK
 	db 43, FOCUS_ENERGY
 	db 48, HI_JUMP_KICK
@@ -808,7 +803,6 @@ MagnetonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, SONICBOOM
 	db 25, THUNDERSHOCK
 	db 29, SUPERSONIC
 	db 38, THUNDER_WAVE
@@ -963,7 +957,6 @@ DoduoEvosMoves:
 ; Learnset
 	db 20, GROWL
 	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
 	db 36, RAGE
 	db 40, TRI_ATTACK
 	db 44, AGILITY
@@ -1033,7 +1026,6 @@ MeowthEvosMoves:
 	db 0
 ; Learnset
 	db 12, BITE
-	db 17, PAY_DAY
 	db 24, SCREECH
 	db 33, FURY_SWIPES
 	db 44, SLASH
@@ -1332,7 +1324,6 @@ MachopEvosMoves:
 	db 25, LEER
 	db 32, FOCUS_ENERGY
 	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
 	db 0
 
 ZubatEvosMoves:
@@ -1430,7 +1421,6 @@ DodrioEvosMoves:
 ; Learnset
 	db 20, GROWL
 	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
 	db 39, RAGE
 	db 45, TRI_ATTACK
 	db 51, AGILITY
@@ -1533,7 +1523,6 @@ MachampEvosMoves:
 	db 25, LEER
 	db 36, FOCUS_ENERGY
 	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1663,7 +1652,6 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
 	db 22, SELFDESTRUCT
 	db 29, LIGHT_SCREEN
 	db 40, SWIFT
@@ -1692,7 +1680,6 @@ PersianEvosMoves:
 	db 0
 ; Learnset
 	db 12, BITE
-	db 17, PAY_DAY
 	db 24, SCREECH
 	db 37, FURY_SWIPES
 	db 51, SLASH
@@ -1989,7 +1976,6 @@ MagnemiteEvosMoves:
 	db EVOLVE_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 21, SONICBOOM
 	db 25, THUNDERSHOCK
 	db 29, SUPERSONIC
 	db 35, THUNDER_WAVE

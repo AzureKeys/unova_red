@@ -5,7 +5,7 @@ AttackAnimationPointers:
 	dw DoubleSlapAnim
 	dw GigaDrainAnim
 	dw MegaPunchAnim
-	dw PayDayAnim
+	dw XScissorAnim
 	dw FirePunchAnim
 	dw IcePunchAnim
 	dw ThunderPunchAnim
@@ -26,7 +26,7 @@ AttackAnimationPointers:
 	dw DoubleKickAnim
 	dw MegaKickAnim
 	dw JumpKickAnim
-	dw RollingKickAnim
+	dw BugBiteAnim
 	dw SandAttackAnim
 	dw HeadbuttAnim
 	dw HornAttackAnim
@@ -48,7 +48,7 @@ AttackAnimationPointers:
 	dw RoarAnim
 	dw SingAnim
 	dw SupersonicAnim
-	dw SonicBoomAnim
+	dw AirSlashAnim
 	dw DisableAnim
 	dw AcidAnim
 	dw EmberAnim
@@ -64,8 +64,8 @@ AttackAnimationPointers:
 	dw AuroraBeamAnim
 	dw HyperBeamAnim
 	dw PeckAnim
-	dw DrillPeckAnim
-	dw SubmissionAnim
+	dw HurricaneAnim
+	dw BrickBreakAnim
 	dw LowKickAnim
 	dw CounterAnim
 	dw SeismicTossAnim
@@ -245,11 +245,6 @@ MegaPunchAnim:
 	battle_anim MEGA_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
-PayDayAnim:
-	battle_anim POUND, SUBANIM_0_STAR_TWICE, 0, 8
-	battle_anim PAY_DAY, SUBANIM_0_COIN_BOUNCE, 0, 4
-	db -1 ; end
-
 FirePunchAnim:
 	battle_anim FIRE_PUNCH, SUBANIM_0_STAR_THRICE, 0, 6
 	battle_anim NO_MOVE, SUBANIM_1_FLAMES, 1, 6
@@ -295,6 +290,7 @@ CutAnim:
 	db -1 ; end
 
 GustAnim:
+HurricaneAnim:
 	battle_anim GUST, SUBANIM_1_TORNADO, 1, 6
 	battle_anim NO_MOVE, SUBANIM_0_STAR_THRICE, 0, 6
 	db -1 ; end
@@ -342,11 +338,6 @@ MegaKickAnim:
 
 JumpKickAnim:
 	battle_anim JUMP_KICK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
-	db -1 ; end
-
-RollingKickAnim:
-	battle_anim ROLLING_KICK, SE_DARK_SCREEN_FLASH
-	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
 SandAttackAnim:
@@ -443,6 +434,7 @@ LeerAnim:
 	db -1 ; end
 
 BiteAnim:
+BugBiteAnim:
 	battle_anim BITE, SUBANIM_0_STAR_THRICE, 0, 8
 	db -1 ; end
 
@@ -464,13 +456,6 @@ SingAnim:
 
 SupersonicAnim:
 	battle_anim SUPERSONIC, SUBANIM_0_SOUND_WAVE, 0, 6
-	db -1 ; end
-
-SonicBoomAnim:
-	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
-	battle_anim ROAR, SUBANIM_1_SHOUT, 1, 6
-	battle_anim GUST, SUBANIM_1_TORNADO, 1, 6
-	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
 DisableAnim:
@@ -554,12 +539,8 @@ PeckAnim:
 	battle_anim PECK, SUBANIM_0_STAR_TWICE, 0, 8
 	db -1 ; end
 
-DrillPeckAnim:
-	battle_anim DRILL_PECK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
-	db -1 ; end
-
-SubmissionAnim:
-	battle_anim SUBMISSION, SE_SLIDE_MON_OFF
+BrickBreakAnim:
+	battle_anim BRICK_BREAK, SE_SLIDE_MON_OFF
 	battle_anim NO_MOVE, SUBANIM_0_STAR_TWICE, 0, 6
 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
@@ -1133,6 +1114,8 @@ SuperFangAnim:
 	db -1 ; end
 
 SlashAnim:
+AirSlashAnim:
+XScissorAnim:
 	battle_anim SLASH, SUBANIM_0_SCRATCHES, 0, 6
 	db -1 ; end
 

@@ -4944,15 +4944,18 @@ ApplyAttackToEnemyPokemon:
 	ld a, [hl]
 	ld b, a
 	srl a
+	ld c, a ; c = level * 0.5
 	add b
 	ld b, a ; b = level * 1.5
-; loop until a random number in the range [1, b) is found
+; loop until a random number in the range [c, b] is found
 .loop
 	call BattleRandom
 	and a
 	jr z, .loop
 	cp b
 	jr nc, .loop
+	cp c
+	jr c, .loop
 	ld b, a
 .storeDamage ; store damage value at b
 	ld hl, wDamage

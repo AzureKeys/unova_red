@@ -4792,6 +4792,12 @@ CriticalHitTest:
 	srl b                        ; /2 for regular move
 	jr .SkipHighCritical         ; continue as normal move
 .HighCritical
+	ld a, c
+	cp STORM_THROW               ; STORM THROW always crits
+	jr nz, .SkipStormThrow
+	ld b, $ff                    ; set to 255 for STORM THROW
+	jr .noFocusEnergyUsed
+.SkipStormThrow
 	sla b                        ; *2 for high crit move
 	jr nc, .noCarry
 	ld b, $ff                    ; cap at 255

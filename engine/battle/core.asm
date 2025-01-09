@@ -4862,14 +4862,12 @@ HandleCounterMove:
 	ld a, [de]
 	and a
 	ret z ; miss if the opponent's last selected move's Base Power is 0.
-; check if the move the target last selected was Normal or Fighting type
+; check if the move the target last selected was Physical
 	inc de
 	ld a, [de]
-	and a ; normal type
-	jr z, .counterableType
-	cp FIGHTING
-	jr z, .counterableType
-; if the move wasn't Normal or Fighting type, miss
+	cp SPECIAL
+	jr c, .counterableType
+; if the move wasn't Physical, miss
 	xor a
 	ret
 .counterableType

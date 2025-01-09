@@ -392,6 +392,16 @@ StatModifierUpEffect:
 	ld de, wEnemyMoveEffect
 .statModifierUpEffect
 	ld a, [de]
+	cp ATTACK_UP_SIDE_EFFECT
+	jr c, .nonSideEffect
+	call BattleRandom
+	cp 33 percent + 1 ; chance for side effects
+	ret nc
+	ld a, [de]
+	sub ATTACK_UP_SIDE_EFFECT ; map each stat to 0-6
+	jr .incrementStatMod
+	
+.nonSideEffect
 	sub ATTACK_UP1_EFFECT
 	cp EVASION_UP1_EFFECT + $3 - ATTACK_UP1_EFFECT ; covers all +1 effects
 	jr c, .incrementStatMod
@@ -406,9 +416,11 @@ StatModifierUpEffect:
 	cp b ; can't raise stat past +6 ($d or 13)
 	jp c, PrintNothingHappenedText
 	ld a, [de]
-	cp ATTACK_UP1_EFFECT + $8 ; is it a +2 effect?
+	cp ATTACK_UP1_EFFECT + $8 ; is it a +1 effect?
 	jr c, .ok
-	inc b ; if so, increment stat mod again
+	cp ATTACK_UP_SIDE_EFFECT ; is it a side effect
+	jr nc, .ok
+	inc b ; must be a +2 effect, increment stat mod again
 	ld a, $d
 	cp b ; unless it's already +6
 	jr nc, .ok
@@ -1085,9 +1097,9 @@ ChargeEffect:
 	ld a, [hl]
 	inc a
 	cp 14 ; are we now higher than +6?
-	jr z, .NotSkullBash
+	ret z
 	ld [hl], a
-	call UpdateStatsForSkullBash
+	jp UpdateStatsForSkullBash
 	
 .NotSkullBash
 	ld hl, ChargeMoveEffectText

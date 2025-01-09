@@ -592,9 +592,15 @@ StatModifierDownEffect:
 	ld a, [de]
 	cp ATTACK_DOWN_SIDE_EFFECT
 	jr c, .nonSideEffect
+	dec de ; Check for MUD SHOT
+	ld a, [de]
+	inc de
+	cp MUD_SHOT
+	jr z, .SkipRandom
 	call BattleRandom
 	cp 33 percent + 1 ; chance for side effects
 	jp nc, CantLowerAnymore
+.SkipRandom
 	ld a, [de]
 	sub ATTACK_DOWN_SIDE_EFFECT ; map each stat to 0-4
 	jr .decrementStatMod
@@ -835,8 +841,7 @@ ThrashPetalDanceEffect:
 	call BattleRandom
 	and $1
 	inc a
-	inc a
-	ld [de], a ; set thrash/petal dance counter to 2 or 3 at random
+	ld [de], a ; set thrash/petal dance counter to 1 or 2 at random
 	ldh a, [hWhoseTurn]
 	add SHRINKING_SQUARE_ANIM
 	jp PlayBattleAnimation2

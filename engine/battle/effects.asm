@@ -418,6 +418,7 @@ StatModifierUpEffect:
 	ld a, c
 	cp $4
 	jr nc, UpdateStatDone ; jump if mod affected is evasion/accuracy
+UpdateStatsForSkullBash:
 	push hl
 	ld hl, wBattleMonAttack + 1
 	ld de, wPlayerMonUnmodifiedAttack
@@ -1070,6 +1071,25 @@ ChargeEffect:
 	pop de
 	ld a, [de]
 	ld [wChargeMoveNum], a
+	cp SKULL_BASH
+	jr nz, .NotSkullBash
+	; Raise Defense if using SKULL BASH
+	ld hl, LoweredItsHeadText
+	call PrintText
+	ld hl, wPlayerMonDefenseMod
+	ldh a, [hWhoseTurn]
+	and a
+	jr z, .GotSkullBashUser
+	ld hl, wEnemyMonDefenseMod
+.GotSkullBashUser
+	ld a, [hl]
+	inc a
+	cp 14 ; are we now higher than +6?
+	jr z, .NotSkullBash
+	ld [hl], a
+	call UpdateStatsForSkullBash
+	
+.NotSkullBash
 	ld hl, ChargeMoveEffectText
 	jp PrintText
 
@@ -1082,9 +1102,6 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp SOLARBEAM
 	ld hl, TookInSunlightText
-	jr z, .gotText
-	cp SKULL_BASH
-	ld hl, LoweredItsHeadText
 	jr z, .gotText
 	cp SKY_ATTACK
 	ld hl, SkyAttackGlowingText

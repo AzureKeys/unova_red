@@ -88,4 +88,11 @@ MoveEffectPointerTable:
 	dw SplashEffect              ; SPLASH_EFFECT
 	dw DisableEffect             ; DISABLE_EFFECT
 	dw StatModifierUpEffect      ; ATTACK_UP_SIDE_EFFECT
+	dw StatModifierUpEffect      ; unused effect
+	dw StatModifierUpEffect      ; unused effect
+	dw StatModifierUpEffect      ; unused effect
+	dw StatModifierUpEffect      ; unused effect
+	dw StatModifierUpEffect      ; unused effect
+	dw MultipleStatsUpEffect     ; QUIVER_DANCE_EFFECT
+	dw MultipleStatsUpEffect     ; SHIFT_GEAR_EFFECT
 	assert_table_length NUM_MOVE_EFFECTS

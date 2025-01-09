@@ -154,7 +154,7 @@ Moves:
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             20, BUG,          100, 15
 	move GEAR_GRIND,   ATTACK_TWICE_EFFECT,         50, STEEL,         85, 15
 	move SKY_ATTACK,   CHARGE_EFFECT,              140, FLYING,        90,  5
-	move QUIVER_DANCE, CONVERSION_EFFECT,            0, BUG,          100, 20
+	move QUIVER_DANCE, QUIVER_DANCE_EFFECT,          0, BUG,          100, 20
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 30
 	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,       70, NORMAL,       100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
@@ -170,7 +170,7 @@ Moves:
 	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 30
-	move SHIFT_GEAR,   CONVERSION_EFFECT,            0, STEEL,        100, 10
+	move SHIFT_GEAR,   SHIFT_GEAR_EFFECT,            0, STEEL,        100, 10
 	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 10
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20

@@ -92,4 +92,11 @@
 	const SPLASH_EFFECT              ; $55
 	const DISABLE_EFFECT             ; $56
 	const ATTACK_UP_SIDE_EFFECT      ; $57
+	const_skip                       ; $58
+	const_skip                       ; $59
+	const_skip                       ; $5A
+	const_skip                       ; $5B
+	const_skip                       ; $5C
+	const QUIVER_DANCE_EFFECT        ; $5D
+	const SHIFT_GEAR_EFFECT          ; $5E
 DEF NUM_MOVE_EFFECTS EQU const_value - 1

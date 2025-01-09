@@ -381,6 +381,174 @@ CheckDefrost:
 FireDefrostedText:
 	text_far _FireDefrostedText
 	text_end
+	
+MultipleStatsUpEffect:
+	ld hl, wPlayerMonStatMods
+	ld de, wPlayerMoveEffect
+	ldh a, [hWhoseTurn]
+	and a
+	jr z, .multipleStatsUpEffect
+	ld hl, wEnemyMonStatMods
+	ld de, wEnemyMoveEffect
+.multipleStatsUpEffect
+	ld b, 0 ; used to track stats unable to raise
+	ld a, [de]
+	cp QUIVER_DANCE_EFFECT
+	jr z, .QuiverDance
+	; Shift Gear
+	ld a, [hl]
+	cp 13 ; are we already at +6?
+	jr z, .skipShiftGearAttackUp
+	inc b
+	inc a
+	ld [hl], a
+	ld c, 0
+	call UpdateSingleStat
+.skipShiftGearAttackUp
+	; set hl to user's speed
+	inc hl
+	inc hl
+	ld a, [hl]
+	cp 13 ; are we already at +6?
+	jr z, .skipShiftGearSpeedUp
+	inc b
+	inc a
+	inc a
+	cp 14
+	jr c, .noCap
+	ld a, 13 ; cap at +6
+.noCap
+	ld [hl], a
+	ld c, 2
+	call UpdateSingleStat
+.skipShiftGearSpeedUp
+	ld a, b
+	and a
+	jp z, .CouldntRaiseAnyStats
+	jp UpdateMultipleStats
+	
+.QuiverDance
+	; set hl to user's speed
+	inc hl
+	inc hl
+	ld a, [hl]
+	cp 13 ; are we already at +6?
+	jr z, .skipQuiverDanceSpeedUp
+	inc b
+	inc a
+	ld [hl], a
+	ld c, 2
+	call UpdateSingleStat
+.skipQuiverDanceSpeedUp
+	; set hl to user's special
+	inc hl
+	ld a, [hl]
+	cp 13 ; are we already at +6?
+	jr z, .skipQuiverDanceSpecialUp
+	inc b
+	inc a
+	ld [hl], a
+	ld c, 3
+	call UpdateSingleStat
+.skipQuiverDanceSpecialUp
+	ld a, b
+	and a
+	jp nz, UpdateMultipleStats
+; fallthrough
+.CouldntRaiseAnyStats
+	jp z, PrintNothingHappenedText
+	
+UpdateSingleStat:
+	push bc
+	push hl
+	ld hl, wBattleMonAttack + 1
+	ld de, wPlayerMonUnmodifiedAttack
+	ldh a, [hWhoseTurn]
+	and a
+	jr z, .pointToStats
+	ld hl, wEnemyMonAttack + 1
+	ld de, wEnemyMonUnmodifiedAttack
+.pointToStats
+	push bc
+	sla c
+	ld b, $0
+	add hl, bc ; hl = modified stat
+	ld a, c
+	add e
+	ld e, a
+	jr nc, .checkIf999
+	inc d ; de = unmodified (original) stat
+.checkIf999
+	pop bc
+	; check if stat is already 999
+	ld a, [hld]
+	sub LOW(MAX_STAT_VALUE)
+	jr nz, .recalculateStat
+	ld a, [hl]
+	sbc HIGH(MAX_STAT_VALUE)
+	jr nz, .recalculateStat
+	pop hl
+	pop bc
+	dec [hl]
+	jp PrintNothingHappenedText
+	
+.recalculateStat ; recalculate affected stat
+                 ; paralysis and burn penalties, as well as badge boosts are ignored
+	push hl
+	push bc
+	ld hl, StatModifierRatios
+	dec b
+	sla b
+	ld c, b
+	ld b, $0
+	add hl, bc
+	pop bc
+	xor a
+	ldh [hMultiplicand], a
+	ld a, [de]
+	ldh [hMultiplicand + 1], a
+	inc de
+	ld a, [de]
+	ldh [hMultiplicand + 2], a
+	ld a, [hli]
+	ldh [hMultiplier], a
+	call Multiply
+	ld a, [hl]
+	ldh [hDivisor], a
+	ld b, $4
+	call Divide
+	pop hl
+; cap at MAX_STAT_VALUE (999)
+	ldh a, [hProduct + 3]
+	sub LOW(MAX_STAT_VALUE)
+	ldh a, [hProduct + 2]
+	sbc HIGH(MAX_STAT_VALUE)
+	jr c, .UpdateStat
+	ld a, HIGH(MAX_STAT_VALUE)
+	ldh [hMultiplicand + 1], a
+	ld a, LOW(MAX_STAT_VALUE)
+	ldh [hMultiplicand + 2], a
+
+.UpdateStat
+	ldh a, [hProduct + 2]
+	ld [hli], a
+	ldh a, [hProduct + 3]
+	ld [hl], a
+	pop hl
+	pop bc
+	; print the stat up text here?
+	ret
+	
+UpdateMultipleStats:
+	call PlayCurrentMoveAnimation
+	ldh a, [hWhoseTurn]
+	and a
+	call z, ApplyBadgeStatBoosts ; whenever the player uses a stat-up move, badge boosts get reapplied again to every stat,
+	                             ; even to those not affected by the stat-up move (will be boosted further)
+
+; these shouldn't be here
+	call QuarterSpeedDueToParalysis ; apply speed penalty to the player whose turn is not, if it's paralyzed
+	jp HalveAttackDueToBurn ; apply attack penalty to the player whose turn is not, if it's burned
 
 StatModifierUpEffect:
 	ld hl, wPlayerMonStatMods

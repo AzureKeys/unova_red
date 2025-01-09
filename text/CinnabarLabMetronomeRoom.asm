@@ -16,7 +16,7 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
 	text "Tch-tch-tch!"
 	line "That's the sound"
-	cont "of a METRONOME!"
+	cont "of a LIGHT SCRE!"
 
 	para "It tweaks your"
 	line "#MON's brain"

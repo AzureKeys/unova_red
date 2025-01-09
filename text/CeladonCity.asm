@@ -1,5 +1,5 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
+	text "I got my TRUBBISH"
 	line "from my friend!"
 
 	para "We get along now,"
@@ -47,14 +47,11 @@ _CeladonCityGramps3ReceivedTM41Text::
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "TM41 teaches"
-	line "SOFTBOILED!"
+	text "TM35 teaches"
+	line "FLAMETHROWER!"
 
-	para "Only one #MON"
-	line "can use it!"
-
-	para "That #MON is"
-	line "CHANSEY!"
+	para "It really packs"
+	line "a fiery punch!"
 	done
 
 _CeladonCityGramps3TM41NoRoomText::

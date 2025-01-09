@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, MEGA_KICK,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BRICK_BREAK,   COUNTER,      SEISMIC_TOSS, \
-	     RAGE,         DRAGON_RAGE,  DIG,          MIMIC,        DOUBLE_TEAM,  \
+	     RAGE,         DRAGON_CLAW,  DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
 	     REST,         SUBSTITUTE,   CUT,          STRENGTH
 	; end

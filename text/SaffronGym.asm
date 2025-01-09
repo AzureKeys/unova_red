@@ -63,10 +63,10 @@ _SaffronGymSabrinaReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	para "TM46 is PSYWAVE!"
-	line "It uses powerful"
-	cont "psychic waves to"
-	cont "inflict damage!"
+	para "TM46 is CALM MIND!"
+	line "It can be used to"
+	cont "raise a #MON's"
+	cont "SPECIAL stat."
 	done
 
 _SaffronGymSabrinaTM46NoRoomText::

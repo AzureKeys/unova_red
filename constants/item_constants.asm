@@ -177,27 +177,27 @@ DEF TM01 EQU const_value
 	add_tm COUNTER      ; $DA
 	add_tm SEISMIC_TOSS ; $DB
 	add_tm RAGE         ; $DC
-	add_tm MEGA_DRAIN   ; $DD
+	add_tm GIGA_DRAIN   ; $DD
 	add_tm SOLARBEAM    ; $DE
-	add_tm DRAGON_RAGE  ; $DF
+	add_tm DRAGON_CLAW  ; $DF
 	add_tm THUNDERBOLT  ; $E0
 	add_tm THUNDER      ; $E1
 	add_tm EARTHQUAKE   ; $E2
 	add_tm FISSURE      ; $E3
 	add_tm DIG          ; $E4
 	add_tm PSYCHIC_M    ; $E5
-	add_tm CALM_MIND    ; $E6
+	add_tm SHADOW_BALL  ; $E6
 	add_tm MIMIC        ; $E7
 	add_tm DOUBLE_TEAM  ; $E8
 	add_tm REFLECT      ; $E9
 	add_tm BIDE         ; $EA
 	add_tm FLAMETHROWER ; $EB
 	add_tm SELFDESTRUCT ; $EC
-	add_tm SHADOW_BALL  ; $ED
+	add_tm SLUDGE_BOMB  ; $ED
 	add_tm FIRE_BLAST   ; $EE
 	add_tm SWIFT        ; $EF
 	add_tm SKULL_BASH   ; $F0
-	add_tm SLUDGE_BOMB  ; $F1
+	add_tm CALM_MIND    ; $F1
 	add_tm DREAM_EATER  ; $F2
 	add_tm SKY_ATTACK   ; $F3
 	add_tm REST         ; $F4

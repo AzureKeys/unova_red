@@ -4031,24 +4031,26 @@ PrintMoveFailureText:
 	ret nz
 
 	; if you get here, the mon used jump kick or hi jump kick and missed
-	ld hl, wDamage ; since the move missed, wDamage will always contain 0 at this point.
-	                ; Thus, recoil damage will always be equal to 1
-	                ; even if it was intended to be potential damage/8.
+	ldh a, [hWhoseTurn]
+	and a
+	ld hl, wBattleMonMaxHP
+	jr z, .PlayerIsCrashing
+	ld hl, wEnemyMonMaxHP
+.PlayerIsCrashing
+	; load wDamage with half of user's Max HP
+	ld de, wDamage
 	ld a, [hli]
-	ld b, [hl]
 	srl a
-	rr b
-	srl a
-	rr b
-	srl a
-	rr b
-	ld [hl], b
-	dec hl
-	ld [hli], a
-	or b
+	ld b, a
+	ld [de], a
+	inc de
+	ld a, [hl]
+	rr a
+	ld [de], a
+	or b ; If both bytes are zero, set recoil damage to 1 
 	jr nz, .applyRecoil
 	inc a
-	ld [hl], a
+	ld [de], a
 .applyRecoil
 	ld hl, KeptGoingAndCrashedText
 	call PrintText

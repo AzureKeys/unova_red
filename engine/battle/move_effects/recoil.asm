@@ -12,13 +12,29 @@ RecoilEffect_:
 	ld b, a
 	ld a, [wDamage + 1]
 	ld c, a
-	srl b
-	rr c
 	ld a, d
-	cp STRUGGLE ; struggle deals 50% recoil damage
-	jr z, .gotRecoilDamage
+	cp DOUBLE_EDGE ; Double-Edge deals 1/3 recoil
+	jr z, .DoubleEdge
 	srl b
 	rr c
+	srl b
+	rr c
+	jr .gotRecoilDamage
+	
+.DoubleEdge
+	xor a
+	inc b
+.loop
+	dec b
+	inc a
+	dec bc
+	dec bc
+	dec bc
+	inc b
+	jr nz, .loop
+	dec a
+	ld c, a
+	
 .gotRecoilDamage
 	ld a, b
 	or c

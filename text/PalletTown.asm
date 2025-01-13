@@ -2,23 +2,11 @@ _PalletTownOakHeyWaitDontGoOutText::
 	text "OAK: Hey! Wait!"
 	line "Don't go out!@"
 	text_end
-
-_PalletTownOakThatWasCloseText::
-	text "OAK: That was"
-	line "close!"
-
-	para "Wild #MON live"
-	line "in tall grass!"
-	done
-
-_PalletTownOakWhewText::
-	text "OAK: Whew..."
-	done
-
-_PalletTownOakComeWithMe::
-	text "OAK: A #MON can"
-	line "appear anytime in"
-	cont "tall grass."
+	
+_PalletTownOakItsUnsafeText::
+	text "OAK: It's unsafe!"
+	line "Wild #MON live"
+	cont "in tall grass!"
 
 	para "You need your own"
 	line "#MON for your"

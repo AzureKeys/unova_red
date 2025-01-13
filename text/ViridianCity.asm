@@ -23,18 +23,6 @@ _ViridianCityOldManHadMyCoffeeNowText::
 	cont "as my apology."
 	done
 
-_ViridianCityOldManLosingMyTouchText::
-	text "That didn't work!"
-	line "I must be losing"
-	cont "my touch."
-
-	para "I've run out of"
-	line "# BALLs too."
-
-	para "I have to get some"
-	line "at #MON MART."
-	done
-
 _ViridianCityYoungster1Text::
 	text "Those # BALLs"
 	line "at your waist!"
@@ -71,9 +59,9 @@ ViridianCityYoungster2OkThenText::
 	done
 
 ViridianCityYoungster2CaterpieAndWeedleDescriptionText::
-	text "CATERPIE has no"
+	text "SEWADDLE has no"
 	line "poison, but"
-	cont "WEEDLE does."
+	cont "VENIPEDE does."
 
 	para "Watch out for its"
 	line "POISON STING!"
@@ -108,7 +96,7 @@ ViridianCityFisherYouCanHaveThisText::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a MUNNA"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"
@@ -136,15 +124,27 @@ _ViridianCityFisherTM42NoRoomText::
 	done
 
 _ViridianCityOldManWantMeToShowYouAgainText::
-	text "Hmm? You want me"
-	line "to show you how"
-	cont "to catch #MON"
-	cont "again?"
+	text "Ahh, I've had my"
+	line "coffee now and I"
+	cont "feel great!"
+
+	para "Sure you can go"
+	line "through!"
+
+	para "Are you in a"
+	line "hurry?"
 	done
 
 _ViridianCityOldManWatchCloselyText::
 	text "Dandy! Watch what"
 	line "I do closely now!"
+
+	para "I see you're using"
+	line "a #DEX."
+
+	para "I'll show you how"
+	line "to catch #MON"
+	cont "as my apology."
 	done
 
 _ViridianCityOldManNotGoodEnoughForYouText::

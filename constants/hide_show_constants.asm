@@ -8,8 +8,7 @@ DEF SHOW EQU $15
 	const_def
 	const HS_PALLET_TOWN_OAK               ; 00
 	const HS_LYING_OLD_MAN                 ; 01
-	const HS_OLD_MAN_1                     ; 02
-	const HS_OLD_MAN_2                     ; 03
+	const HS_OLD_MAN                       ; 02
 	const HS_MUSEUM_GUY                    ; 04
 	const HS_GYM_GUY                       ; 05
 	const HS_CERULEAN_RIVAL                ; 06
@@ -51,8 +50,10 @@ DEF SHOW EQU $15
 	const HS_TOWN_MAP                      ; 2A
 	const HS_OAKS_LAB_RIVAL                ; 2B
 	const HS_STARTER_BALL_1                ; 2C
-	const HS_OAKS_LAB_OAK_1                ; 2D
-	const HS_POKEDEX_1                     ; 2E
+	const HS_STARTER_BALL_2                ; 2D
+	const HS_STARTER_BALL_3                ; 2E
+	const HS_OAKS_LAB_OAK_1                ; 2F
+	const HS_POKEDEX_1                     ; 30
 	const HS_POKEDEX_2                     ; 2F
 	const HS_OAKS_LAB_OAK_2                ; 30
 	const HS_VIRIDIAN_GYM_GIOVANNI         ; 31
@@ -244,5 +245,5 @@ DEF SHOW EQU $15
 	const HS_ARTICUNO                      ; EB
 	const HS_DAISY_SITTING_COPY            ; EC
 	const HS_DAISY_WALKING_COPY            ; ED
-	const HS_TOWN_MAP_COPY                 ; EE
+	const HS_TOWN_MAP_COPY                 ; F0
 DEF NUM_HS_OBJECTS EQU const_value

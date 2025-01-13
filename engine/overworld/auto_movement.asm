@@ -133,7 +133,7 @@ PalletMovementScript_WalkToLab:
 
 
 RLEList_ProfOakWalkToLab:
-	db NPC_MOVEMENT_DOWN, 6 ; differs from red
+	db NPC_MOVEMENT_DOWN, 5
 	db NPC_MOVEMENT_LEFT, 1
 	db NPC_MOVEMENT_DOWN, 5
 	db NPC_MOVEMENT_RIGHT, 3
@@ -146,7 +146,7 @@ RLEList_PlayerWalkToLab:
 	db D_RIGHT, 3
 	db D_DOWN, 5
 	db D_LEFT, 1
-	db D_DOWN, 7 ; differs from red
+	db D_DOWN, 6
 	db -1 ; end
 
 PalletMovementScript_Done:

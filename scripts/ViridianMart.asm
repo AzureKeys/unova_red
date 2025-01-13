@@ -59,19 +59,7 @@ ViridianMartOaksParcelScript:
 	SetEvent EVENT_GOT_OAKS_PARCEL
 	ld a, SCRIPT_VIRIDIANMART_SCRIPT2
 	ld [wViridianMartCurScript], a
-	ret
-
 ViridianMartScript2:
-	CheckEventHL EVENT_COMPLETED_CATCH_TRAINING
-	ret z
-	CheckAndSetEventReuseHL EVENT_SPAWNED_OLD_MAN_1
-	ret nz
-	ld a, HS_OLD_MAN_2
-	ld [wMissableObjectIndex], a
-	predef HideObject
-	ld a, HS_OLD_MAN_1
-	ld [wMissableObjectIndex], a
-	predef ShowObject
 	ret
 
 ViridianMart_TextPointers:

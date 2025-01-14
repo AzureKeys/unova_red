@@ -40,6 +40,23 @@ _FireDefrostedText::
 	line "<TARGET>!"
 	prompt
 
+_ShiftGearText::
+	text "<USER>'s"
+	line "ATTACK rose!"
+	
+	para "<USER>'s"
+	line "SPEED greatly"
+	cont "rose!"
+	prompt
+
+_QuiverDanceText::
+	text "<USER>'s"
+	line "SPEED rose!"
+	
+	para "<USER>'s"
+	line "SPECIAL rose!"
+	prompt
+
 _MonsStatsRoseText::
 	text "<USER>'s"
 	line "@"
@@ -100,7 +117,7 @@ _TookInSunlightText::
 	prompt
 
 _LoweredItsHeadText::
-	text_start
+	text "<USER>"
 	line "lowered its head!"
 	prompt
 
@@ -275,3 +292,8 @@ _TradeCenterOpponentText::
 _ColosseumOpponentText::
 	text "!"
 	done
+
+_BrokeScreenText::
+	text "<TARGET>'s"
+	line "screen was broken!"
+	prompt

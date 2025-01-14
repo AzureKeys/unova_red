@@ -4332,7 +4332,22 @@ GetDamageVarsForPlayerAttack:
 	cp SPECIAL ; types >= SPECIAL are all special
 	jr nc, .specialAttack
 .physicalAttack
+	ld a, [wPlayerMoveNum]
+	cp BRICK_BREAK
+	jr nz, .not_brick_break
+	ld a, [wEnemyBattleStatus3]
+	res HAS_REFLECT_UP, a
+	res HAS_LIGHT_SCREEN_UP, a
+	ld [wEnemyBattleStatus3], a
+	jr .not_sacred_sword
+.not_brick_break
+	cp SACRED_SWORD
+	jr nz, .not_sacred_sword
+	ld hl, wEnemyMonUnmodifiedDefense ; Sacred Sword ignores enemy defense boosts
+	jr .got_defense
+.not_sacred_sword
 	ld hl, wEnemyMonDefense
+.got_defense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl] ; bc = enemy defense
@@ -4445,7 +4460,22 @@ GetDamageVarsForEnemyAttack:
 	cp SPECIAL ; types >= SPECIAL are all special
 	jr nc, .specialAttack
 .physicalAttack
+	ld a, [wEnemyMoveNum]
+	cp BRICK_BREAK
+	jr nz, .not_brick_break
+	ld a, [wPlayerBattleStatus3]
+	res HAS_REFLECT_UP, a
+	res HAS_LIGHT_SCREEN_UP, a
+	ld [wPlayerBattleStatus3], a
+	jr .not_sacred_sword
+.not_brick_break
+	cp SACRED_SWORD
+	jr nz, .not_sacred_sword
+	ld hl, wPlayerMonUnmodifiedDefense ; Sacred Sword ignores enemy defense boosts
+	jr .got_defense
+.not_sacred_sword
 	ld hl, wBattleMonDefense
+.got_defense
 	ld a, [hli]
 	ld b, a
 	ld c, [hl] ; bc = player defense
@@ -5636,6 +5666,7 @@ CalcHitChance:
 	ld b, a
 	ld a, [wEnemyMonEvasionMod]
 	ld c, a
+	ld a, [wPlayerMoveNum]
 	jr z, .next
 ; values for enemy turn
 	ld hl, wEnemyMoveAccuracy
@@ -5643,7 +5674,12 @@ CalcHitChance:
 	ld b, a
 	ld a, [wPlayerMonEvasionMod]
 	ld c, a
+	ld a, [wEnemyMoveNum]
 .next
+	cp SACRED_SWORD
+	jr nz, .not_sacred_sword
+	ld c, $07 ; Evasion modifier set to default if using Sacred Sword
+.not_sacred_sword
 	ld a, $0e
 	sub c
 	ld c, a ; c = 14 - EVASIONMOD (this "reflects" the value over 7, so that an increase in the target's evasion
@@ -6917,3 +6953,7 @@ PlayMoveAnimation:
 	predef MoveAnimation
 	callfar Func_78e98
 	ret
+	
+BrokeScreenText:
+	text_far _BrokeScreenText
+	text_end

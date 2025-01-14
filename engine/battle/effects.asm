@@ -402,8 +402,11 @@ MultipleStatsUpEffect:
 	inc b
 	inc a
 	ld [hl], a
+	push bc
+	ld b, a
 	ld c, 0
 	call UpdateSingleStat
+	pop bc
 .skipShiftGearAttackUp
 	; set hl to user's speed
 	inc hl
@@ -419,8 +422,11 @@ MultipleStatsUpEffect:
 	ld a, 13 ; cap at +6
 .noCap
 	ld [hl], a
+	push bc
+	ld b, a
 	ld c, 2
 	call UpdateSingleStat
+	pop bc
 .skipShiftGearSpeedUp
 	ld a, b
 	and a
@@ -437,8 +443,11 @@ MultipleStatsUpEffect:
 	inc b
 	inc a
 	ld [hl], a
+	push bc
+	ld b, a
 	ld c, 2
 	call UpdateSingleStat
+	pop bc
 .skipQuiverDanceSpeedUp
 	; set hl to user's special
 	inc hl
@@ -448,8 +457,11 @@ MultipleStatsUpEffect:
 	inc b
 	inc a
 	ld [hl], a
+	push bc
+	ld b, a
 	ld c, 3
 	call UpdateSingleStat
+	pop bc
 .skipQuiverDanceSpecialUp
 	ld a, b
 	and a
@@ -536,11 +548,25 @@ UpdateSingleStat:
 	ld [hl], a
 	pop hl
 	pop bc
-	; print the stat up text here?
 	ret
 	
 UpdateMultipleStats:
 	call PlayCurrentMoveAnimation
+	ldh a, [hWhoseTurn]
+	and a
+	ld a, [wPlayerMoveEffect]
+	jr z, .GotTurn
+	ld a, [wEnemyMoveEffect]
+.GotTurn
+	cp QUIVER_DANCE_EFFECT
+	jr z, .QuiverDanceText
+	ld hl, ShiftGearText
+	call PrintText
+	jr .doneText
+.QuiverDanceText
+	ld hl, QuiverDanceText
+	call PrintText
+.doneText
 	ldh a, [hWhoseTurn]
 	and a
 	call z, ApplyBadgeStatBoosts ; whenever the player uses a stat-up move, badge boosts get reapplied again to every stat,
@@ -550,6 +576,14 @@ UpdateMultipleStats:
 	call QuarterSpeedDueToParalysis ; apply speed penalty to the player whose turn is not, if it's paralyzed
 	jp HalveAttackDueToBurn ; apply attack penalty to the player whose turn is not, if it's burned
 
+ShiftGearText:
+	text_far _ShiftGearText
+	text_end
+	
+QuiverDanceText:
+	text_far _QuiverDanceText
+	text_end
+	
 StatModifierUpEffect:
 	ld hl, wPlayerMonStatMods
 	ld de, wPlayerMoveEffect
@@ -697,7 +731,15 @@ UpdateStatDone:
 	call nz, Bankswitch
 	pop de
 .notMinimize
+	inc de
+	ld a, [de]
+	cp CHARGE_EFFECT ; Using SKULL BASH?
+	jr z, .skip_animation
+	cp ATTACK_UP_SIDE_EFFECT
+	jr nc, .skip_animation
 	call PlayCurrentMoveAnimation
+.skip_animation
+	dec de
 	ld a, [de]
 	cp MINIMIZE
 	jr nz, .applyBadgeBoostsAndStatusPenalties
@@ -731,16 +773,20 @@ PrintNothingHappenedText:
 MonsStatsRoseText:
 	text_far _MonsStatsRoseText
 	text_asm
-	ld hl, GreatlyRoseText
+	ld hl, RoseText
 	ldh a, [hWhoseTurn]
 	and a
 	ld a, [wPlayerMoveEffect]
 	jr z, .playerTurn
 	ld a, [wEnemyMoveEffect]
 .playerTurn
+	cp CHARGE_EFFECT
+	ret z
 	cp ATTACK_DOWN1_EFFECT
+	ret c
+	cp ATTACK_UP_SIDE_EFFECT
 	ret nc
-	ld hl, RoseText
+	ld hl, GreatlyRoseText
 	ret
 
 GreatlyRoseText:
@@ -1267,6 +1313,8 @@ ChargeEffect:
 	cp 14 ; are we now higher than +6?
 	ret z
 	ld [hl], a
+	ld b, a
+	ld c, 1
 	jp UpdateStatsForSkullBash
 	
 .NotSkullBash

@@ -234,6 +234,12 @@ FreezeBurnParalyzeEffect:
 	cp PARALYZE_SIDE_EFFECT1 + 1
 	ld b, 10 percent + 1
 	jr c, .regular_effectiveness
+	cp TRI_ATTACK_EFFECT
+	jr nz, .extra_effectiveness
+; Tri Attack has 20% chance
+	ld b, 20 percent + 1
+	jr .regular_effectiveness
+.extra_effectiveness
 ; extra effectiveness
 	ld b, 30 percent + 1
 	sub BURN_SIDE_EFFECT2 - BURN_SIDE_EFFECT1 ; treat extra effective as regular from now on
@@ -248,7 +254,19 @@ FreezeBurnParalyzeEffect:
 	jr z, .burn1
 	cp FREEZE_SIDE_EFFECT
 	jr z, .freeze1
-; .paralyze1
+	cp PARALYZE_SIDE_EFFECT1
+	jr z, .paralyze1
+.tri_attack_loop1
+	call BattleRandom
+	and $03 ; Only look at the last 2 bits of the random number
+; Only 3 possible results, so try again if result is zero
+	jr z, .tri_attack_loop1
+	cp 1
+	jr z, .freeze1
+	cp 2
+	jr z, .burn1
+; fallthrough
+.paralyze1
 	ld a, 1 << PAR
 	ld [wEnemyMonStatus], a
 	call QuarterSpeedDueToParalysis ; quarter speed of affected mon
@@ -297,6 +315,12 @@ FreezeBurnParalyzeEffect:
 	cp PARALYZE_SIDE_EFFECT1 + 1
 	ld b, 10 percent + 1
 	jr c, .regular_effectiveness2
+	cp TRI_ATTACK_EFFECT
+	jr nz, .extra_effectiveness2
+; Tri Attack has 20% chance
+	ld b, 20 percent + 1
+	jr .regular_effectiveness2
+.extra_effectiveness2
 ; extra effectiveness
 	ld b, 30 percent + 1
 	sub BURN_SIDE_EFFECT2 - BURN_SIDE_EFFECT1 ; treat extra effective as regular from now on
@@ -311,7 +335,19 @@ FreezeBurnParalyzeEffect:
 	jr z, .burn2
 	cp FREEZE_SIDE_EFFECT
 	jr z, .freeze2
-; .paralyze2
+	cp PARALYZE_SIDE_EFFECT1
+	jr z, .paralyze2
+.tri_attack_loop2
+	call BattleRandom
+	and $03 ; Only look at the last 2 bits of the random number
+; Only 3 possible results, so try again if result is zero
+	jr z, .tri_attack_loop2
+	cp 1
+	jr z, .freeze2
+	cp 2
+	jr z, .burn2
+; fallthrough
+.paralyze2
 	ld a, 1 << PAR
 	ld [wBattleMonStatus], a
 	call QuarterSpeedDueToParalysis

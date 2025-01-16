@@ -99,4 +99,5 @@
 	const_skip                       ; $5C
 	const QUIVER_DANCE_EFFECT        ; $5D
 	const SHIFT_GEAR_EFFECT          ; $5E
+	const TRI_ATTACK_EFFECT          ; $5F
 DEF NUM_MOVE_EFFECTS EQU const_value - 1

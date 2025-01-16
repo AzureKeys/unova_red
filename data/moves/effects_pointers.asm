@@ -95,4 +95,5 @@ MoveEffectPointerTable:
 	dw StatModifierUpEffect      ; unused effect
 	dw MultipleStatsUpEffect     ; QUIVER_DANCE_EFFECT
 	dw MultipleStatsUpEffect     ; SHIFT_GEAR_EFFECT
+	dw FreezeBurnParalyzeEffect  ; TRI_ATTACK_EFFECT
 	assert_table_length NUM_MOVE_EFFECTS

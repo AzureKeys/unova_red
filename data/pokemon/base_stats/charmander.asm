@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmander.pic", 0, 1 ; sprite dimensions
 	dw CharmanderPicFront, CharmanderPicBack
 
-	db GEAR_GRIND, SACRED_SWORD, BRICK_BREAK, SLUDGE_BOMB ; level 1 learnset
+	db GEAR_GRIND, HI_JUMP_KICK, BRICK_BREAK, SLUDGE_BOMB ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset

@@ -19,6 +19,11 @@ EvosMovesPointerTable:
 	dw OshawottEvosMoves
 	dw DewottEvosMoves
 	dw SamurottEvosMoves
+	dw PatratEvosMoves
+	dw WatchogEvosMoves
+	dw LillipupEvosMoves
+	dw HerdierEvosMoves
+	dw StoutlandEvosMoves
 	dw ClefairyEvosMoves
 	dw SpearowEvosMoves
 	dw VoltorbEvosMoves
@@ -30,8 +35,6 @@ EvosMovesPointerTable:
 	dw ExeggcuteEvosMoves
 	dw GrimerEvosMoves
 	dw GengarEvosMoves
-	dw NidoranFEvosMoves
-	dw NidoqueenEvosMoves
 	dw CuboneEvosMoves
 	dw RhyhornEvosMoves
 	dw LaprasEvosMoves
@@ -179,10 +182,7 @@ EvosMovesPointerTable:
 	dw MissingNoA2EvosMoves
 	dw PonytaEvosMoves
 	dw RapidashEvosMoves
-	dw RattataEvosMoves
-	dw RaticateEvosMoves
 	dw NidorinoEvosMoves
-	dw NidorinaEvosMoves
 	dw GeodudeEvosMoves
 	dw PorygonEvosMoves
 	dw AerodactylEvosMoves
@@ -336,6 +336,82 @@ SamurottEvosMoves:
 	db 46, SWORDS_DANCE
 	db 51, HYDRO_PUMP
 	db 0
+	
+PatratEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 20, WATCHOG
+	db 0
+; Learnset
+	db 6, BITE
+	db 11, BIDE
+	db 16, SAND_ATTACK
+	db 21, SUPER_FANG
+	db 23, HYPNOSIS
+	db 28, FOCUS_ENERGY
+	db 31, HYPER_FANG
+	db 36, CRUNCH
+	db 41, SLAM
+	db 0
+	
+WatchogEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 6, BITE
+	db 11, BIDE
+	db 16, SAND_ATTACK
+	db 20, CONFUSE_RAY
+	db 22, SUPER_FANG
+	db 25, HYPNOSIS
+	db 32, FOCUS_ENERGY
+	db 36, HYPER_FANG
+	db 43, CRUNCH
+	db 50, SLAM
+	db 0
+	
+LillipupEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 16, HERDIER
+	db 0
+; Learnset
+	db 8, BITE
+	db 15, TAKE_DOWN
+	db 22, CRUNCH
+	db 26, ROAR
+	db 29, HYPER_FANG
+	db 33, SKULL_BASH
+	db 36, DOUBLE_EDGE
+	db 40, HYPER_BEAM
+	db 0
+	
+HerdierEvosMoves:
+; Evolutions
+	db EVOLVE_LEVEL, 32, STOUTLAND
+	db 0
+; Learnset
+	db 8, BITE
+	db 15, TAKE_DOWN
+	db 24, CRUNCH
+	db 29, ROAR
+	db 33, HYPER_FANG
+	db 38, SKULL_BASH
+	db 42, DOUBLE_EDGE
+	db 47, HYPER_BEAM
+	db 0
+	
+StoutlandEvosMoves:
+; Evolutions
+	db 0
+; Learnset
+	db 8, BITE
+	db 15, TAKE_DOWN
+	db 24, CRUNCH
+	db 29, ROAR
+	db 36, HYPER_FANG
+	db 42, SKULL_BASH
+	db 51, DOUBLE_EDGE
+	db 59, HYPER_BEAM
+	db 0
 
 ClefairyEvosMoves:
 ; Evolutions
@@ -457,28 +533,6 @@ GengarEvosMoves:
 ; Learnset
 	db 29, HYPNOSIS
 	db 38, DREAM_EATER
-	db 0
-
-NidoranFEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 16, NIDORINA
-	db 0
-; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 17, POISON_STING
-	db 23, TAIL_WHIP
-	db 30, BITE
-	db 38, FURY_SWIPES
-	db 0
-
-NidoqueenEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 23, BODY_SLAM
 	db 0
 
 CuboneEvosMoves:
@@ -1948,27 +2002,6 @@ RapidashEvosMoves:
 	db 55, AGILITY
 	db 0
 
-RattataEvosMoves:
-; Evolutions
-	db EVOLVE_LEVEL, 20, RATICATE
-	db 0
-; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
-	db 0
-
-RaticateEvosMoves:
-; Evolutions
-	db 0
-; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
-	db 41, SUPER_FANG
-	db 0
-
 NidorinoEvosMoves:
 ; Evolutions
 	db EVOLVE_ITEM, MOON_STONE, 1, NIDOKING
@@ -1980,19 +2013,6 @@ NidorinoEvosMoves:
 	db 27, FOCUS_ENERGY
 	db 36, FURY_ATTACK
 	db 46, HORN_DRILL
-	db 0
-
-NidorinaEvosMoves:
-; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, NIDOQUEEN
-	db 0
-; Learnset
-	db 8, SCRATCH
-	db 12, DOUBLE_KICK
-	db 19, POISON_STING
-	db 27, TAIL_WHIP
-	db 36, BITE
-	db 46, FURY_SWIPES
 	db 0
 
 GeodudeEvosMoves:

@@ -1,12 +1,12 @@
 Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db 15, PIDGEY
-	db 13, RATTATA
+	db 13, PATRAT
 	db 13, PIDGEY
 	db 11, PIDGEY
 	db 17, PIDGEY
-	db 15, RATTATA
-	db 15, RATICATE
+	db 15, PATRAT
+	db 15, WATCHOG
 	db 17, PIDGEOTTO
 	db 19, PIDGEOTTO
 	db 15, PIDGEOTTO

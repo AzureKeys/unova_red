@@ -1,10 +1,10 @@
 SafariZoneNorthWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 36, NIDORAN_F
-	db 14, NIDORAN_F
+	db 36, LILLIPUP
+	db 14, LILLIPUP
 	db 20, EXEGGCUTE
 	db 25, RHYHORN
-	db 23, NIDORINA
+	db 23, HERDIER
 	db 28, CHANSEY
 	db 16, CUBONE
 	db 33, CHANSEY

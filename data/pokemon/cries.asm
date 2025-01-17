@@ -15,6 +15,11 @@ CryData::
 	mon_cry SFX_CRY_1D, $60, $40 ; Oshawott
 	mon_cry SFX_CRY_1D, $20, $40 ; Dewott
 	mon_cry SFX_CRY_13, $00, $80 ; Samurott
+	mon_cry SFX_CRY_22, $00, $80 ; Patrat
+	mon_cry SFX_CRY_22, $20, $FF ; Watchog
+	mon_cry SFX_CRY_01, $00, $80 ; Lillipup
+	mon_cry SFX_CRY_01, $2C, $E0 ; Herdier
+	mon_cry SFX_CRY_0A, $00, $80 ; Stoutland
 	mon_cry SFX_CRY_16, $80, $20 ; Caterpie
 	mon_cry SFX_CRY_1C, $CC, $01 ; Metapod
 	mon_cry SFX_CRY_16, $77, $40 ; Butterfree
@@ -24,8 +29,6 @@ CryData::
 	mon_cry SFX_CRY_0E, $DF, $04 ; Pidgey
 	mon_cry SFX_CRY_14, $28, $C0 ; Pidgeotto
 	mon_cry SFX_CRY_14, $11, $FF ; Pidgeot
-	mon_cry SFX_CRY_22, $00, $80 ; Rattata
-	mon_cry SFX_CRY_22, $20, $FF ; Raticate
 	mon_cry SFX_CRY_10, $00, $80 ; Spearow
 	mon_cry SFX_CRY_18, $40, $A0 ; Fearow
 	mon_cry SFX_CRY_17, $12, $40 ; Ekans
@@ -34,9 +37,6 @@ CryData::
 	mon_cry SFX_CRY_09, $EE, $08 ; Raichu
 	mon_cry SFX_CRY_00, $20, $40 ; Sandshrew
 	mon_cry SFX_CRY_00, $FF, $FF ; Sandslash
-	mon_cry SFX_CRY_01, $00, $80 ; Nidoran♀
-	mon_cry SFX_CRY_01, $2C, $E0 ; Nidorina
-	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
 	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
 	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
 	mon_cry SFX_CRY_09, $00, $80 ; Nidoking

@@ -118,26 +118,6 @@ _PidgeotDexEntry::
 	next "wicked weapons"
 	dex
 
-_RattataDexEntry::
-	text "Will chew on any-"
-	next "thing with its"
-	next "fangs. If you see"
-
-	page "one, it is certain"
-	next "that 40 more live"
-	next "in the area"
-	dex
-
-_RaticateDexEntry::
-	text "Its hind feet are"
-	next "webbed. They act"
-	next "as flippers, so"
-
-	page "it can swim in"
-	next "rivers and hunt"
-	next "for prey"
-	dex
-
 _SpearowDexEntry::
 	text "Inept at flying"
 	next "high. However, it"
@@ -216,36 +196,6 @@ _SandslashDexEntry::
 	page "If broken, they"
 	next "start to grow back"
 	next "in a day"
-	dex
-
-_NidoranFDexEntry::
-	text "A mild-mannered"
-	next "#MON that does"
-	next "not like to"
-
-	page "fight. Beware, its"
-	next "small horns"
-	next "secrete venom"
-	dex
-
-_NidorinaDexEntry::
-	text "When resting deep"
-	next "in its burrow, its"
-	next "thorns always"
-
-	page "retract."
-	next "This is proof that"
-	next "it is relaxed"
-	dex
-
-_NidoqueenDexEntry::
-	text "Tough scales cover"
-	next "the sturdy body"
-	next "of this #MON."
-
-	page "It appears that"
-	next "the scales grow"
-	next "in cycles"
 	dex
 
 _NidorinoDexEntry::
@@ -1505,54 +1455,54 @@ _SamurottDexEntry::
 	next "most enemies"
 	dex
 
-; _PatratDexEntry::
-	; text "Using food stored"
-	; next "in cheek pouches,"
-	; next "it can keep watch"
+_PatratDexEntry::
+	text "Using food stored"
+	next "in cheek pouches,"
+	next "it can keep watch"
 
-	; page "for days. They"
-	; next "use their tails"
-	; next "to communicate"
-	; dex
+	page "for days. They"
+	next "use their tails"
+	next "to communicate"
+	dex
 
-; _WatchogDexEntry::
-	; text "When they see an"
-	; next "enemy, their tail"
-	; next "stands high. They"
+_WatchogDexEntry::
+	text "When they see an"
+	next "enemy, their tail"
+	next "stands high. They"
 
-	; page "spit the seeds of"
-	; next "berries stored in"
-	; next "their cheeks"
-	; dex
+	page "spit the seeds of"
+	next "berries stored in"
+	next "their cheeks"
+	dex
 
-; _LillipupDexEntry::
-	; text "Though it is a"
-	; next "brave #MON,"
-	; next "it is intelligent"
+_LillipupDexEntry::
+	text "Though it is a"
+	next "brave #MON,"
+	next "it is intelligent"
 
-	; page "enough to flee"
-	; next "from a dangerous"
-	; next "enemy"
-	; dex
+	page "enough to flee"
+	next "from a dangerous"
+	next "enemy"
+	dex
 
-; _HerdierDexEntry::
-	; text "Its black, cape-"
-	; next "like fur is very"
-	; next "hard, protecting"
+_HerdierDexEntry::
+	text "Its black, cape-"
+	next "like fur is very"
+	next "hard, protecting"
 
-	; page "this #MON from"
-	; next "enemy attacks"
-	; dex
+	page "this #MON from"
+	next "enemy attacks"
+	dex
 
-; _StoutlandDexEntry::
-	; text "It rescues people"
-	; next "from blizzards in"
-	; next "the mountains. Its"
+_StoutlandDexEntry::
+	text "It rescues people"
+	next "from blizzards in"
+	next "the mountains. Its"
 
-	; page "shaggy fur"
-	; next "protects it from"
-	; next "the cold"
-	; dex
+	page "shaggy fur"
+	next "protects it from"
+	next "the cold"
+	dex
 
 ; _PurrloinDexEntry::
 	; text "They steal from"

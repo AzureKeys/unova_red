@@ -40,7 +40,7 @@ CeladonMansion1FClefairyText:
 CeladonMansion1FNidoranFText:
 	text_far _CeladonMansion1FNidoranFText
 	text_asm
-	ld a, NIDORAN_F
+	ld a, LILLIPUP
 	call PlayCry
 	jp TextScriptEnd
 

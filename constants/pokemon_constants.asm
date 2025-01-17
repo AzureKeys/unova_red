@@ -16,13 +16,13 @@
 	const OSHAWOTT           ; $07
 	const DEWOTT             ; $08
 	const SAMUROTT           ; $09
-	const EXEGGUTOR          ; $0A
-	const LICKITUNG          ; $0B
-	const EXEGGCUTE          ; $0C
-	const GRIMER             ; $0D
-	const GENGAR             ; $0E
-	const NIDORAN_F          ; $0F
-	const NIDOQUEEN          ; $10
+	const PATRAT             ; $0A
+	const WATCHOG            ; $0B
+	const LILLIPUP           ; $0C
+	const HERDIER            ; $0D
+	const STOUTLAND          ; $0E
+	const EXEGGCUTE          ; $0F
+	const GRIMER             ; $10
 	const CUBONE             ; $11
 	const RHYHORN            ; $12
 	const LAPRAS             ; $13
@@ -171,10 +171,10 @@
 	const_skip               ; $A2
 	const PONYTA             ; $A3
 	const RAPIDASH           ; $A4
-	const RATTATA            ; $A5
-	const RATICATE           ; $A6
+	const EXEGGUTOR            ; $A5
+	const LICKITUNG           ; $A6
 	const NIDORINO           ; $A7
-	const NIDORINA           ; $A8
+	const GENGAR           ; $A8
 	const GEODUDE            ; $A9
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB

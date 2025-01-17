@@ -11,7 +11,7 @@ PewterNidoranHouse_TextPointers:
 PewterNidoranHouseNidoranText:
 	text_far _PewterNidoranHouseNidoranText
 	text_asm
-	ld a, NIDORAN_F
+	ld a, LILLIPUP
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

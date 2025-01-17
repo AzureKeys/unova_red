@@ -22,19 +22,19 @@ UncompressMonSprite::
 	ld a, BANK(FossilKabutopsPic)
 	jr z, .GotBank
 	ld a, b
-	cp TENTACOOL + 1
+	cp MEW + 1
 	ld a, BANK("Pics 1")
 	jr c, .GotBank
 	ld a, b
-	cp VENONAT + 1
+	cp TAUROS + 1
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp PARAS + 2
+	cp MACHOP + 2
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b
-	cp ABRA + 1
+	cp PERSIAN + 1
 	ld a, BANK("Pics 4")
 	jr c, .GotBank
 	ld a, BANK("Pics 5")

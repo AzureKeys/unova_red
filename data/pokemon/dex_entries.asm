@@ -9,6 +9,11 @@ PokedexEntryPointers:
 	dw OshawottDexEntry
 	dw DewottDexEntry
 	dw SamurottDexEntry
+	dw PatratDexEntry
+	dw WatchogDexEntry
+	dw LillipupDexEntry
+	dw HerdierDexEntry
+	dw StoutlandDexEntry
 	dw ClefairyDexEntry
 	dw SpearowDexEntry
 	dw VoltorbDexEntry
@@ -20,8 +25,6 @@ PokedexEntryPointers:
 	dw ExeggcuteDexEntry
 	dw GrimerDexEntry
 	dw GengarDexEntry
-	dw NidoranFDexEntry
-	dw NidoqueenDexEntry
 	dw CuboneDexEntry
 	dw RhyhornDexEntry
 	dw LaprasDexEntry
@@ -169,10 +172,7 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw PonytaDexEntry
 	dw RapidashDexEntry
-	dw RattataDexEntry
-	dw RaticateDexEntry
 	dw NidorinoDexEntry
-	dw NidorinaDexEntry
 	dw GeodudeDexEntry
 	dw PorygonDexEntry
 	dw AerodactylDexEntry
@@ -281,20 +281,6 @@ PidgeotDexEntry:
 	text_far _PidgeotDexEntry
 	text_end
 
-RattataDexEntry:
-	db "RAT@"
-	db 1,0
-	dw 80
-	text_far _RattataDexEntry
-	text_end
-
-RaticateDexEntry:
-	db "RAT@"
-	db 2,4
-	dw 410
-	text_far _RaticateDexEntry
-	text_end
-
 SpearowDexEntry:
 	db "TINY BIRD@"
 	db 1,0
@@ -349,27 +335,6 @@ SandslashDexEntry:
 	db 3,3
 	dw 650
 	text_far _SandslashDexEntry
-	text_end
-
-NidoranFDexEntry:
-	db "POISON PIN@"
-	db 1,4
-	dw 150
-	text_far _NidoranFDexEntry
-	text_end
-
-NidorinaDexEntry:
-	db "POISON PIN@"
-	db 2,7
-	dw 440
-	text_far _NidorinaDexEntry
-	text_end
-
-NidoqueenDexEntry:
-	db "DRILL@"
-	db 4,3
-	dw 1320
-	text_far _NidoqueenDexEntry
 	text_end
 
 NidorinoDexEntry:
@@ -1260,40 +1225,40 @@ SamurottDexEntry:
         text_far _SamurottDexEntry
         text_end
 
-; PatratDexEntry:
-        ; db "SCOUT@"
-        ; db 1,8
-        ; dw 26
-        ; text_far _PatratDexEntry
-        ; text_end
+PatratDexEntry:
+        db "SCOUT@"
+        db 1,8
+        dw 26
+        text_far _PatratDexEntry
+        text_end
 
-; WatchogDexEntry:
-        ; db "LOOKOUT@"
-        ; db 3,7
-        ; dw 60
-        ; text_far _WatchogDexEntry
-        ; text_end
+WatchogDexEntry:
+        db "LOOKOUT@"
+        db 3,7
+        dw 60
+        text_far _WatchogDexEntry
+        text_end
 
-; LillipupDexEntry:
-        ; db "PUPPY@"
-        ; db 1,4
-        ; dw 9
-        ; text_far _LillipupDexEntry
-        ; text_end
+LillipupDexEntry:
+        db "PUPPY@"
+        db 1,4
+        dw 9
+        text_far _LillipupDexEntry
+        text_end
 
-; HerdierDexEntry:
-        ; db "LOYAL DOG@"
-        ; db 2,11
-        ; dw 32
-        ; text_far _HerdierDexEntry
-        ; text_end
+HerdierDexEntry:
+        db "LOYAL DOG@"
+        db 2,11
+        dw 32
+        text_far _HerdierDexEntry
+        text_end
 
-; StoutlandDexEntry:
-        ; db "BIGHEARTED@"
-        ; db 3,11
-        ; dw 134
-        ; text_far _StoutlandDexEntry
-        ; text_end
+StoutlandDexEntry:
+        db "BIGHEARTED@"
+        db 3,11
+        dw 134
+        text_far _StoutlandDexEntry
+        text_end
 
 ; PurrloinDexEntry:
         ; db "DEVIOUS@"

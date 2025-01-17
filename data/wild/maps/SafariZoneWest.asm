@@ -1,10 +1,10 @@
 SafariZoneWestWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 29, NIDORAN_F
-	db 21, NIDORAN_F
+	db 29, LILLIPUP
+	db 21, LILLIPUP
 	db 22, EXEGGCUTE
 	db 21, TAUROS
-	db 32, NIDORINO
+	db 32, HERDIER
 	db 19, CUBONE
 	db 26, EXEGGCUTE
 	db 24, MAROWAK

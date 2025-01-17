@@ -13,6 +13,11 @@
 	const DEX_OSHAWOTT   ; 7
 	const DEX_DEWOTT     ; 8
 	const DEX_SAMUROTT   ; 9
+	const DEX_PATRAT     ; 10
+	const DEX_WATCHOG    ; 11
+	const DEX_LILLIPUP   ; 12
+	const DEX_HERDIER    ; 13
+	const DEX_STOUTLAND  ; 14
 	const DEX_CATERPIE   ; 10
 	const DEX_METAPOD    ; 11
 	const DEX_BUTTERFREE ; 12
@@ -22,8 +27,6 @@
 	const DEX_PIDGEY     ; 16
 	const DEX_PIDGEOTTO  ; 17
 	const DEX_PIDGEOT    ; 18
-	const DEX_RATTATA    ; 19
-	const DEX_RATICATE   ; 20
 	const DEX_SPEAROW    ; 21
 	const DEX_FEAROW     ; 22
 	const DEX_EKANS      ; 23
@@ -32,9 +35,6 @@
 	const DEX_RAICHU     ; 26
 	const DEX_SANDSHREW  ; 27
 	const DEX_SANDSLASH  ; 28
-	const DEX_NIDORAN_F  ; 29
-	const DEX_NIDORINA   ; 30
-	const DEX_NIDOQUEEN  ; 31
 	const DEX_VENUSAUR   ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_NIDOKING   ; 34

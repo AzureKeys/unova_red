@@ -9,11 +9,11 @@ MonPartyData:
 	nybble ICON_WATER     ; Oshawott
 	nybble ICON_WATER     ; Dewott
 	nybble ICON_WATER     ; Samurott
-	nybble ICON_BUG       ; Caterpie
-	nybble ICON_BUG       ; Metapod
-	nybble ICON_BUG       ; Butterfree
-	nybble ICON_BUG       ; Weedle
-	nybble ICON_BUG       ; Kakuna
+	nybble ICON_MON       ; Patrat
+	nybble ICON_MON       ; Watchog
+	nybble ICON_QUADRUPED ; Lillipup
+	nybble ICON_QUADRUPED ; Herdier
+	nybble ICON_QUADRUPED ; Stoutland
 	nybble ICON_BUG       ; Beedrill
 	nybble ICON_BIRD      ; Pidgey
 	nybble ICON_BIRD      ; Pidgeotto

@@ -1,6 +1,6 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 21, NIDORAN_M
+	db 21, NIDORAN_F
 	db 29, NIDORAN_F
 	db 22, EXEGGCUTE
 	db 21, TAUROS

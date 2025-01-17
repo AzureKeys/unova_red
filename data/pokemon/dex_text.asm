@@ -28,66 +28,6 @@ _VenusaurDexEntry::
 	next "used for energy"
 	dex
 
-_CharmanderDexEntry::
-	text "The flame at the"
-	next "tip of its tail"
-	next "makes a sound as"
-
-	page "it burns. You can"
-	next "only hear it in"
-	next "quiet places"
-	dex
-
-_CharmeleonDexEntry::
-	text "Tough fights could"
-	next "excite this"
-	next "#MON. When"
-
-	page "excited, it may"
-	next "blow out bluish-"
-	next "white flames"
-	dex
-
-_CharizardDexEntry::
-	text "When expelling a"
-	next "blast of super"
-	next "hot fire, the red"
-
-	page "flame at the tip"
-	next "of its tail burns"
-	next "more intensely"
-	dex
-
-_SquirtleDexEntry::
-	text "Shoots water at"
-	next "prey while in the"
-	next "water."
-
-	page "Withdraws into"
-	next "its shell when in"
-	next "danger"
-	dex
-
-_WartortleDexEntry::
-	text "When tapped, this"
-	next "#MON will pull"
-	next "in its head, but"
-
-	page "its tail will"
-	next "still stick out a"
-	next "little bit"
-	dex
-
-_BlastoiseDexEntry::
-	text "Once it takes aim"
-	next "at its enemy, it"
-	next "blasts out water"
-
-	page "with even more"
-	next "force than a fire"
-	next "hose"
-	dex
-
 _CaterpieDexEntry::
 	text "If you touch the"
 	next "feeler on top of"
@@ -306,16 +246,6 @@ _NidoqueenDexEntry::
 	page "It appears that"
 	next "the scales grow"
 	next "in cycles"
-	dex
-
-_NidoranMDexEntry::
-	text "Its large ears"
-	next "are always kept"
-	next "upright. If it"
-
-	page "senses danger, it"
-	next "will attack with a"
-	next "poisonous sting"
 	dex
 
 _NidorinoDexEntry::
@@ -1107,16 +1037,6 @@ _RhyhornDexEntry::
 	next "falls asleep"
 	dex
 
-_RhydonDexEntry::
-	text "Walks on its hind"
-	next "legs. Shows signs"
-	next "of intelligence."
-
-	page "Its armor-like"
-	next "hide even repels"
-	next "molten lava"
-	dex
-
 _ChanseyDexEntry::
 	text "A gentle and kind-"
 	next "hearted #MON"
@@ -1135,16 +1055,6 @@ _TangelaDexEntry::
 	page "vines. The vines"
 	next "are said to never"
 	next "stop growing"
-	dex
-
-_KangaskhanDexEntry::
-	text "Raises its young"
-	next "in its belly"
-	next "pouch. Won't run"
-
-	page "from any fight"
-	next "to keep its young"
-	next "protected"
 	dex
 
 _HorseaDexEntry::
@@ -1507,93 +1417,93 @@ _MewDexEntry::
 	next "hair can be seen"
 	dex
 	
-; _SnivyDexEntry::
-	; text "They photosynthe"
-	; next "by bathing their"
-	; next "tails in light."
+_SnivyDexEntry::
+	text "They photosynthe"
+	next "by bathing their"
+	next "tails in light."
 
-	; page "It uses vines"
-	; next "more adeptly"
-	; next "than its hands"
-	; dex
+	page "It uses vines"
+	next "more adeptly"
+	next "than its hands"
+	dex
 
-; _ServineDexEntry::
-	; text "It moves along"
-	; next "the ground as if"
-	; next "sliding. It "
+_ServineDexEntry::
+	text "It moves along"
+	next "the ground as if"
+	next "sliding. It "
 
-	; page "confuses its foe"
-	; next "and attacks with"
-	; next "a vine whip"
-	; dex
+	page "confuses its foe"
+	next "and attacks with"
+	next "a vine whip"
+	dex
 
-; _SerperiorDexEntry::
-	; text "It can stop its"
-	; next "enemy's moves"
-	; next "with a glare. It"
+_SerperiorDexEntry::
+	text "It can stop its"
+	next "enemy's moves"
+	next "with a glare. It"
 
-	; page "takes in solar"
-	; next "energy and"
-	; next "boosts it"
-	; dex
+	page "takes in solar"
+	next "energy and"
+	next "boosts it"
+	dex
 
-; _TepigDexEntry::
-	; text "It can dodge"
-	; next "while shooting"
-	; next "fire from its"
+_TepigDexEntry::
+	text "It can dodge"
+	next "while shooting"
+	next "fire from its"
 
-	; page "nose. It roasts"
-	; next "berries before"
-	; next "eating them"
-	; dex
+	page "nose. It roasts"
+	next "berries before"
+	next "eating them"
+	dex
 
-; _PigniteDexEntry::
-	; text "When its fire"
-	; next "flares up, it"
-	; next "becomes stronger"
+_PigniteDexEntry::
+	text "When its fire"
+	next "flares up, it"
+	next "becomes stronger"
 
-	; page "When in trouble,"
-	; next "it emits smoke"
-	; dex
+	page "When in trouble,"
+	next "it emits smoke"
+	dex
 
-; _EmboarDexEntry::
-	; text "It can throw a"
-	; next "fiery punch by"
-	; next "setting its fist"
+_EmboarDexEntry::
+	text "It can throw a"
+	next "fiery punch by"
+	next "setting its fist"
 
-	; page "on fire with the"
-	; next "blaze on its"
-	; next "chin"
-	; dex
+	page "on fire with the"
+	next "blaze on its"
+	next "chin"
+	dex
 
-; _OshawottDexEntry::
-	; text "It fights using"
-	; next "the scalchop on"
-	; next "its stomach. It"
+_OshawottDexEntry::
+	text "It fights using"
+	next "the scalchop on"
+	next "its stomach. It"
 
-	; page "responds to an"
-	; next "attack by "
-	; next "slashing"
-	; dex
+	page "responds to an"
+	next "attack by "
+	next "slashing"
+	dex
 
-; _DewottDexEntry::
-	; text "Strict training"
-	; next "is how it learns"
-	; next "its flowing"
+_DewottDexEntry::
+	text "Strict training"
+	next "is how it learns"
+	next "its flowing"
 
-	; page "double scalchop"
-	; next "technique"
-	; dex
+	page "double scalchop"
+	next "technique"
+	dex
 
-; _SamurottDexEntry::
-	; text "Part of the armor"
-	; next "on its legs"
-	; next "becomes a giant"
+_SamurottDexEntry::
+	text "Part of the armor"
+	next "on its legs"
+	next "becomes a giant"
 
-	; page "sword. Its cry"
-	; next "can intimidate"
-	; next "most enemies"
-	; dex
+	page "sword. Its cry"
+	next "can intimidate"
+	next "most enemies"
+	dex
 
 ; _PatratDexEntry::
 	; text "Using food stored"

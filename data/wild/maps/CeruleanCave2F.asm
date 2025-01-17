@@ -8,8 +8,8 @@ CeruleanCave2FWildMons:
 	db 60, DITTO
 	db 58, GLOOM
 	db 58, WEEPINBELL
-	db 60, RHYDON
-	db 58, RHYDON
+	db 60, RHYHORN
+	db 58, RHYHORN
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

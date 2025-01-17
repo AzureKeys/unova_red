@@ -96,7 +96,7 @@ FuchsiaCityKangaskhanSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, KANGASKHAN
+	ld a, SNIVY
 	call DisplayPokedex
 	jp TextScriptEnd
 

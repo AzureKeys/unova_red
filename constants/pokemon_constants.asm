@@ -7,15 +7,15 @@
 ; - PokedexEntryPointers (see data/pokemon/dex_entries.asm)
 	const_def
 	const NO_MON             ; $00
-	const RHYDON             ; $01
-	const KANGASKHAN         ; $02
-	const NIDORAN_M          ; $03
-	const CLEFAIRY           ; $04
-	const SPEAROW            ; $05
-	const VOLTORB            ; $06
-	const NIDOKING           ; $07
-	const SLOWBRO            ; $08
-	const IVYSAUR            ; $09
+	const SNIVY              ; $01
+	const SERVINE            ; $02
+	const SERPERIOR          ; $03
+	const TEPIG              ; $04
+	const PIGNITE            ; $05
+	const EMBOAR             ; $06
+	const OSHAWOTT           ; $07
+	const DEWOTT             ; $08
+	const SAMUROTT           ; $09
 	const EXEGGUTOR          ; $0A
 	const LICKITUNG          ; $0B
 	const EXEGGCUTE          ; $0C
@@ -34,7 +34,7 @@
 	const GASTLY             ; $19
 	const SCYTHER            ; $1A
 	const STARYU             ; $1B
-	const BLASTOISE          ; $1C
+	const NIDOKING           ; $1C
 	const PINSIR             ; $1D
 	const TANGELA            ; $1E
 	const_skip               ; $1F
@@ -182,11 +182,11 @@
 	const MAGNEMITE          ; $AD
 	const_skip               ; $AE
 	const_skip               ; $AF
-	const CHARMANDER         ; $B0
-	const SQUIRTLE           ; $B1
-	const CHARMELEON         ; $B2
-	const WARTORTLE          ; $B3
-	const CHARIZARD          ; $B4
+	const CLEFAIRY           ; $B0
+	const SLOWBRO            ; $B1
+	const SPEAROW            ; $B2
+	const IVYSAUR            ; $B3
+	const VOLTORB            ; $B4
 	const_skip               ; $B5
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
@@ -204,9 +204,9 @@ DEF NUM_POKEMON_INDEXES EQU const_value - 1
 DEF STARTER_PIKACHU EQU PIKACHU
 
 ; starters
-DEF STARTER1 EQU CHARMANDER
-DEF STARTER2 EQU SQUIRTLE
-DEF STARTER3 EQU BULBASAUR
+DEF STARTER1 EQU TEPIG
+DEF STARTER2 EQU OSHAWOTT
+DEF STARTER3 EQU SNIVY
 
 ; rival starters
 DEF RIVAL_STARTER_JOLTEON  EQU 1

@@ -4,15 +4,15 @@
 ; - MonPartyData (see data/pokemon/menu_icons.asm)
 ; - MonsterPalettes (see data/pokemon/palettes.asm)
 	const_def 1
-	const DEX_BULBASAUR  ; 1
-	const DEX_IVYSAUR    ; 2
-	const DEX_VENUSAUR   ; 3
-	const DEX_CHARMANDER ; 4
-	const DEX_CHARMELEON ; 5
-	const DEX_CHARIZARD  ; 6
-	const DEX_SQUIRTLE   ; 7
-	const DEX_WARTORTLE  ; 8
-	const DEX_BLASTOISE  ; 9
+	const DEX_SNIVY      ; 1
+	const DEX_SERVINE    ; 2
+	const DEX_SERPERIOR  ; 3
+	const DEX_TEPIG      ; 4
+	const DEX_PIGNITE    ; 5
+	const DEX_EMBOAR     ; 6
+	const DEX_OSHAWOTT   ; 7
+	const DEX_DEWOTT     ; 8
+	const DEX_SAMUROTT   ; 9
 	const DEX_CATERPIE   ; 10
 	const DEX_METAPOD    ; 11
 	const DEX_BUTTERFREE ; 12
@@ -35,7 +35,7 @@
 	const DEX_NIDORAN_F  ; 29
 	const DEX_NIDORINA   ; 30
 	const DEX_NIDOQUEEN  ; 31
-	const DEX_NIDORAN_M  ; 32
+	const DEX_VENUSAUR   ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_NIDOKING   ; 34
 	const DEX_CLEFAIRY   ; 35
@@ -115,10 +115,10 @@
 	const DEX_KOFFING    ; 109
 	const DEX_WEEZING    ; 110
 	const DEX_RHYHORN    ; 111
-	const DEX_RHYDON     ; 112
+	const DEX_BULBASAUR  ; 112
 	const DEX_CHANSEY    ; 113
 	const DEX_TANGELA    ; 114
-	const DEX_KANGASKHAN ; 115
+	const DEX_IVYSAUR    ; 115
 	const DEX_HORSEA     ; 116
 	const DEX_SEADRA     ; 117
 	const DEX_GOLDEEN    ; 118

@@ -92,11 +92,11 @@ TitleBallYTable:
 TitleScreenAnimateBallIfStarterOut:
 ; Animate the TitleBall if a starter just got scrolled out.
 	ld a, [wTitleScreenScene]
-	cp CHARMANDER ; starter 1
+	cp TEPIG ; starter 1
 	jr z, .ok
-	cp SQUIRTLE ; starter 2
+	cp OSHAWOTT ; starter 2
 	jr z, .ok
-	cp BULBASAUR ; starter 3
+	cp SNIVY ; starter 3
 	ret nz
 .ok
 	ld e, 1 ; animate titleball

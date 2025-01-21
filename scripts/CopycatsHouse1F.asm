@@ -18,6 +18,6 @@ CopycatsHouse1FMiddleAgedManText:
 CopycatsHouse1FChanseyText:
 	text_far _CopycatsHouse1FChanseyText
 	text_asm
-	ld a, CHANSEY
+	ld a, AUDINO
 	call PlayCry
 	jp TextScriptEnd

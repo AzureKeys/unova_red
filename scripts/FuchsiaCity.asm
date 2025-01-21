@@ -72,7 +72,7 @@ FuchsiaCityChanseySignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, CHANSEY
+	ld a, AUDINO
 	call DisplayPokedex
 	jp TextScriptEnd
 

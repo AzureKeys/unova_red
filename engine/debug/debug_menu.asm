@@ -962,7 +962,7 @@ Func_fee49:
 	ld a, [hl]
 	cp NUM_POKEMON + 1
 	jr c, Func_fee23
-	ld [hl], DEX_BULBASAUR
+	ld [hl], DEX_SNIVY
 	jr Func_fee23
 
 Func_fee56:

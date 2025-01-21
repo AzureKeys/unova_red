@@ -18,36 +18,52 @@
 	const DEX_LILLIPUP   ; 12
 	const DEX_HERDIER    ; 13
 	const DEX_STOUTLAND  ; 14
-	const DEX_CATERPIE   ; 10
-	const DEX_METAPOD    ; 11
-	const DEX_BUTTERFREE ; 12
+	const DEX_PURRLOIN   ; 15
+	const DEX_LIEPARD    ; 16
+	const DEX_PANSAGE    ; 17
+	const DEX_SIMISAGE   ; 18
+	const DEX_PANSEAR    ; 19
+	const DEX_SIMISEAR   ; 20
+	const DEX_PANPOUR    ; 21
+	const DEX_SIMIPOUR   ; 22
+	const DEX_MUNNA      ; 23
+	const DEX_MUSHARNA   ; 24
+	const DEX_PIDOVE     ; 25
+	const DEX_TRANQUILL  ; 26
+	const DEX_UNFEZANT   ; 27
+	const DEX_BLITZLE    ; 28
+	const DEX_ZEBSTRIKA  ; 29
+	const DEX_ROGGENROLA ; 30
+	const DEX_BOLDORE    ; 31
+	const DEX_GIGALITH   ; 32
+	const DEX_WOOBAT     ; 33
+	const DEX_SWOOBAT    ; 34
+	const DEX_DRILBUR    ; 35
+	const DEX_EXCADRILL  ; 36
+	const DEX_AUDINO     ; 37
+	const DEX_TIMBURR    ; 38
+	const DEX_GURDURR    ; 39
+	const DEX_CONKELDURR ; 40
+	const DEX_TYMPOLE    ; 41
+	const DEX_PALPITOAD  ; 42
+	const DEX_SEISMITOAD ; 43
+	const DEX_THROH      ; 44
+	const DEX_SAWK       ; 45
+	const DEX_SEWADDLE   ; 46
+	const DEX_SWADLOON   ; 47
+	const DEX_LEAVANNY   ; 48
 	const DEX_WEEDLE     ; 13
 	const DEX_KAKUNA     ; 14
 	const DEX_BEEDRILL   ; 15
-	const DEX_PIDGEY     ; 16
-	const DEX_PIDGEOTTO  ; 17
-	const DEX_PIDGEOT    ; 18
 	const DEX_SPEAROW    ; 21
 	const DEX_FEAROW     ; 22
-	const DEX_EKANS      ; 23
-	const DEX_ARBOK      ; 24
-	const DEX_PIKACHU    ; 25
-	const DEX_RAICHU     ; 26
-	const DEX_SANDSHREW  ; 27
-	const DEX_SANDSLASH  ; 28
 	const DEX_VENUSAUR   ; 32
 	const DEX_NIDORINO   ; 33
 	const DEX_NIDOKING   ; 34
-	const DEX_CLEFAIRY   ; 35
-	const DEX_CLEFABLE   ; 36
 	const DEX_VULPIX     ; 37
 	const DEX_NINETALES  ; 38
 	const DEX_JIGGLYPUFF ; 39
 	const DEX_WIGGLYTUFF ; 40
-	const DEX_ZUBAT      ; 41
-	const DEX_GOLBAT     ; 42
-	const DEX_ODDISH     ; 43
-	const DEX_GLOOM      ; 44
 	const DEX_VILEPLUME  ; 45
 	const DEX_PARAS      ; 46
 	const DEX_PARASECT   ; 47
@@ -63,34 +79,22 @@
 	const DEX_PRIMEAPE   ; 57
 	const DEX_GROWLITHE  ; 58
 	const DEX_ARCANINE   ; 59
-	const DEX_POLIWAG    ; 60
-	const DEX_POLIWHIRL  ; 61
-	const DEX_POLIWRATH  ; 62
 	const DEX_ABRA       ; 63
 	const DEX_KADABRA    ; 64
 	const DEX_ALAKAZAM   ; 65
-	const DEX_MACHOP     ; 66
-	const DEX_MACHOKE    ; 67
-	const DEX_MACHAMP    ; 68
 	const DEX_BELLSPROUT ; 69
 	const DEX_WEEPINBELL ; 70
 	const DEX_VICTREEBEL ; 71
 	const DEX_TENTACOOL  ; 72
 	const DEX_TENTACRUEL ; 73
-	const DEX_GEODUDE    ; 74
-	const DEX_GRAVELER   ; 75
-	const DEX_GOLEM      ; 76
 	const DEX_PONYTA     ; 77
 	const DEX_RAPIDASH   ; 78
 	const DEX_SLOWPOKE   ; 79
 	const DEX_SLOWBRO    ; 80
 	const DEX_MAGNEMITE  ; 81
 	const DEX_MAGNETON   ; 82
-	const DEX_FARFETCHD  ; 83
 	const DEX_DODUO      ; 84
 	const DEX_DODRIO     ; 85
-	const DEX_SEEL       ; 86
-	const DEX_DEWGONG    ; 87
 	const DEX_GRIMER     ; 88
 	const DEX_MUK        ; 89
 	const DEX_SHELLDER   ; 90
@@ -109,16 +113,12 @@
 	const DEX_EXEGGUTOR  ; 103
 	const DEX_CUBONE     ; 104
 	const DEX_MAROWAK    ; 105
-	const DEX_HITMONLEE  ; 106
-	const DEX_HITMONCHAN ; 107
-	const DEX_LICKITUNG  ; 108
 	const DEX_KOFFING    ; 109
 	const DEX_WEEZING    ; 110
 	const DEX_RHYHORN    ; 111
-	const DEX_BULBASAUR  ; 112
-	const DEX_CHANSEY    ; 113
+	const DEX_PIKACHU  ; 112
 	const DEX_TANGELA    ; 114
-	const DEX_IVYSAUR    ; 115
+	const DEX_RAICHU    ; 115
 	const DEX_HORSEA     ; 116
 	const DEX_SEADRA     ; 117
 	const DEX_GOLDEEN    ; 118

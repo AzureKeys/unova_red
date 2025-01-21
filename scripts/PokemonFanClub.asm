@@ -150,7 +150,7 @@ PokemonFanClubClefairyText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, CLEFAIRY
+	ld a, MUNNA
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd
@@ -163,7 +163,7 @@ PokemonFanClubSeelText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SEEL
+	ld a, PANSEAR
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

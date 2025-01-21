@@ -1,12 +1,12 @@
 RockTunnelB1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 20, ZUBAT
-	db 17, GEODUDE
-	db 18, MACHOP
-	db 21, ZUBAT
-	db 22, ZUBAT
-	db 21, GEODUDE
-	db 20, MACHOP
+	db 20, WOOBAT
+	db 17, ROGGENROLA
+	db 18, TIMBURR
+	db 21, WOOBAT
+	db 22, WOOBAT
+	db 21, ROGGENROLA
+	db 20, TIMBURR
 	db 14, ONIX
 	db 18, ONIX
 	db 22, ONIX

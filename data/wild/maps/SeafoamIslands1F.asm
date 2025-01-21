@@ -1,15 +1,15 @@
 SeafoamIslands1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 18, ZUBAT
+	db 18, WOOBAT
 	db 25, KRABBY
 	db 27, KRABBY
-	db 27, ZUBAT
-	db 36, ZUBAT
+	db 27, WOOBAT
+	db 36, WOOBAT
 	db 28, SLOWPOKE
 	db 30, SLOWPOKE
-	db  9, ZUBAT
-	db 27, GOLBAT
-	db 36, GOLBAT
+	db  9, WOOBAT
+	db 27, SWOOBAT
+	db 36, SWOOBAT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

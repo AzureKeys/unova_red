@@ -9,7 +9,7 @@ SafariZoneCenterWildMons:
 	db 27, PARAS
 	db 32, PARASECT
 	db 22, TANGELA
-	db  7, CHANSEY
+	db  7, AUDINO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

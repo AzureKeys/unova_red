@@ -1,11 +1,11 @@
 CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 50, GOLBAT
-	db 55, GOLBAT
-	db 45, GRAVELER
-	db 55, GLOOM
+	db 50, SWOOBAT
+	db 55, SWOOBAT
+	db 45, BOLDORE
 	db 55, WEEPINBELL
-	db 52, SANDSLASH
+	db 55, WEEPINBELL
+	db 52, EXCADRILL
 	db 54, VENOMOTH
 	db 54, PARASECT
 	db 55, DITTO

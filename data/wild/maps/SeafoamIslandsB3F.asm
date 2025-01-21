@@ -1,15 +1,15 @@
 SeafoamIslandsB3FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 27, GOLBAT
-	db 36, ZUBAT
+	db 27, SWOOBAT
+	db 36, WOOBAT
 	db 29, KRABBY
-	db 27, ZUBAT
+	db 27, WOOBAT
 	db 30, KINGLER
-	db 26, SEEL
+	db 26, KRABBY
 	db 31, KRABBY
-	db 30, SEEL
-	db 28, DEWGONG
-	db 32, DEWGONG
+	db 30, KRABBY
+	db 28, KINGLER
+	db 32, KINGLER
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate

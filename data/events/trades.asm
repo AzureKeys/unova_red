@@ -6,14 +6,14 @@ TradeMons:
 	; from the Japanese Blue trades, which used species that evolve.
 	; Japanese Red and Green used TRADE_DIALOGSET_CASUAL, and had
 	; the same species as English Red and Blue.
-	db LICKITUNG,  DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "GURIO@@@@@@"
-	db CLEFAIRY,   MR_MIME,  TRADE_DIALOGSET_CASUAL,    "MILES@@@@@@"
-	db BUTTERFREE, BEEDRILL, TRADE_DIALOGSET_HAPPY,     "STINGER@@@@" ; unused
-	db CHANSEY,    MUK,      TRADE_DIALOGSET_CASUAL,    "STICKY@@@@@"
+	db AUDINO,     DUGTRIO,  TRADE_DIALOGSET_CASUAL,    "GURIO@@@@@@"
+	db MUNNA,      MR_MIME,  TRADE_DIALOGSET_CASUAL,    "MILES@@@@@@"
+	db LEAVANNY,   BEEDRILL, TRADE_DIALOGSET_HAPPY,     "STINGER@@@@" ; unused
+	db AUDINO,     MUK,      TRADE_DIALOGSET_CASUAL,    "STICKY@@@@@"
 	db MEW,        MEW,      TRADE_DIALOGSET_HAPPY,     "BART@@@@@@@" ; unused
 	db TANGELA,    PARASECT, TRADE_DIALOGSET_CASUAL,    "SPIKE@@@@@@"
-	db PIDGEOT,    PIDGEOT,  TRADE_DIALOGSET_EVOLUTION, "MARTY@@@@@@" ; unused
+	db TRANQUILL,  TRANQUILL, TRADE_DIALOGSET_EVOLUTION, "MARTY@@@@@@" ; unused
 	db GOLDUCK,    RHYHORN,  TRADE_DIALOGSET_EVOLUTION, "BUFFY@@@@@@"
-	db GROWLITHE,  DEWGONG,  TRADE_DIALOGSET_HAPPY,     "CEZANNE@@@@"
-	db CUBONE,     MACHOKE,  TRADE_DIALOGSET_HAPPY,     "RICKY@@@@@@"
+	db GROWLITHE,  KINGLER,  TRADE_DIALOGSET_HAPPY,     "CEZANNE@@@@"
+	db CUBONE,     GURDURR,  TRADE_DIALOGSET_HAPPY,     "RICKY@@@@@@"
 	assert_table_length NUM_NPC_TRADES

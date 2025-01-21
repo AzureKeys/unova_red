@@ -225,15 +225,6 @@ InGameTrade_FlagActionPredef:
 	predef_jump FlagActionPredef
 
 InGameTrade_CheckForTradeEvo:
-	ld a, [wInGameTradeReceiveMonSpecies]
-	cp KADABRA
-	jr z, .tradeEvo
-	cp GRAVELER
-	jr z, .tradeEvo
-	cp MACHOKE
-	jr z, .tradeEvo
-	cp HAUNTER
-	jr z, .tradeEvo
 	ret
 
 .tradeEvo

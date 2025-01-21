@@ -8,8 +8,8 @@ Route10WildMons:
 	db 17, LILLIPUP
 	db 22, MAGNEMITE
 	db 20, WATCHOG
-	db 16, MACHOP
-	db 18, MACHOP
+	db 16, TIMBURR
+	db 18, TIMBURR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

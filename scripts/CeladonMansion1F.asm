@@ -33,7 +33,7 @@ CeladonMansion1FGrannyText:
 CeladonMansion1FClefairyText:
 	text_far _CeladonMansion1FClefairyText
 	text_asm
-	ld a, CLEFAIRY
+	ld a, MUNNA
 	call PlayCry
 	jp TextScriptEnd
 

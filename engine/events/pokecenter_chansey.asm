@@ -1,7 +1,7 @@
 PokecenterChanseyText::
 	ld hl, NurseChanseyText
 	call PrintText
-	ld a, CHANSEY
+	ld a, AUDINO
 	call PlayCry
 	call WaitForSoundToFinish
 	ret

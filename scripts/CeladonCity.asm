@@ -97,7 +97,7 @@ CeladonCityFisherText:
 CeladonCityPoliwrathText:
 	text_far _CeladonCityPoliwrathText
 	text_asm
-	ld a, POLIWRATH
+	ld a, SEISMITOAD
 	call PlayCry
 	jp TextScriptEnd
 

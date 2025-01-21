@@ -1,15 +1,15 @@
 Route24WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 12, ODDISH
 	db 12, BELLSPROUT
-	db 13, PIDGEY
-	db 14, ODDISH
+	db 12, BELLSPROUT
+	db 13, PIDOVE
 	db 14, BELLSPROUT
-	db 15, PIDGEY
+	db 14, BELLSPROUT
+	db 15, PIDOVE
 	db 13, VENONAT
 	db 16, VENONAT
-	db 17, PIDGEY
-	db 17, PIDGEOTTO
+	db 17, PIDOVE
+	db 17, TRANQUILL
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

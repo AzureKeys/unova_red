@@ -1,43 +1,3 @@
-_VenusaurDexEntry::
-	text "The flower on its"
-	next "back catches the"
-	next "sun's rays."
-
-	page "The sunlight is"
-	next "then absorbed and"
-	next "used for energy"
-	dex
-
-_WeedleDexEntry::
-	text "Beware of the"
-	next "sharp stinger on"
-	next "its head. It"
-
-	page "hides in grass"
-	next "and bushes where"
-	next "it eats leaves"
-	dex
-
-_KakunaDexEntry::
-	text "Able to move only"
-	next "slightly. When"
-	next "endangered, it"
-
-	page "may stick out its"
-	next "stinger and poison"
-	next "its enemy"
-	dex
-
-_BeedrillDexEntry::
-	text "It has 3 poisonous"
-	next "stingers on its"
-	next "forelegs and its"
-
-	page "tail. They are"
-	next "used to jab its"
-	next "enemy repeatedly"
-	dex
-
 _SpearowDexEntry::
 	text "Inept at flying"
 	next "high. However, it"
@@ -98,46 +58,6 @@ _NidokingDexEntry::
 	next "pierce a diamond"
 	dex
 
-_VulpixDexEntry::
-	text "Both its fur and"
-	next "its tails are"
-	next "beautiful. As it"
-
-	page "grows, the tails"
-	next "split and form"
-	next "more tails"
-	dex
-
-_NinetalesDexEntry::
-	text "According to an"
-	next "enduring legend,"
-	next "9 noble saints"
-
-	page "were united and"
-	next "reincarnated as"
-	next "this #MON"
-	dex
-
-_JigglypuffDexEntry::
-	text "Uses its alluring"
-	next "eyes to enrapture"
-	next "its foe. It then"
-
-	page "sings a pleasing"
-	next "melody that lulls"
-	next "the foe to sleep"
-	dex
-
-_WigglytuffDexEntry::
-	text "Its body is full"
-	next "of elasticity. By"
-	next "inhaling deeply,"
-
-	page "it can continue"
-	next "to inflate itself"
-	next "without limit"
-	dex
-
 _VileplumeDexEntry::
 	text "Flaps its broad"
 	next "flower petals to"
@@ -147,227 +67,7 @@ _VileplumeDexEntry::
 	next "The flapping sound"
 	next "is very loud"
 	dex
-
-_ParasDexEntry::
-	text "Burrows under the"
-	next "ground to gnaw on"
-	next "tree roots. The"
-
-	page "mushrooms on its"
-	next "back absorb most"
-	next "of the nutrition"
-	dex
-
-_ParasectDexEntry::
-	text "The bug host is"
-	next "drained of energy"
-	next "by the mushrooms"
-
-	page "on its back. They"
-	next "appear to do all"
-	next "the thinking"
-	dex
-
-_VenonatDexEntry::
-	text "Its large eyes act"
-	next "as radars. In a"
-	next "bright place, you"
-
-	page "can see that they"
-	next "are clusters of"
-	next "many tiny eyes"
-	dex
-
-_VenomothDexEntry::
-	text "The powdery scales"
-	next "on its wings are"
-	next "hard to remove."
-
-	page "They also contain"
-	next "poison that leaks"
-	next "out on contact"
-	dex
-
-_DiglettDexEntry::
-	text "It prefers dark"
-	next "places. It spends"
-	next "most of its time"
-
-	page "underground,"
-	next "though it may pop"
-	next "up in caves"
-	dex
-
-_DugtrioDexEntry::
-	text "A team of triplets"
-	next "that can burrow"
-	next "over 60 MPH."
-
-	page "Due to this, some"
-	next "people think it's"
-	next "an earthquake"
-	dex
-
-_MeowthDexEntry::
-	text "Appears to be more"
-	next "active at night."
-	next "It loves round"
-
-	page "and shiny things."
-	next "It can't stop from"
-	next "picking them up"
-	dex
-
-_PersianDexEntry::
-	text "The gem in its"
-	next "forehead glows on"
-	next "its own! It walks"
-
-	page "with all the grace"
-	next "and elegance of a"
-	next "proud queen"
-	dex
-
-_PsyduckDexEntry::
-	text "Always tormented"
-	next "by headaches."
-	next "It uses psychic"
-
-	page "powers, but it is"
-	next "not known if it"
-	next "intends to do so"
-	dex
-
-_GolduckDexEntry::
-	text "Its slim and long"
-	next "limbs end in broad"
-	next "flippers. They"
-
-	page "are used for swim-"
-	next "ming gracefully"
-	next "in lakes"
-	dex
-
-_MankeyDexEntry::
-	text "An agile #MON"
-	next "that lives in"
-	next "trees. It angers"
-
-	page "easily and will"
-	next "not hesitate to"
-	next "attack anything"
-	dex
-
-_PrimeapeDexEntry::
-	text "It stops being"
-	next "angry only when"
-	next "nobody else is"
-
-	page "around. To view"
-	next "this moment is"
-	next "very difficult"
-	dex
-
-_GrowlitheDexEntry::
-	text "A #MON with a"
-	next "friendly nature."
-	next "However, it will"
-
-	page "bark fiercely at"
-	next "anything invading"
-	next "its territory"
-	dex
-
-_ArcanineDexEntry::
-	text "A legendary #-"
-	next "MON in China."
-	next "Many people are"
-
-	page "charmed by its"
-	next "grace and beauty"
-	next "while running"
-	dex
-
-_AbraDexEntry::
-	text "Sleeps 18 hours a"
-	next "day. If it senses"
-	next "danger, it will"
-
-	page "teleport itself to"
-	next "safety even as it"
-	next "sleeps"
-	dex
-
-_KadabraDexEntry::
-	text "Many odd things"
-	next "happen if this"
-	next "#MON is close"
-
-	page "by. For example,"
-	next "it makes clocks"
-	next "run backwards"
-	dex
-
-_AlakazamDexEntry::
-	text "A #MON that can"
-	next "memorize anything."
-	next "It never forgets"
-
-	page "what it learns--"
-	next "that's why this"
-	next "#MON is smart"
-	dex
-
-_BellsproutDexEntry::
-	text "Prefers hot and"
-	next "humid places."
-	next "It ensnares tiny"
-
-	page "insects with its"
-	next "vines and devours"
-	next "them"
-	dex
-
-_WeepinbellDexEntry::
-	text "When hungry, it"
-	next "swallows anything"
-	next "that moves. Its"
-
-	page "hapless prey is"
-	next "melted inside by"
-	next "strong acids"
-	dex
-
-_VictreebelDexEntry::
-	text "Lures prey with"
-	next "the sweet aroma of"
-	next "honey. Swallowed"
-
-	page "whole, the prey is"
-	next "melted in a day,"
-	next "bones and all"
-	dex
-
-_TentacoolDexEntry::
-	text "It can sometimes"
-	next "be found all dry"
-	next "and shriveled up"
-
-	page "on a beach. Toss"
-	next "it back into the"
-	next "sea to revive it"
-	dex
-
-_TentacruelDexEntry::
-	text "Its 80 tentacles"
-	next "can stretch and"
-	next "contract freely."
-
-	page "They wrap around"
-	next "prey and weaken"
-	next "it with poison"
-	dex
-
+	
 _PonytaDexEntry::
 	text "Capable of jumping"
 	next "incredibly high."
@@ -398,36 +98,6 @@ _SlowpokeDexEntry::
 	next "about the time"
 	dex
 
-_SlowbroDexEntry::
-	text "Lives lazily by"
-	next "the sea. If the"
-	next "SHELLDER on its"
-
-	page "tail comes off,"
-	next "it becomes a"
-	next "SLOWPOKE again"
-	dex
-
-_MagnemiteDexEntry::
-	text "It is born with"
-	next "the ability to"
-	next "defy gravity. It"
-
-	page "floats in air on"
-	next "powerful electro-"
-	next "magnetic waves"
-	dex
-
-_MagnetonDexEntry::
-	text "Generates strange"
-	next "radio signals. It"
-	next "raises the tem-"
-
-	page "perature by 3.6F"
-	next "degrees within"
-	next "3,300 feet"
-	dex
-
 _DoduoDexEntry::
 	text "Its short wings"
 	next "make flying dif-"
@@ -446,46 +116,6 @@ _DodrioDexEntry::
 	page "species. It runs"
 	next "close to 40 MPH"
 	next "in prairies"
-	dex
-
-_GrimerDexEntry::
-	text "Made of hardened"
-	next "sludge. It smells"
-	next "too putrid to"
-
-	page "touch."
-	next "Even weeds won't"
-	next "grow in its path"
-	dex
-
-_MukDexEntry::
-	text "Smells so awful,"
-	next "it can cause"
-	next "fainting. Through"
-
-	page "degeneration, it"
-	next "lost its sense of"
-	next "smell"
-	dex
-
-_ShellderDexEntry::
-	text "The shell can"
-	next "withstand any"
-	next "attack. However,"
-
-	page "when it is open,"
-	next "the tender body"
-	next "is exposed"
-	dex
-
-_CloysterDexEntry::
-	text "For protection, it"
-	next "uses its harder-"
-	next "than-diamonds"
-
-	page "shell. It also"
-	next "shoots spikes from"
-	next "the shell"
 	dex
 
 _GastlyDexEntry::
@@ -518,76 +148,6 @@ _GengarDexEntry::
 	next "on you"
 	dex
 
-_OnixDexEntry::
-	text "Burrows at high"
-	next "speed in search"
-	next "of food. The"
-
-	page "tunnels it leaves"
-	next "are used as homes"
-	next "by DIGLETTs"
-	dex
-
-_DrowzeeDexEntry::
-	text "If you sleep by"
-	next "it all the time,"
-	next "it will sometimes"
-
-	page "show you dreams"
-	next "it has eaten in"
-	next "the past"
-	dex
-
-_HypnoDexEntry::
-	text "Avoid eye contact"
-	next "if you come across"
-	next "one. It will try"
-
-	page "to put you to"
-	next "sleep by using"
-	next "its pendulum"
-	dex
-
-_KrabbyDexEntry::
-	text "Its pincers are"
-	next "superb weapons."
-	next "They sometimes"
-
-	page "break off during"
-	next "battle, but they"
-	next "grow back fast"
-	dex
-
-_KinglerDexEntry::
-	text "One claw grew"
-	next "massively and as"
-	next "hard as steel."
-
-	page "It has 10,000-HP"
-	next "strength. However,"
-	next "it is too heavy"
-	dex
-
-_VoltorbDexEntry::
-	text "It is said to"
-	next "camouflage itself"
-	next "as a # BALL. It"
-
-	page "will self-destruct"
-	next "with very little"
-	next "stimulus"
-	dex
-
-_ElectrodeDexEntry::
-	text "Stores electrical"
-	next "energy inside its"
-	next "body. Even the"
-
-	page "slightest shock"
-	next "could trigger a"
-	next "huge explosion"
-	dex
-
 _ExeggcuteDexEntry::
 	text "The heads attract"
 	next "each other and"
@@ -596,16 +156,6 @@ _ExeggcuteDexEntry::
 	page "There must be 6"
 	next "heads for it to"
 	next "maintain balance"
-	dex
-
-_ExeggutorDexEntry::
-	text "Its cries are very"
-	next "noisy. This is"
-	next "because each of"
-
-	page "the 3 heads thinks"
-	next "about whatever it"
-	next "likes"
 	dex
 
 _CuboneDexEntry::
@@ -628,25 +178,6 @@ _MarowakDexEntry::
 	next "over the ages"
 	dex
 
-_KoffingDexEntry::
-	text "In hot places, its"
-	next "internal gases"
-	next "could expand and"
-
-	page "explode without"
-	next "any warning. Be"
-	next "very careful!@@"
-
-_WeezingDexEntry::
-	text "It lives and grows"
-	next "by absorbing dust,"
-	next "germs and poison"
-
-	page "gases that are"
-	next "contained in toxic"
-	next "waste and garbage"
-	dex
-
 _RhyhornDexEntry::
 	text "A #MON with a"
 	next "one-track mind."
@@ -655,36 +186,6 @@ _RhyhornDexEntry::
 	page "it won't stop"
 	next "running until it"
 	next "falls asleep"
-	dex
-
-_TangelaDexEntry::
-	text "Its identity is"
-	next "obscured by masses"
-	next "of thick, blue"
-
-	page "vines. The vines"
-	next "are said to never"
-	next "stop growing"
-	dex
-
-_HorseaDexEntry::
-	text "If it senses any"
-	next "danger, it will"
-	next "vigorously spray"
-
-	page "water or a special"
-	next "type of ink from"
-	next "its mouth"
-	dex
-
-_SeadraDexEntry::
-	text "Touching the back"
-	next "fin causes numb-"
-	next "ness. It hooks"
-
-	page "its tail to coral"
-	next "to stay in place"
-	next "while sleeping"
 	dex
 
 _GoldeenDexEntry::
@@ -707,26 +208,6 @@ _SeakingDexEntry::
 	next "horn on its head"
 	dex
 
-_StaryuDexEntry::
-	text "As long as the"
-	next "center section is"
-	next "unharmed, it can"
-
-	page "grow back fully"
-	next "even if it is"
-	next "chopped to bits"
-	dex
-
-_StarmieDexEntry::
-	text "The center section"
-	next "is named the core."
-	next "People think it"
-
-	page "is communicating"
-	next "when it glows in"
-	next "7 colors"
-	dex
-
 _MrMimeDexEntry::
 	text "Always practices"
 	next "its pantomime act."
@@ -745,26 +226,6 @@ _ScytherDexEntry::
 	page "scythes. The move-"
 	next "ment looks like"
 	next "that of a ninja"
-	dex
-
-_JynxDexEntry::
-	text "Appears to move"
-	next "to a rhythm of"
-	next "its own, as if it"
-
-	page "were dancing. It"
-	next "wiggles its hips"
-	next "as it walks"
-	dex
-
-_ElectabuzzDexEntry::
-	text "If a major power"
-	next "outage occurs, it"
-	next "is certain that"
-
-	page "this #MON has"
-	next "eaten electricity"
-	next "at a power plant"
 	dex
 
 _MagmarDexEntry::
@@ -817,16 +278,6 @@ _GyaradosDexEntry::
 	next "in ancient times"
 	dex
 
-_LaprasDexEntry::
-	text "A gentle soul that"
-	next "can read the minds"
-	next "of people. It can"
-
-	page "ferry people"
-	next "across the sea on"
-	next "its back"
-	dex
-
 _DittoDexEntry::
 	text "When it spots an"
 	next "enemy, its body"
@@ -835,46 +286,6 @@ _DittoDexEntry::
 	page "an almost perfect"
 	next "copy of its oppo-"
 	next "nent"
-	dex
-
-_EeveeDexEntry::
-	text "Its genetic code"
-	next "is unstable, so it"
-	next "could evolve in"
-
-	page "a variety of ways."
-	next "There are only a"
-	next "few alive"
-	dex
-
-_VaporeonDexEntry::
-	text "Its cell structure"
-	next "is similar to"
-	next "water molecules."
-
-	page "It will melt away"
-	next "and become invis-"
-	next "ible in water"
-	dex
-
-_JolteonDexEntry::
-	text "A sensitive #-"
-	next "MON that easily"
-	next "becomes sad or"
-
-	page "angry. Every time"
-	next "its mood changes,"
-	next "it charges power"
-	dex
-
-_FlareonDexEntry::
-	text "It has a flame"
-	next "chamber inside its"
-	next "body. It inhales,"
-
-	page "then blows out"
-	next "fire that is over"
-	next "3,000F degrees"
 	dex
 
 _PorygonDexEntry::
@@ -887,46 +298,6 @@ _PorygonDexEntry::
 	next "yet, however"
 	dex
 
-_OmanyteDexEntry::
-	text "An ancient #MON"
-	next "that was recovered"
-	next "from a fossil. It"
-
-	page "swims by cleverly"
-	next "twisting its 10"
-	next "tentacles about"
-	dex
-
-_OmastarDexEntry::
-	text "Sharp beaks ring"
-	next "its mouth. Its"
-	next "shell was too big"
-
-	page "for it to move"
-	next "freely, so it"
-	next "became extinct"
-	dex
-
-_KabutoDexEntry::
-	text "A #MON that was"
-	next "recovered from a"
-	next "fossil. It uses"
-
-	page "the eyes on its"
-	next "back while hiding"
-	next "on the sea floor"
-	dex
-
-_KabutopsDexEntry::
-	text "A slim and fast"
-	next "swimmer. It slices"
-	next "its prey with its"
-
-	page "sharp sickles and"
-	next "drinks the body"
-	next "fluids"
-	dex
-
 _AerodactylDexEntry::
 	text "A savage #MON"
 	next "that died out in"
@@ -935,16 +306,6 @@ _AerodactylDexEntry::
 	page "was resurrected"
 	next "using DNA taken"
 	next "from amber"
-	dex
-
-_SnorlaxDexEntry::
-	text "Will eat anything,"
-	next "even if the food"
-	next "happens to be a"
-
-	page "little moldy. It"
-	next "never gets an"
-	next "upset stomach"
 	dex
 
 _ArticunoDexEntry::
@@ -1503,642 +864,642 @@ _LeavannyDexEntry::
 	next "for SEWADDLE"
 	dex
 
-; _VenipedeDexEntry::
-	; text "Its bite injects a"
-	; next "potent poison. It"
-	; next "is enough to stun"
-
-	; page "large birds that"
-	; next "try to prey on"
-	; next "it"
-	; dex
-
-; _WhirlipedeDexEntry::
-	; text "Protected by its"
-	; next "shell, it spins"
-	; next "like a wheel"
-
-	; page "and crashes with"
-	; next "fury into its"
-	; next "enemies"
-	; dex
-
-; _ScolipedeDexEntry::
-	; text "With quick moves,"
-	; next "it chases down its"
-	; next "foes, attacking"
-
-	; page "relentlessly with"
-	; next "its large horns"
-	; next "until prevailing"
-	; dex
-
-; _CottoneeDexEntry::
-	; text "When attacked, it"
-	; next "escapes by shoot-"
-	; next "ing cotton from"
-
-	; page "its body. The"
-	; next "cotton is a decoy"
-	; next "for distraction"
-	; dex
-
-; _WhimsicottDexEntry::
-	; text "Like the wind, it"
-	; next "can slip through"
-	; next "any gap, however"
-
-	; page "small. It leaves"
-	; next "balls of white"
-	; next "fluff behind"
-	; dex
-
-; _PetililDexEntry::
-	; text "Since they prefer"
-	; next "nutritious soil,"
-	; next "the areas where"
-
-	; page "PETILIL live are"
-	; next "known to be good"
-	; next "for planting"
-	; dex
-
-; _LilligantDexEntry::
-	; text "Even veteran"
-	; next "trainers have a"
-	; next "challenge trying"
-
-	; page "to get its"
-	; next "beautiful flower"
-	; next "to bloom"
-	; dex
-
-; _BasculinDexEntry::
-	; text "BASCULIN get"
-	; next "along so poorly,"
-	; next "they'll start to"
-
-	; page "fight instantly."
-	; next "These #MON are"
-	; next "very hostile"
-	; dex
-
-; _SandileDexEntry::
-	; text "They live buried"
-	; next "in the sand. The"
-	; next "sun warmed sands"
-
-	; page "prevent their"
-	; next "body temperature"
-	; next "from dropping"
-	; dex
-
-; _KrokorokDexEntry::
-	; text "They are in groups"
-	; next "of a few #MON."
-	; next "Protective"
-
-	; page "membranes cover"
-	; next "KROKOROK's eyes"
-	; next "from sandstorms"
-	; dex
-
-; _KrookodileDexEntry::
-	; text "They never allow"
-	; next "prey to escape."
-	; next "Their jaws are so"
-
-	; page "powerful, they can"
-	; next "crush the body of"
-	; next "an automobile"
-	; dex
-
-; _DarumakaDexEntry::
-	; text "It can't calm down"
-	; next "when its internal"
-	; next "fire is burning."
-
-	; page "It falls asleep if"
-	; next "the internal fire"
-	; next "goes down"
-	; dex
-
-; _DarmanitanDexEntry::
-	; text "Its internal fire"
-	; next "burns with enough"
-	; next "power that it can"
-
-	; page "destroy a dump"
-	; next "truck with just"
-	; next "one punch"
-	; dex
-
-; _MaractusDexEntry::
-        ; text "Lives in arid"
-        ; next "regions. This"
-        ; next "#MON moves with"
-
-        ; page "rhythm, making a"
-        ; next "sound like"
-        ; next "maracas"
-        ; dex
-
-; _DwebbleDexEntry::
-        ; text "When it finds a"
-        ; next "suitable stone,"
-        ; next "it secretes a"
-
-        ; page "corrosive liquid"
-        ; next "to make a hole to"
-        ; next "crawl into"
-        ; dex
-
-; _CrustleDexEntry::
-        ; text "Its legs are very"
-        ; next "strong, allowing"
-        ; next "it to carry heavy"
-
-        ; page "stone slabs, even"
-        ; next "across arid"
-        ; next "environments"
-        ; dex
-
-; _ScraggyDexEntry::
-        ; text "Its skin is"
-        ; next "rubbery. It can"
-        ; next "pull it up to its"
-
-        ; page "head to protect"
-        ; next "itself from"
-        ; next "attacks"
-        ; dex
-
-; _ScraftyDexEntry::
-        ; text "It can smash"
-        ; next "concrete blocks"
-        ; next "with its kicks."
-
-        ; page "The one with the"
-        ; next "largest crest is"
-        ; next "the group leader"
-        ; dex
-
-; _SigilyphDexEntry::
-        ; text "Guardians of an"
-        ; next "ancient city, they"
-        ; next "use their powerful"
-
-        ; page "psychic attacks"
-        ; next "to ward off"
-        ; next "invaders"
-        ; dex
-
-; _YamaskDexEntry::
-        ; text "It carries a mask"
-        ; next "that used to be"
-        ; next "its face when it"
-
-        ; page "was alive. It"
-        ; next "cries sometimes"
-        ; next "looking at it"
-        ; dex
-
-; _CofagrigusDexEntry::
-        ; text "They swallow grave"
-        ; next "robbers who get"
-        ; next "too close and turn"
-
-        ; page "them into mummies."
-        ; next "They are covered"
-        ; next "in gold"
-        ; dex
-
-; _TirtougaDexEntry::
-        ; text "This #MON was"
-        ; next "restored from a"
-        ; next "fossil. It dove"
-
-        ; page "underwater as far"
-        ; next "as half a mile"
-        ; dex
-
-; _CarracostaDexEntry::
-        ; text "Incredible jaw"
-        ; next "strength allows"
-        ; next "CARRACOSTA to chew"
-
-        ; page "through rocks and"
-        ; next "iron, along with"
-        ; next "its prey"
-        ; dex
-
-; _ArchenDexEntry::
-        ; text "ARCHEN is the"
-        ; next "ancestor of bird"
-        ; next "#MON. It could"
-
-        ; page "not fly, instead"
-        ; next "hopping from"
-        ; next "branch to branch"
-        ; dex
-
-; _ArcheopsDexEntry::
-        ; text "It runs better"
-        ; next "than it flies."
-        ; next "ARCHEOPS can run"
-
-        ; page "at speeds similar"
-        ; next "to an automobile"
-        ; next "when taking off"
-        ; dex
-
-; _TrubbishDexEntry::
-        ; text "TRUBBISH was"
-        ; next "created by a"
-        ; next "chemical reaction"
-
-        ; page "caused by toxic"
-        ; next "waste and trash"
-        ; next "bags"
-        ; dex
-
-; _GarbodorDexEntry::
-        ; text "They absorb trash"
-        ; next "and add it to"
-        ; next "their bodies. It"
-
-        ; page "can shoot toxic"
-        ; next "fluid from the end"
-        ; next "of its arm"
-        ; dex
-
-; _ZoruaDexEntry::
-        ; text "To protect itself,"
-        ; next "ZORUA changes its"
-        ; next "appearance to that"
-
-        ; page "of another"
-        ; next "#MON, or even"
-        ; next "a person"
-        ; dex
-
-; _ZoroarkDexEntry::
-        ; text "Stories say those"
-        ; next "who try to catch"
-        ; next "ZOROARK are"
-
-        ; page "trapped in an"
-        ; next "illusion"
-        ; dex
-
-; _MinccinoDexEntry::
-        ; text "MINCCINO greet"
-        ; next "each other by"
-        ; next "rubbing their"
-
-        ; page "tails together."
-        ; next "They always keep"
-        ; next "them clean"
-        ; dex
-
-; _CinccinoDexEntry::
-        ; text "CINCCINO's fur is"
-        ; next "covered in an oil"
-        ; next "that makes it easy"
-
-        ; page "to repel attacks."
-        ; next "Their fur is"
-        ; next "amazingly soft"
-        ; dex
-
-; _GothitaDexEntry::
-        ; text "The ribbon-like"
-        ; next "feelers focus its"
-        ; next "psychic powers."
-
-        ; page "GOTHITA is always"
-        ; next "staring intently"
-        ; next "at something"
-        ; dex
-
-; _GothoritaDexEntry::
-        ; text "Starlight gives"
-        ; next "GOTHORITA power."
-        ; next "They mark the"
-
-        ; page "positions of the"
-        ; next "stars at night by"
-        ; next "hovering rocks."
-        ; dex
-
-; _GothitelleDexEntry::
-        ; text "Starry skies light"
-        ; next "years away are"
-        ; next "visible in the"
-
-        ; page "space distorted by"
-        ; next "GOTHITELLE's great"
-        ; next "psychic power"
-        ; dex
-
-; _SolosisDexEntry::
-        ; text "They give off"
-        ; next "psychic waves to"
-        ; next "ward off enemies."
-
-        ; page "SOLOSIS are able"
-        ; next "to communicate"
-        ; next "using telepathy"
-        ; dex
-
-; _DuosionDexEntry::
-        ; text "When its brain,"
-        ; next "divided in two,"
-        ; next "thinks the same"
-
-        ; page "thoughts, its"
-        ; next "psychic powers"
-        ; next "are at their peak"
-        ; dex
-
-; _ReuniclusDexEntry::
-        ; text "They use psychic"
-        ; next "power to control"
-        ; next "their arms, which"
-
-        ; page "are made of a"
-        ; next "powerful liquid"
-        ; dex
-
-; _DucklettDexEntry::
-        ; text "DUCKLETT is better"
-        ; next "at swimming than"
-        ; next "flying. They dive"
-
-        ; page "deep underwater"
-        ; next "to find peat moss"
-        ; next "to eat"
-        ; dex
-
-; _SwannaDexEntry::
-        ; text "It delivers sharp,"
-        ; next "powerful jabs with"
-        ; next "its bill. It"
-
-        ; page "swings its long"
-        ; next "neck around for"
-        ; next "more force"
-        ; dex
-
-; _VanilliteDexEntry::
-        ; text "This #MON"
-        ; next "formed from"
-        ; next "icicles bathed in"
-
-        ; page "energy. They sleep"
-        ; next "buried in powdery"
-        ; next "snow"
-        ; dex
-
-; _VanillishDexEntry::
-        ; text "VANILLISH hides"
-        ; next "from foes by"
-        ; next "freezing tiny ice"
-
-        ; page "particles in the"
-        ; next "air and hiding"
-        ; next "among them"
-        ; dex
-
-; _VanilluxeDexEntry::
-        ; text "VANILLUXE swallows"
-        ; next "large amounts of"
-        ; next "water and creates"
-
-        ; page "snow clouds in its"
-        ; next "body, then makes"
-        ; next "a blizzard"
-        ; dex
-
-; _DeerlingDexEntry::
-	; text "The color of"
-	; next "their fur changes"
-	; next "to match the"
-
-	; page "grass. When they"
-	; next "sense danger, they"
-	; next "hide away"
-	; dex
-
-; _SawsbuckDexEntry::
-	; text "The plants on its"
-	; next "horns change with"
-	; next "the seasons. The"
-
-	; page "leader of the herd"
-	; next "has magnificent"
-	; next "horns"
-	; dex
-
-; _EmolgaDexEntry::
-	; text "They live in tree"
-	; next "tops and glide"
-	; next "using their cape-"
-
-	; page "like skin while"
-	; next "discharging"
-	; next "electricity"
-	; dex
-
-; _KarrablastDexEntry::
-	; text "When they feel"
-	; next "threatened, they"
-	; next "spit an acid to"
-
-	; page "drive attackers"
-	; next "away. They fight"
-	; next "with SHELMET"
-	; dex
-
-; _EscavalierDexEntry::
-	; text "These #MON"
-	; next "evolve by wearing"
-	; next "the shell of a"
-
-	; page "snail. The steel"
-	; next "armor protects"
-	; next "their whole body"
-	; dex
-
-; _FoongusDexEntry::
-	; text "It lures people"
-	; next "with its #BALL"
-	; next "pattern, then"
-
-	; page "releases poisonous"
-	; next "spores onto its"
-	; next "victims"
-	; dex
-
-; _AmoongussDexEntry::
-	; text "It lures prey"
-	; next "close by waving"
-	; next "its arm caps,"
-
-	; page "which resemble"
-	; next "#BALLs, in a"
-	; next "swaying dance"
-	; dex
-
-; _FrillishDexEntry::
-	; text "They paralyze prey"
-	; next "with poison, then"
-	; next "drag them down"
-
-	; page "deep underwater"
-	; next "to their hidden"
-	; next "lairs"
-	; dex
-
-; _JellicentDexEntry::
-	; text "They swim by"
-	; next "expelling sea-"
-	; next "water from their"
-
-	; page "bodies. Their"
-	; next "favorite food is"
-	; next "life energy"
-	; dex
-
-; _AlomomolaDexEntry::
-	; text "When they find a"
-	; next "wounded #MON,"
-	; next "they embrace it"
-
-	; page "with their fins"
-	; next "and bring it to"
-	; next "to shore"
-	; dex
-
-; _JoltikDexEntry::
-	; text "JOLTIK attach"
-	; next "themselves to the"
-	; next "bodies of larger"
-
-	; page "#MON and absorb"
-	; next "static electricity"
-	; next "to feed on"
-	; dex
-
-; _GalvantulaDexEntry::
-	; text "They use a web"
-	; next "charged with"
-	; next "electricity to"
-
-	; page "trap their prey."
-	; next "They eat the"
-	; next "stunned target"
-	; dex
-
-; _FerroseedDexEntry::
-	; text "When attacked, it"
-	; next "shoots out a"
-	; next "barrage of spikes,"
-
-	; page "which give it a"
-	; next "chance to roll"
-	; next "away"
-	; dex
-
-; _FerrothornDexEntry::
-	; text "It fights by"
-	; next "swinging around"
-	; next "its three spiky"
-
-	; page "feelers. A hit"
-	; next "from one can"
-	; next "break a boulder"
-	; dex
-
-; _KlinkDexEntry::
-	; text "The interlocking"
-	; next "gears constantly"
-	; next "spin in order to"
-
-	; page "generate the"
-	; next "energy they need"
-	; next "to live"
-	; dex
-
-; _KlangDexEntry::
-	; text "By changing the"
-	; next "direction it"
-	; next "spins, it can"
-
-	; page "communicate. When"
-	; next "angry, it spins"
-	; next "faster"
-	; dex
-
-; _KlinklangDexEntry::
-	; text "Its red core"
-	; next "functions as an"
-	; next "energy tank. It"
-
-	; page "fires the charged"
-	; next "energy through"
-	; next "its spiked ring"
-	; dex
-
-; _TynamoDexEntry::
-	; text "While one alone"
-	; next "doesn't have much"
-	; next "power, a chain of"
-
-	; page "many TYNAMO can be"
-	; next "as powerful as a"
-	; next "lightning storm"
-	; dex
-
-; _EelektrikDexEntry::
-	; text "They coil around"
-	; next "foes and shock"
-	; next "them with their"
-
-	; page "electricity"
-	; next "generating organs"
-	; next "to hunt"
-	; dex
-
-; _EelektrossDexEntry::
-	; text "They crawl out of"
-	; next "the ocean using"
-	; next "their arms. They"
-
-	; page "attack prey and"
-	; next "drag it back into"
-	; next "the ocean"
-	; dex
-
-; _ElgyemDexEntry::
-	; text "It uses strong"
-	; next "psychic power to"
-	; next "squeeze its"
-
-	; page "opponents' brain,"
-	; next "causing horrible"
-	; next "headaches"
-	; dex
-
-; _BeheeyemDexEntry::
-	; text "It uses psychic"
-	; next "power to control"
-	; next "an opponent's"
-
-	; page "brain and tamper"
-	; next "with its"
-	; next "memories"
-	; dex
+_VenipedeDexEntry::
+	text "Its bite injects a"
+	next "potent poison. It"
+	next "is enough to stun"
+
+	page "large birds that"
+	next "try to prey on"
+	next "it"
+	dex
+
+_WhirlipedeDexEntry::
+	text "Protected by its"
+	next "shell, it spins"
+	next "like a wheel"
+
+	page "and crashes with"
+	next "fury into its"
+	next "enemies"
+	dex
+
+_ScolipedeDexEntry::
+	text "With quick moves,"
+	next "it chases down its"
+	next "foes, attacking"
+
+	page "relentlessly with"
+	next "its large horns"
+	next "until prevailing"
+	dex
+
+_CottoneeDexEntry::
+	text "When attacked, it"
+	next "escapes by shoot-"
+	next "ing cotton from"
+
+	page "its body. The"
+	next "cotton is a decoy"
+	next "for distraction"
+	dex
+
+_WhimsicottDexEntry::
+	text "Like the wind, it"
+	next "can slip through"
+	next "any gap, however"
+
+	page "small. It leaves"
+	next "balls of white"
+	next "fluff behind"
+	dex
+
+_PetililDexEntry::
+	text "Since they prefer"
+	next "nutritious soil,"
+	next "the areas where"
+
+	page "PETILIL live are"
+	next "known to be good"
+	next "for planting"
+	dex
+
+_LilligantDexEntry::
+	text "Even veteran"
+	next "trainers have a"
+	next "challenge trying"
+
+	page "to get its"
+	next "beautiful flower"
+	next "to bloom"
+	dex
+
+_BasculinDexEntry::
+	text "BASCULIN get"
+	next "along so poorly,"
+	next "they'll start to"
+
+	page "fight instantly."
+	next "These #MON are"
+	next "very hostile"
+	dex
+
+_SandileDexEntry::
+	text "They live buried"
+	next "in the sand. The"
+	next "sun warmed sands"
+
+	page "prevent their"
+	next "body temperature"
+	next "from dropping"
+	dex
+
+_KrokorokDexEntry::
+	text "They are in groups"
+	next "of a few #MON."
+	next "Protective"
+
+	page "membranes cover"
+	next "KROKOROK's eyes"
+	next "from sandstorms"
+	dex
+
+_KrookodileDexEntry::
+	text "They never allow"
+	next "prey to escape."
+	next "Their jaws are so"
+
+	page "powerful, they can"
+	next "crush the body of"
+	next "an automobile"
+	dex
+
+_DarumakaDexEntry::
+	text "It can't calm down"
+	next "when its internal"
+	next "fire is burning."
+
+	page "It falls asleep if"
+	next "the internal fire"
+	next "goes down"
+	dex
+
+_DarmanitanDexEntry::
+	text "Its internal fire"
+	next "burns with enough"
+	next "power that it can"
+
+	page "destroy a dump"
+	next "truck with just"
+	next "one punch"
+	dex
+
+_MaractusDexEntry::
+        text "Lives in arid"
+        next "regions. This"
+        next "#MON moves with"
+
+        page "rhythm, making a"
+        next "sound like"
+        next "maracas"
+        dex
+
+_DwebbleDexEntry::
+        text "When it finds a"
+        next "suitable stone,"
+        next "it secretes a"
+
+        page "corrosive liquid"
+        next "to make a hole to"
+        next "crawl into"
+        dex
+
+_CrustleDexEntry::
+        text "Its legs are very"
+        next "strong, allowing"
+        next "it to carry heavy"
+
+        page "stone slabs, even"
+        next "across arid"
+        next "environments"
+        dex
+
+_ScraggyDexEntry::
+        text "Its skin is"
+        next "rubbery. It can"
+        next "pull it up to its"
+
+        page "head to protect"
+        next "itself from"
+        next "attacks"
+        dex
+
+_ScraftyDexEntry::
+        text "It can smash"
+        next "concrete blocks"
+        next "with its kicks."
+
+        page "The one with the"
+        next "largest crest is"
+        next "the group leader"
+        dex
+
+_SigilyphDexEntry::
+        text "Guardians of an"
+        next "ancient city, they"
+        next "use their powerful"
+
+        page "psychic attacks"
+        next "to ward off"
+        next "invaders"
+        dex
+
+_YamaskDexEntry::
+        text "It carries a mask"
+        next "that used to be"
+        next "its face when it"
+
+        page "was alive. It"
+        next "cries sometimes"
+        next "looking at it"
+        dex
+
+_CofagrigusDexEntry::
+        text "They swallow grave"
+        next "robbers who get"
+        next "too close and turn"
+
+        page "them into mummies."
+        next "They are covered"
+        next "in gold"
+        dex
+
+_TirtougaDexEntry::
+        text "This #MON was"
+        next "restored from a"
+        next "fossil. It dove"
+
+        page "underwater as far"
+        next "as half a mile"
+        dex
+
+_CarracostaDexEntry::
+        text "Incredible jaw"
+        next "strength allows"
+        next "CARRACOSTA to chew"
+
+        page "through rocks and"
+        next "iron, along with"
+        next "its prey"
+        dex
+
+_ArchenDexEntry::
+        text "ARCHEN is the"
+        next "ancestor of bird"
+        next "#MON. It could"
+
+        page "not fly, instead"
+        next "hopping from"
+        next "branch to branch"
+        dex
+
+_ArcheopsDexEntry::
+        text "It runs better"
+        next "than it flies."
+        next "ARCHEOPS can run"
+
+        page "at speeds similar"
+        next "to an automobile"
+        next "when taking off"
+        dex
+
+_TrubbishDexEntry::
+        text "TRUBBISH was"
+        next "created by a"
+        next "chemical reaction"
+
+        page "caused by toxic"
+        next "waste and trash"
+        next "bags"
+        dex
+
+_GarbodorDexEntry::
+        text "They absorb trash"
+        next "and add it to"
+        next "their bodies. It"
+
+        page "can shoot toxic"
+        next "fluid from the end"
+        next "of its arm"
+        dex
+
+_ZoruaDexEntry::
+        text "To protect itself,"
+        next "ZORUA changes its"
+        next "appearance to that"
+
+        page "of another"
+        next "#MON, or even"
+        next "a person"
+        dex
+
+_ZoroarkDexEntry::
+        text "Stories say those"
+        next "who try to catch"
+        next "ZOROARK are"
+
+        page "trapped in an"
+        next "illusion"
+        dex
+
+_MinccinoDexEntry::
+        text "MINCCINO greet"
+        next "each other by"
+        next "rubbing their"
+
+        page "tails together."
+        next "They always keep"
+        next "them clean"
+        dex
+
+_CinccinoDexEntry::
+        text "CINCCINO's fur is"
+        next "covered in an oil"
+        next "that makes it easy"
+
+        page "to repel attacks."
+        next "Their fur is"
+        next "amazingly soft"
+        dex
+
+_GothitaDexEntry::
+        text "The ribbon-like"
+        next "feelers focus its"
+        next "psychic powers."
+
+        page "GOTHITA is always"
+        next "staring intently"
+        next "at something"
+        dex
+
+_GothoritaDexEntry::
+        text "Starlight gives"
+        next "GOTHORITA power."
+        next "They mark the"
+
+        page "positions of the"
+        next "stars at night by"
+        next "hovering rocks."
+        dex
+
+_GothitelleDexEntry::
+        text "Starry skies light"
+        next "years away are"
+        next "visible in the"
+
+        page "space distorted by"
+        next "GOTHITELLE's great"
+        next "psychic power"
+        dex
+
+_SolosisDexEntry::
+        text "They give off"
+        next "psychic waves to"
+        next "ward off enemies."
+
+        page "SOLOSIS are able"
+        next "to communicate"
+        next "using telepathy"
+        dex
+
+_DuosionDexEntry::
+        text "When its brain,"
+        next "divided in two,"
+        next "thinks the same"
+
+        page "thoughts, its"
+        next "psychic powers"
+        next "are at their peak"
+        dex
+
+_ReuniclusDexEntry::
+        text "They use psychic"
+        next "power to control"
+        next "their arms, which"
+
+        page "are made of a"
+        next "powerful liquid"
+        dex
+
+_DucklettDexEntry::
+        text "DUCKLETT is better"
+        next "at swimming than"
+        next "flying. They dive"
+
+        page "deep underwater"
+        next "to find peat moss"
+        next "to eat"
+        dex
+
+_SwannaDexEntry::
+        text "It delivers sharp,"
+        next "powerful jabs with"
+        next "its bill. It"
+
+        page "swings its long"
+        next "neck around for"
+        next "more force"
+        dex
+
+_VanilliteDexEntry::
+        text "This #MON"
+        next "formed from"
+        next "icicles bathed in"
+
+        page "energy. They sleep"
+        next "buried in powdery"
+        next "snow"
+        dex
+
+_VanillishDexEntry::
+        text "VANILLISH hides"
+        next "from foes by"
+        next "freezing tiny ice"
+
+        page "particles in the"
+        next "air and hiding"
+        next "among them"
+        dex
+
+_VanilluxeDexEntry::
+        text "VANILLUXE swallows"
+        next "large amounts of"
+        next "water and creates"
+
+        page "snow clouds in its"
+        next "body, then makes"
+        next "a blizzard"
+        dex
+
+_DeerlingDexEntry::
+	text "The color of"
+	next "their fur changes"
+	next "to match the"
+
+	page "grass. When they"
+	next "sense danger, they"
+	next "hide away"
+	dex
+
+_SawsbuckDexEntry::
+	text "The plants on its"
+	next "horns change with"
+	next "the seasons. The"
+
+	page "leader of the herd"
+	next "has magnificent"
+	next "horns"
+	dex
+
+_EmolgaDexEntry::
+	text "They live in tree"
+	next "tops and glide"
+	next "using their cape-"
+
+	page "like skin while"
+	next "discharging"
+	next "electricity"
+	dex
+
+_KarrablastDexEntry::
+	text "When they feel"
+	next "threatened, they"
+	next "spit an acid to"
+
+	page "drive attackers"
+	next "away. They fight"
+	next "with SHELMET"
+	dex
+
+_EscavalierDexEntry::
+	text "These #MON"
+	next "evolve by wearing"
+	next "the shell of a"
+
+	page "snail. The steel"
+	next "armor protects"
+	next "their whole body"
+	dex
+
+_FoongusDexEntry::
+	text "It lures people"
+	next "with its #BALL"
+	next "pattern, then"
+
+	page "releases poisonous"
+	next "spores onto its"
+	next "victims"
+	dex
+
+_AmoongussDexEntry::
+	text "It lures prey"
+	next "close by waving"
+	next "its arm caps,"
+
+	page "which resemble"
+	next "#BALLs, in a"
+	next "swaying dance"
+	dex
+
+_FrillishDexEntry::
+	text "They paralyze prey"
+	next "with poison, then"
+	next "drag them down"
+
+	page "deep underwater"
+	next "to their hidden"
+	next "lairs"
+	dex
+
+_JellicentDexEntry::
+	text "They swim by"
+	next "expelling sea-"
+	next "water from their"
+
+	page "bodies. Their"
+	next "favorite food is"
+	next "life energy"
+	dex
+
+_AlomomolaDexEntry::
+	text "When they find a"
+	next "wounded #MON,"
+	next "they embrace it"
+
+	page "with their fins"
+	next "and bring it to"
+	next "to shore"
+	dex
+
+_JoltikDexEntry::
+	text "JOLTIK attach"
+	next "themselves to the"
+	next "bodies of larger"
+
+	page "#MON and absorb"
+	next "static electricity"
+	next "to feed on"
+	dex
+
+_GalvantulaDexEntry::
+	text "They use a web"
+	next "charged with"
+	next "electricity to"
+
+	page "trap their prey."
+	next "They eat the"
+	next "stunned target"
+	dex
+
+_FerroseedDexEntry::
+	text "When attacked, it"
+	next "shoots out a"
+	next "barrage of spikes,"
+
+	page "which give it a"
+	next "chance to roll"
+	next "away"
+	dex
+
+_FerrothornDexEntry::
+	text "It fights by"
+	next "swinging around"
+	next "its three spiky"
+
+	page "feelers. A hit"
+	next "from one can"
+	next "break a boulder"
+	dex
+
+_KlinkDexEntry::
+	text "The interlocking"
+	next "gears constantly"
+	next "spin in order to"
+
+	page "generate the"
+	next "energy they need"
+	next "to live"
+	dex
+
+_KlangDexEntry::
+	text "By changing the"
+	next "direction it"
+	next "spins, it can"
+
+	page "communicate. When"
+	next "angry, it spins"
+	next "faster"
+	dex
+
+_KlinklangDexEntry::
+	text "Its red core"
+	next "functions as an"
+	next "energy tank. It"
+
+	page "fires the charged"
+	next "energy through"
+	next "its spiked ring"
+	dex
+
+_TynamoDexEntry::
+	text "While one alone"
+	next "doesn't have much"
+	next "power, a chain of"
+
+	page "many TYNAMO can be"
+	next "as powerful as a"
+	next "lightning storm"
+	dex
+
+_EelektrikDexEntry::
+	text "They coil around"
+	next "foes and shock"
+	next "them with their"
+
+	page "electricity"
+	next "generating organs"
+	next "to hunt"
+	dex
+
+_EelektrossDexEntry::
+	text "They crawl out of"
+	next "the ocean using"
+	next "their arms. They"
+
+	page "attack prey and"
+	next "drag it back into"
+	next "the ocean"
+	dex
+
+_ElgyemDexEntry::
+	text "It uses strong"
+	next "psychic power to"
+	next "squeeze its"
+
+	page "opponents' brain,"
+	next "causing horrible"
+	next "headaches"
+	dex
+
+_BeheeyemDexEntry::
+	text "It uses psychic"
+	next "power to control"
+	next "an opponent's"
+
+	page "brain and tamper"
+	next "with its"
+	next "memories"
+	dex
 
 ; _LitwickDexEntry::
 	; text "LITWICK shines a"

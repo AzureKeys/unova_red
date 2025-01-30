@@ -17,7 +17,7 @@
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 		 DOUBLE_EDGE,  RAGE,         DRAGON_CLAW,  EARTHQUAKE,   DIG,          \
 		 MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, SWIFT,        \
-		 SKULL_BASH,   SKY_ATTACK,   REST,         RICK_SLIDE,   SUBSTITUTE,   \
+		 SKULL_BASH,   SKY_ATTACK,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
 		 CUT
 	; end
 

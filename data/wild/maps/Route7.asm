@@ -3,13 +3,13 @@ Route7WildMons:
 	db 20, PIDOVE
 	db 22, PIDOVE
 	db 20, PATRAT
-	db 15, ABRA
-	db 19, ABRA
+	db 15, GOTHITA
+	db 19, GOTHITA
 	db 24, TRANQUILL
-	db 26, ABRA
-	db 19, JIGGLYPUFF
-	db 24, JIGGLYPUFF
-	db 24, JIGGLYPUFF
+	db 26, GOTHITA
+	db 19, MUNNA
+	db 24, MUNNA
+	db 24, MUNNA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

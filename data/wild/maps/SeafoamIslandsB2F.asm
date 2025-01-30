@@ -1,15 +1,15 @@
 SeafoamIslandsB2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 27, WOOBAT
-	db 27, KRABBY
+	db 27, DWEBBLE
 	db 36, WOOBAT
 	db 27, SWOOBAT
-	db 28, KINGLER
-	db 24, KRABBY
-	db 29, KRABBY
+	db 28, CRUSTLE
+	db 24, DWEBBLE
+	db 29, DWEBBLE
 	db 36, SWOOBAT
 	db 31, SLOWPOKE
-	db 31, SLOWBRO
+	db 31, ALOMOMOLA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

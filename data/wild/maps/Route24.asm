@@ -1,13 +1,13 @@
 Route24WildMons:
 	def_grass_wildmons 25 ; encounter rate
-	db 12, BELLSPROUT
-	db 12, BELLSPROUT
+	db 12, COTTONEE
+	db 12, COTTONEE
 	db 13, PIDOVE
-	db 14, BELLSPROUT
-	db 14, BELLSPROUT
+	db 14, COTTONEE
+	db 14, COTTONEE
 	db 15, PIDOVE
-	db 13, VENONAT
-	db 16, VENONAT
+	db 13, JOLTIK
+	db 16, JOLTIK
 	db 17, PIDOVE
 	db 17, TRANQUILL
 	end_grass_wildmons

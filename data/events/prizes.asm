@@ -4,9 +4,9 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsEntries,  PrizeMenuTMsCost
 
 PrizeMenuMon1Entries:
-	db ABRA
-	db VULPIX
-	db WIGGLYTUFF
+	db GOTHITA
+	db DARUMAKA
+	db MUSHARNA
 	db "@"
 
 PrizeMenuMon1Cost:

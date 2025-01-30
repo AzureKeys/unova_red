@@ -7,9 +7,9 @@ RockTunnelB1FWildMons:
 	db 22, WOOBAT
 	db 21, ROGGENROLA
 	db 20, TIMBURR
-	db 14, ONIX
-	db 18, ONIX
-	db 22, ONIX
+	db 14, KROKOROK
+	db 18, KROKOROK
+	db 22, KROKOROK
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

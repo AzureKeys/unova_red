@@ -3,11 +3,11 @@ CeruleanCave1FWildMons:
 	db 50, SWOOBAT
 	db 55, SWOOBAT
 	db 45, BOLDORE
-	db 55, WEEPINBELL
-	db 55, WEEPINBELL
+	db 55, WHIMSICOTT
+	db 55, WHIMSICOTT
 	db 52, EXCADRILL
-	db 54, VENOMOTH
-	db 54, PARASECT
+	db 54, GALVANTULA
+	db 54, AMOONGUSS
 	db 55, DITTO
 	db 60, DITTO
 	end_grass_wildmons

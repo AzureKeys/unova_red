@@ -55,113 +55,113 @@
 	const SEWADDLE           ; $2E
 	const SWADLOON           ; $2F
 	const LEAVANNY           ; $30
-	const_skip               ; $31
-	const_skip               ; $32
-	const MAGMAR             ; $33
-	const_skip               ; $34
-	const ELECTABUZZ         ; $35
-	const MAGNETON           ; $36
-	const KOFFING            ; $37
-	const_skip               ; $38
-	const MANKEY             ; $39
-	const LAPRAS             ; $3A
-	const DIGLETT            ; $3B
-	const TAUROS             ; $3C
-	const_skip               ; $3D
-	const_skip               ; $3E
-	const_skip               ; $3F
-	const RHYHORN          ; $40
-	const VENONAT            ; $41
-	const DRAGONITE          ; $42
-	const_skip               ; $43
-	const_skip               ; $44
-	const_skip               ; $45
-	const DODUO              ; $46
-	const KADABRA            ; $47
-	const JYNX               ; $48
-	const MOLTRES            ; $49
-	const ARTICUNO           ; $4A
-	const ZAPDOS             ; $4B
-	const DITTO              ; $4C
-	const MEOWTH             ; $4D
-	const KRABBY             ; $4E
-	const_skip               ; $4F
-	const_skip               ; $50
-	const_skip               ; $51
-	const VULPIX             ; $52
-	const NINETALES          ; $53
-	const PIKACHU            ; $54
-	const RAICHU             ; $55
-	const_skip               ; $56
-	const_skip               ; $57
-	const DRATINI            ; $58
-	const DRAGONAIR          ; $59
-	const KABUTO             ; $5A
-	const KABUTOPS           ; $5B
-	const HORSEA             ; $5C
-	const SEADRA             ; $5D
-	const_skip               ; $5E
-	const_skip               ; $5F
-	const FEAROW          ; $60
-	const GASTLY          ; $61
-	const OMANYTE            ; $62
-	const OMASTAR            ; $63
-	const JIGGLYPUFF         ; $64
-	const WIGGLYTUFF         ; $65
-	const EEVEE              ; $66
-	const FLAREON            ; $67
-	const JOLTEON            ; $68
-	const VAPOREON           ; $69
-	const TANGELA             ; $6A
-	const GROWLITHE              ; $6B
-	const GRIMER             ; $6C
-	const PARAS              ; $6D
-	const MR_MIME          ; $6E
-	const EXEGGCUTE          ; $6F
-	const WEEDLE             ; $70
-	const KAKUNA             ; $71
-	const BEEDRILL           ; $72
+	const VENIPEDE           ; $31
+	const WHIRLIPEDE         ; $32
+	const SCOLIPEDE          ; $33
+	const COTTONEE           ; $34
+	const WHIMSICOTT         ; $35
+	const PETILIL            ; $36
+	const LILLIGANT          ; $37
+	const BASCULIN           ; $38
+	const SANDILE            ; $39
+	const KROKOROK           ; $3A
+	const KROOKODILE         ; $3B
+	const DARUMAKA           ; $3C
+	const DARMANITAN         ; $3D
+	const MARACTUS           ; $3E
+	const DWEBBLE            ; $3F
+	const CRUSTLE            ; $40
+	const SCRAGGY            ; $41
+	const SCRAFTY            ; $42
+	const SIGILYPH           ; $43
+	const YAMASK             ; $44
+	const COFAGRIGUS         ; $45
+	const TIRTOUGA           ; $46
+	const CARRACOSTA         ; $47
+	const ARCHEN             ; $48
+	const ARCHEOPS           ; $49
+	const TRUBBISH           ; $4A
+	const GARBODOR           ; $4B
+	const ZORUA              ; $4C
+	const ZOROARK            ; $4D
+	const MINCCINO           ; $4E
+	const CINCCINO           ; $4F
+	const GOTHITA            ; $50
+	const GOTHORITA          ; $51
+	const GOTHITELLE         ; $52
+	const SOLOSIS            ; $53
+	const DUOSION            ; $54
+	const REUNICLUS          ; $55
+	const DUCKLETT           ; $56
+	const SWANNA             ; $57
+	const VANILLITE          ; $58
+	const VANILLISH          ; $59
+	const VANILLUXE          ; $5A
+	const DEERLING           ; $5B
+	const SAWSBUCK           ; $5C
+	const EMOLGA             ; $5D
+	const KARRABLAST         ; $5E
+	const ESCAVALIER         ; $5F
+	const FOONGUS            ; $60
+	const AMOONGUSS          ; $61
+	const FRILLISH           ; $62
+	const JELLICENT          ; $63
+	const ALOMOMOLA          ; $64
+	const JOLTIK             ; $65
+	const GALVANTULA         ; $66
+	const FERROSEED          ; $67
+	const FERROTHORN         ; $68
+	const KLINK              ; $69
+	const KLANG              ; $6A
+	const KLINKLANG          ; $6B
+	const TYNAMO             ; $6C
+	const EELEKTRIK          ; $6D
+	const EELEKTROSS         ; $6E
+	const ELGYEM             ; $6F
+	const BEHEEYEM           ; $70
+	const_skip             ; $71
+	const_skip           ; $72
 	const_skip               ; $73
 	const DODRIO             ; $74
-	const PRIMEAPE           ; $75
-	const DUGTRIO            ; $76
-	const VENOMOTH           ; $77
-	const ARCANINE            ; $78
+	const ARTICUNO           ; $75
+	const TAUROS            ; $76
+	const DRATINI           ; $77
+	const_skip            ; $78
 	const_skip               ; $79
 	const_skip               ; $7A
-	const PARASECT           ; $7B
-	const PSYDUCK            ; $7C
-	const DROWZEE        ; $7D
+	const GASTLY           ; $7B
+	const_skip            ; $7C
+	const EXEGGCUTE        ; $7D
 	const SLOWPOKE            ; $7E
 	const_skip               ; $7F
-	const GOLDUCK            ; $80
-	const HYPNO              ; $81
-	const ONIX             ; $82
+	const_skip            ; $80
+	const MAGMAR              ; $81
+	const_skip             ; $82
 	const MEWTWO             ; $83
-	const SNORLAX            ; $84
+	const DRAGONITE            ; $84
 	const MAGIKARP           ; $85
 	const_skip               ; $86
 	const_skip               ; $87
-	const MUK                ; $88
+	const RHYHORN                ; $88
 	const_skip               ; $89
-	const KINGLER            ; $8A
-	const CLOYSTER           ; $8B
+	const_skip           ; $8A
+	const_skip           ; $8B
 	const_skip               ; $8C
-	const ELECTRODE          ; $8D
-	const TENTACOOL           ; $8E
-	const WEEZING            ; $8F
-	const PERSIAN            ; $90
+	const_skip          ; $8D
+	const DODUO           ; $8E
+	const ZAPDOS            ; $8F
+	const_skip            ; $90
 	const MAROWAK            ; $91
 	const_skip               ; $92
 	const HAUNTER            ; $93
-	const ABRA               ; $94
-	const ALAKAZAM           ; $95
+	const_skip               ; $94
+	const_skip           ; $95
 	const SCYTHER          ; $96
-	const STARYU            ; $97
-	const STARMIE            ; $98
+	const MR_MIME            ; $97
+	const_skip            ; $98
 	const NIDOKING          ; $99
-	const VENUSAUR           ; $9A
-	const TENTACRUEL         ; $9B
+	const_skip           ; $9A
+	const MOLTRES         ; $9B
 	const_skip               ; $9C
 	const GOLDEEN            ; $9D
 	const SEAKING            ; $9E
@@ -171,7 +171,7 @@
 	const_skip               ; $A2
 	const PONYTA             ; $A3
 	const RAPIDASH           ; $A4
-	const EXEGGUTOR            ; $A5
+	const DRAGONAIR            ; $A5
 	const CUBONE           ; $A6
 	const NIDORINO           ; $A7
 	const GENGAR           ; $A8
@@ -179,14 +179,14 @@
 	const PORYGON            ; $AA
 	const AERODACTYL         ; $AB
 	const_skip               ; $AC
-	const MAGNEMITE          ; $AD
+	const DITTO          ; $AD
 	const_skip               ; $AE
 	const_skip               ; $AF
-	const SHELLDER           ; $B0
-	const SLOWBRO            ; $B1
+	const_skip           ; $B0
+	const FEAROW            ; $B1
 	const SPEAROW            ; $B2
 	const PINSIR            ; $B3
-	const VOLTORB            ; $B4
+	const_skip            ; $B4
 	const_skip               ; $B5
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
@@ -194,9 +194,9 @@
 	const MEW             ; $B9
 	const GYARADOS              ; $BA
 	const VILEPLUME          ; $BB
-	const BELLSPROUT         ; $BC
-	const WEEPINBELL         ; $BD
-	const VICTREEBEL         ; $BE
+	const_skip         ; $BC
+	const PIKACHU         ; $BD
+	const RAICHU         ; $BE
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 

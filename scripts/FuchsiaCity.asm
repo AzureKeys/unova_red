@@ -84,7 +84,7 @@ FuchsiaCityVoltorbSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, VOLTORB
+	ld a, AMOONGUSS
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -120,7 +120,7 @@ FuchsiaCityLaprasSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, LAPRAS
+	ld a, BASCULIN
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -140,12 +140,12 @@ FuchsiaCityFossilSignText:
 .got_dome_fossil
 	ld hl, .OmanyteText
 	call PrintText
-	ld a, OMANYTE
+	ld a, TIRTOUGA
 	jr .display
 .got_helix_fossil
 	ld hl, .KabutoText
 	call PrintText
-	ld a, KABUTO
+	ld a, ARCHEN
 .display
 	call DisplayPokedex
 .done

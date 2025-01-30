@@ -43,10 +43,10 @@ GiveFossilToCinnabarLab::
 	ld b, AERODACTYL
 	jr .fossilSelected
 .choseHelixFossil
-	ld b, OMANYTE
+	ld b, TIRTOUGA
 	jr .fossilSelected
 .choseDomeFossil
-	ld b, KABUTO
+	ld b, ARCHEN
 .fossilSelected
 	ld [wFossilItem], a
 	ld a, b

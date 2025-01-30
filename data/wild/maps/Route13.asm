@@ -1,13 +1,13 @@
 Route13WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 25, BELLSPROUT
-	db 25, BELLSPROUT
+	db 25, COTTONEE
+	db 25, COTTONEE
 	db 28, TRANQUILL
 	db 28, PIDOVE
-	db 27, BELLSPROUT
-	db 27, BELLSPROUT
-	db 29, WEEPINBELL
-	db 29, WEEPINBELL
+	db 27, COTTONEE
+	db 27, COTTONEE
+	db 29, WHIMSICOTT
+	db 29, WHIMSICOTT
 	db 26, DODRIO
 	db 31, DODRIO
 	end_grass_wildmons
@@ -21,6 +21,6 @@ Route13WildMons:
 	db 15, SLOWPOKE
 	db 15, SLOWPOKE
 	db 15, SLOWPOKE
-	db 15, SLOWBRO
-	db 20, SLOWBRO
+	db 15, ALOMOMOLA
+	db 20, ALOMOMOLA
 	end_water_wildmons

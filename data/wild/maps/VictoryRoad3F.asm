@@ -3,7 +3,7 @@ VictoryRoad3FWildMons:
 	db 36, ROGGENROLA
 	db 44, SWOOBAT
 	db 41, ROGGENROLA
-	db 49, ONIX
+	db 49, KROKOROK
 	db 46, ROGGENROLA
 	db 41, BOLDORE
 	db 42, GURDURR

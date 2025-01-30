@@ -2,7 +2,7 @@ Route3WildMons:
 	def_grass_wildmons 20 ; encounter rate
 	db  8, SPEAROW
 	db  9, SPEAROW
-	db  9, MANKEY
+	db  9, SCRAGGY
 	db 10, SPEAROW
 	db  8, DRILBUR
 	db 10, PATRAT

@@ -2,7 +2,7 @@ MtMoonB2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 10, WOOBAT
 	db 11, ROGGENROLA
-	db 13, PARAS
+	db 13, FOONGUS
 	db 11, WOOBAT
 	db 11, WOOBAT
 	db 12, WOOBAT

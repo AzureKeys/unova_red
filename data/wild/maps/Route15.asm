@@ -1,15 +1,15 @@
 Route15WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 26, BELLSPROUT
-	db 26, BELLSPROUT
-	db 24, VENONAT
+	db 26, COTTONEE
+	db 26, COTTONEE
+	db 24, JOLTIK
 	db 32, TRANQUILL
-	db 28, BELLSPROUT
-	db 28, BELLSPROUT
-	db 30, WEEPINBELL
-	db 30, WEEPINBELL
-	db 27, VENONAT
-	db 30, VENOMOTH
+	db 28, COTTONEE
+	db 28, COTTONEE
+	db 30, WHIMSICOTT
+	db 30, WHIMSICOTT
+	db 27, JOLTIK
+	db 30, GALVANTULA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -13,7 +13,7 @@ CeladonMansion1F_TextPointers:
 CeladonMansion1FMeowthText:
 	text_far _CeladonMansion1FMeowthText
 	text_asm
-	ld a, MEOWTH
+	ld a, MINCCINO
 	call PlayCry
 	jp TextScriptEnd
 

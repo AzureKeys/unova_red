@@ -66,7 +66,7 @@ SSAnne1FRoomsCooltrainerFText:
 SSAnne1FRoomsWigglytuffText:
 	text_far _SSAnne1FRoomsWigglytuffText
 	text_asm
-	ld a, WIGGLYTUFF
+	ld a, MUSHARNA
 	call PlayCry
 	jp TextScriptEnd
 

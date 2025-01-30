@@ -6,8 +6,8 @@ CeruleanCave2FWildMons:
 	db 56, EXCADRILL
 	db 50, RHYHORN
 	db 60, DITTO
-	db 58, WEEPINBELL
-	db 58, WEEPINBELL
+	db 58, WHIMSICOTT
+	db 58, WHIMSICOTT
 	db 60, RHYHORN
 	db 58, RHYHORN
 	end_grass_wildmons

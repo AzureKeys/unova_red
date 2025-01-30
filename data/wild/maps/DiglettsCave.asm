@@ -1,15 +1,15 @@
 DiglettsCaveWildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 18, DIGLETT
-	db 19, DIGLETT
-	db 17, DIGLETT
-	db 20, DIGLETT
-	db 16, DIGLETT
-	db 15, DIGLETT
-	db 21, DIGLETT
-	db 22, DIGLETT
-	db 29, DUGTRIO
-	db 31, DUGTRIO
+	db 18, DRILBUR
+	db 19, DRILBUR
+	db 17, DRILBUR
+	db 20, DRILBUR
+	db 16, DRILBUR
+	db 15, DRILBUR
+	db 21, DRILBUR
+	db 22, DRILBUR
+	db 29, EXCADRILL
+	db 31, EXCADRILL
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

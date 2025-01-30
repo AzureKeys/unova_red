@@ -1,15 +1,15 @@
 PowerPlantWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 30, MAGNEMITE
-	db 35, MAGNEMITE
-	db 33, MAGNETON
-	db 33, VOLTORB
-	db 37, VOLTORB
-	db 33, GRIMER
-	db 37, GRIMER
-	db 38, MAGNETON
-	db 33, MUK
-	db 37, MUK
+	db 30, TYNAMO
+	db 35, TYNAMO
+	db 33, EELEKTRIK
+	db 33, TYNAMO
+	db 37, TYNAMO
+	db 33, TRUBBISH
+	db 37, TRUBBISH
+	db 38, EELEKTRIK
+	db 33, GARBODOR
+	db 37, GARBODOR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

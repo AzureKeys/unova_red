@@ -9,7 +9,7 @@ SafariZoneWestWildMons:
 	db 26, EXEGGCUTE
 	db 24, MAROWAK
 	db 25, PINSIR
-	db 27, TANGELA
+	db 27, MARACTUS
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

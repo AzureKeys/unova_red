@@ -6,8 +6,8 @@ VictoryRoad2FWildMons:
 	db 44, WOOBAT
 	db 39, SWOOBAT
 	db 44, BOLDORE
-	db 45, ONIX
-	db 47, ONIX
+	db 45, KROKOROK
+	db 47, KROKOROK
 	db 39, GURDURR
 	db 42, GURDURR
 	end_grass_wildmons

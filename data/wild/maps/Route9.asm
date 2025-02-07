@@ -5,11 +5,11 @@ Route9WildMons:
 	db 18, PATRAT
 	db 18, LILLIPUP
 	db 18, LILLIPUP
-	db 17, SPEAROW
+	db 17, RUFFLET
 	db 18, HERDIER
 	db 18, HERDIER
 	db 20, WATCHOG
-	db 19, FEAROW
+	db 19, BRAVIARY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

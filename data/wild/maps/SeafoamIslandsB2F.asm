@@ -8,7 +8,7 @@ SeafoamIslandsB2FWildMons:
 	db 24, DWEBBLE
 	db 29, DWEBBLE
 	db 36, SWOOBAT
-	db 31, SLOWPOKE
+	db 31, STUNFISK
 	db 31, ALOMOMOLA
 	end_grass_wildmons
 

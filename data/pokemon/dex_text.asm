@@ -1,23 +1,3 @@
-_SpearowDexEntry::
-	text "Inept at flying"
-	next "high. However, it"
-	next "can fly around"
-
-	page "very fast to"
-	next "protect its ter-"
-	next "ritory"
-	dex
-
-_FearowDexEntry::
-	text "A #MON that"
-	next "dates back many"
-	next "years. If it"
-
-	page "senses danger, it"
-	next "flies high and"
-	next "away, instantly"
-	dex
-
 _PikachuDexEntry::
 	text "It keeps its tail"
 	next "raised to monitor"
@@ -26,366 +6,6 @@ _PikachuDexEntry::
 	page "If you yank its"
 	next "tail, it will try"
 	next "to bite you"
-	dex
-
-_RaichuDexEntry::
-	text "When electricity"
-	next "builds up inside"
-	next "its body, it"
-
-	page "becomes feisty."
-	next "It also glows in"
-	next "the dark"
-	dex
-
-_NidorinoDexEntry::
-	text "Its horns contain"
-	next "venom. If they"
-	next "are stabbed into"
-
-	page "an enemy, the"
-	next "impact makes the"
-	next "poison leak out"
-	dex
-
-_NidokingDexEntry::
-	text "Its steel-like"
-	next "hide adds to its"
-	next "powerful tackle."
-
-	page "Its horns are so"
-	next "hard, they can"
-	next "pierce a diamond"
-	dex
-
-_VileplumeDexEntry::
-	text "Flaps its broad"
-	next "flower petals to"
-	next "scatter its"
-
-	page "poisonous pollen."
-	next "The flapping sound"
-	next "is very loud"
-	dex
-	
-_PonytaDexEntry::
-	text "Capable of jumping"
-	next "incredibly high."
-	next "Its hooves and"
-
-	page "sturdy legs absorb"
-	next "the impact of a"
-	next "hard landing"
-	dex
-
-_RapidashDexEntry::
-	text "Just loves to run."
-	next "If it sees some-"
-	next "thing faster than"
-
-	page "itself, it will"
-	next "give chase at top"
-	next "speed"
-	dex
-
-_SlowpokeDexEntry::
-	text "Incredibly slow"
-	next "and sluggish. It"
-	next "is quite content"
-
-	page "to loll about"
-	next "without worrying"
-	next "about the time"
-	dex
-
-_DoduoDexEntry::
-	text "Its short wings"
-	next "make flying dif-"
-	next "ficult. Instead,"
-
-	page "this #MON runs"
-	next "at high speed on"
-	next "developed legs"
-	dex
-
-_DodrioDexEntry::
-	text "One of DODUO's 2"
-	next "heads splits to"
-	next "form a unique"
-
-	page "species. It runs"
-	next "close to 40 MPH"
-	next "in prairies"
-	dex
-
-_GastlyDexEntry::
-	text "Said to appear in"
-	next "decrepit, deserted"
-	next "buildings. It has"
-
-	page "no real shape as"
-	next "it appears to be"
-	next "made of a gas"
-	dex
-
-_HaunterDexEntry::
-	text "By licking, it"
-	next "saps the victim's"
-	next "life. It causes"
-
-	page "shaking that won't"
-	next "stop until the"
-	next "victim's demise"
-	dex
-
-_GengarDexEntry::
-	text "A GENGAR is close"
-	next "by if you feel a"
-	next "sudden chill."
-
-	page "It may be trying"
-	next "to lay a curse"
-	next "on you"
-	dex
-
-_ExeggcuteDexEntry::
-	text "The heads attract"
-	next "each other and"
-	next "spin around."
-
-	page "There must be 6"
-	next "heads for it to"
-	next "maintain balance"
-	dex
-
-_CuboneDexEntry::
-	text "Wears the skull"
-	next "of its deceased"
-	next "mother. Its cries"
-
-	page "echo inside the"
-	next "skull and come out"
-	next "as a sad melody"
-	dex
-
-_MarowakDexEntry::
-	text "Small and weak,"
-	next "this #MON is"
-	next "adept with its"
-
-	page "bone club. It has"
-	next "grown more vicious"
-	next "over the ages"
-	dex
-
-_RhyhornDexEntry::
-	text "A #MON with a"
-	next "one-track mind."
-	next "Once it charges, "
-
-	page "it won't stop"
-	next "running until it"
-	next "falls asleep"
-	dex
-
-_GoldeenDexEntry::
-	text "When it is time"
-	next "for them to lay"
-	next "eggs, they can be"
-
-	page "seen swimming up"
-	next "rivers and falls"
-	next "in large groups"
-	dex
-
-_SeakingDexEntry::
-	text "It is the male's"
-	next "job to make a"
-	next "nest by carving"
-
-	page "out boulders in a"
-	next "stream using the"
-	next "horn on its head"
-	dex
-
-_MrMimeDexEntry::
-	text "Always practices"
-	next "its pantomime act."
-	next "It makes enemies"
-
-	page "believe something"
-	next "exists that"
-	next "really doesn't"
-	dex
-
-_ScytherDexEntry::
-	text "Leaps out of tall"
-	next "grass and slices"
-	next "prey with its"
-
-	page "scythes. The move-"
-	next "ment looks like"
-	next "that of a ninja"
-	dex
-
-_MagmarDexEntry::
-	text "Born in an active"
-	next "volcano. Its body"
-	next "is always cloaked"
-
-	page "in flames, so it"
-	next "looks like a big"
-	next "ball of fire"
-	dex
-
-_PinsirDexEntry::
-	text "Grips its prey in"
-	next "its pincers and"
-	next "squeezes hard! It"
-
-	page "can't move if it's"
-	next "cold, so it lives"
-	next "in warm places"
-	dex
-
-_TaurosDexEntry::
-	text "A rowdy #MON"
-	next "with a lot of"
-	next "stamina. Once"
-
-	page "running, it won't"
-	next "stop until it hits"
-	next "something"
-	dex
-
-_MagikarpDexEntry::
-	text "Famous for being"
-	next "very unreliable."
-	next "It can be found"
-
-	page "swimming in seas,"
-	next "lakes, rivers and"
-	next "shallow puddles"
-	dex
-
-_GyaradosDexEntry::
-	text "Brutally vicious"
-	next "and enormously"
-	next "destructive."
-
-	page "Known for totally"
-	next "destroying cities"
-	next "in ancient times"
-	dex
-
-_DittoDexEntry::
-	text "When it spots an"
-	next "enemy, its body"
-	next "transfigures into"
-
-	page "an almost perfect"
-	next "copy of its oppo-"
-	next "nent"
-	dex
-
-_PorygonDexEntry::
-	text "The only #MON"
-	next "people anticipate"
-	next "can fly into"
-
-	page "space. None has"
-	next "managed the feat"
-	next "yet, however"
-	dex
-
-_AerodactylDexEntry::
-	text "A savage #MON"
-	next "that died out in"
-	next "ancient times. It"
-
-	page "was resurrected"
-	next "using DNA taken"
-	next "from amber"
-	dex
-
-_ArticunoDexEntry::
-	text "A legendary bird"
-	next "#MON. It"
-	next "freezes water"
-
-	page "that is contained"
-	next "in winter air and"
-	next "makes it snow"
-	dex
-
-_ZapdosDexEntry::
-	text "This legendary"
-	next "bird #MON is"
-	next "said to appear"
-
-	page "when the sky turns"
-	next "dark and lightning"
-	next "showers down"
-	dex
-
-_MoltresDexEntry::
-	text "A legendary bird"
-	next "#MON. As it"
-	next "flaps its flaming"
-
-	page "wings, even the"
-	next "night sky will"
-	next "turn red"
-	dex
-
-_DratiniDexEntry::
-	text "The existence of"
-	next "this mythical"
-	next "#MON was only"
-
-	page "recently confirmed"
-	next "by a fisherman"
-	next "who caught one"
-	dex
-
-_DragonairDexEntry::
-	text "According to a"
-	next "witness, its body"
-	next "was surrounded by"
-
-	page "a strange aura"
-	next "that gave it a"
-	next "mystical look"
-	dex
-
-_DragoniteDexEntry::
-	text "It is said that"
-	next "this #MON lives"
-	next "somewhere in the"
-
-	page "sea and that it"
-	next "flies. However, it"
-	next "is only a rumor"
-	dex
-
-_MewtwoDexEntry::
-	text "Its DNA is almost"
-	next "the same as MEW's."
-	next "However, its size"
-
-	page "and disposition"
-	next "are vastly dif-"
-	next "ferent"
-	dex
-
-_MewDexEntry::
-	text "When viewed"
-	next "through a micro-"
-	next "scope, this"
-
-	page "#MON's short,"
-	next "fine, delicate"
-	next "hair can be seen"
 	dex
 	
 _SnivyDexEntry::
@@ -1501,440 +1121,439 @@ _BeheeyemDexEntry::
 	next "memories"
 	dex
 
-; _LitwickDexEntry::
-	; text "LITWICK shines a"
-	; next "light that absorbs"
-	; next "life energy,"
-
-	; page "which becomes the"
-	; next "fuel that it"
-	; next "burns"
-	; dex
-
-; _LampentDexEntry::
-	; text "This ominous"
-	; next "#MON is feared."
-	; next "It wanders through"
-
-	; page "cities, searching"
-	; next "for the spirits"
-	; next "of the fallen"
-	; dex
-
-; _ChandelureDexEntry::
-	; text "Being consumed in"
-	; next "CHANDELURE's"
-	; next "flame burns up"
-
-	; page "the spirit,"
-	; next "leaving the body"
-	; next "behind"
-	; dex
-
-; _AxewDexEntry::
-	; text "Its tusks have a"
-	; next "tendency to break,"
-	; next "but each time"
-
-	; page "they grow back,"
-	; next "they become harder"
-	; next "and stronger"
-	; dex
-
-; _FraxureDexEntry::
-	; text "Their tusks can"
-	; next "shatter rocks."
-	; next "Territory battles"
-
-	; page "between FRAXURE"
-	; next "can be intensely"
-	; next "violent"
-	; dex
-
-; _HaxorusDexEntry::
-	; text "Their tusks will"
-	; next "stay sharp even"
-	; next "if used to cut"
-
-	; page "steel beams. These"
-	; next "#MON are cased"
-	; next "in hard armor"
-	; dex
-
-; _CubchooDexEntry::
-	; text "Its nose is"
-	; next "always running."
-	; next "The mucus provides"
-
-	; page "the raw material"
-	; next "for its ice type"
-	; next "powers"
-	; dex
-
-; _BearticDexEntry::
-	; text "It freezes its"
-	; next "breath to create"
-	; next "fangs and claws"
-
-	; page "of ice to fight"
-	; next "with. It lives"
-	; next "in cold areas"
-	; dex
-
-; _CryogonalDexEntry::
-	; text "They are born in"
-	; next "snow clouds. They"
-	; next "use chains made"
-
-	; page "of ice crystals"
-	; next "to ensnare their"
-	; next "prey"
-	; dex
-
-; _ShelmetDexEntry::
-	; text "It defends itself"
-	; next "by closing the"
-	; next "lid of its shell."
-
-	; page "It can spit a"
-	; next "sticky, poisonous"
-	; next "liquid"
-	; dex
-
-; _AccelgorDexEntry::
-	; text "Having removed"
-	; next "its heavy shell,"
-	; next "it becomes very"
-
-	; page "light, and can"
-	; next "fight with ninja-"
-	; next "like movements"
-	; dex
-
-; _StunfiskDexEntry::
-	; text "It conceals itself"
-	; next "in the mud of the"
-	; next "seashore, then it"
-
-	; page "waits. When prey"
-	; next "touch it, it uses"
-	; next "an electric shock"
-	; dex
-
-; _MienfooDexEntry::
-	; text "They have mastered"
-	; next "elegant combos."
-	; next "As they focus,"
-
-	; page "their battle moves"
-	; next "become even more"
-	; next "precise"
-	; dex
-
-; _MienshaoDexEntry::
-	; text "It wields the fur"
-	; next "on its arms like"
-	; next "a whip. Its arm"
-
-	; page "attacks are so"
-	; next "rapid they can't"
-	; next "be seen"
-	; dex
-
-; _DruddigonDexEntry::
-	; text "It races through"
-	; next "narrow caves,"
-	; next "using its sharp"
-
-	; page "claws to catch"
-	; next "prey. Its head is"
-	; next "harder than rock"
-	; dex
-
-; _GolettDexEntry::
-	; text "Ancient science"
-	; next "fashioned this"
-	; next "#MON from clay."
-
-	; page "It's been active"
-	; next "for thousands"
-	; next "of years"
-	; dex
-
-; _GolurkDexEntry::
-	; text "GOLURK were"
-	; next "created to protect"
-	; next "people and"
-
-	; page "#MON. They run"
-	; next "on a mysterious"
-	; next "energy"
-	; dex
-
-; _PawniardDexEntry::
-	; text "Blades cover this"
-	; next "#MON's entire"
-	; next "body. It sharpens"
-
-	; page "them on stones"
-	; next "if they are dulled"
-	; next "in battle"
-	; dex
-
-; _BisharpDexEntry::
-	; text "BISHARP pursues"
-	; next "prey with a group"
-	; next "of PAWNIARD. The"
-
-	; page "BISHARP will"
-	; next "finish off"
-	; next "the prey"
-	; dex
-
-; _BouffalantDexEntry::
-	; text "They charge wildly"
-	; next "and headbutt"
-	; next "anything. Their"
-
-	; page "headbutts have"
-	; next "enough force to"
-	; next "derail a train"
-	; dex
-
-; _RuffletDexEntry::
-	; text "They will stand"
-	; next "up to anything,"
-	; next "even strong"
-
-	; page "#MON. This"
-	; next "helps them become"
-	; next "stronger"
-	; dex
-
-; _BraviaryDexEntry::
-	; text "The more scars"
-	; next "they have, the"
-	; next "more respect they"
-
-	; page "receive from their"
-	; next "peers"
-	; dex
-
-; _VullabyDexEntry::
-	; text "They tend to"
-	; next "guard themselves"
-	; next "with bones they"
-
-	; page "have found. They"
-	; next "pursue weak"
-	; next "#MON"
-	; dex
-
-; _MandibuzzDexEntry::
-	; text "It makes a nest"
-	; next "of bones it finds."
-	; next "It grabs weakened"
-
-	; page "prey in its claws"
-	; next "and brings it to"
-	; next "its nest of bones"
-	; dex
-
-; _HeatmorDexEntry::
-	; text "It draws in air"
-	; next "through its tail"
-	; next "and uses it to"
-
-	; page "fuel its internal"
-	; next "fire, using it"
-	; next "like a tongue"
-	; dex
-
-; _DurantDexEntry::
-	; text "DURANT dig nests"
-	; next "in mountains."
-	; next "They build their"
-
-	; page "complicated"
-	; next "tunnels like"
-	; next "mazes"
-	; dex
-
-; _DeinoDexEntry::
-	; text "It tends to bite"
-	; next "everything, and"
-	; next "it is not a picky"
-
-	; page "eater. Approaching"
-	; next "it carelessly"
-	; next "is dangerous"
-	; dex
-
-; _ZweilousDexEntry::
-	; text "Since their two"
-	; next "heads do not get"
-	; next "along and compete"
-
-	; page "with each other"
-	; next "for food, it eats"
-	; next "too much"
-	; dex
-
-; _HydreigonDexEntry::
-	; text "The heads on its"
-	; next "arms do not have"
-	; next "brains. It uses"
-
-	; page "all three heads"
-	; next "to consume and"
-	; next "destroy anything"
-	; dex
-
-; _LarvestaDexEntry::
-	; text "This #MON was"
-	; next "belived to be born"
-	; next "from the sun. It"
-
-	; page "shoots fire from"
-	; next "its horns to repel"
-	; next "enemies"
-	; dex
-
-; _VolcaronaDexEntry::
-	; text "A sea of fire"
-	; next "engulfs their"
-	; next "battles. They use"
-
-	; page "their six wings"
-	; next "to scatter fiery"
-	; next "scales"
-	; dex
-
-; _CobalionDexEntry::
-	; text "It has a heart"
-	; next "and body of."
-	; next "steel. Its glare"
-
-	; page "will make even an"
-	; next "unruly #MON"
-	; next "obey it"
-	; dex
-
-; _TerrakionDexEntry::
-	; text "Its charge is"
-	; next "strong enough to"
-	; next "break through a"
-
-	; page "castle wall in"
-	; next "one blow"
-	; dex
-
-; _VirizionDexEntry::
-	; text "Its head sprouts"
-	; next "horns as sharp as"
-	; next "blades. Using"
-
-	; page "spinning moves,"
-	; next "it swiftly cuts"
-	; next "opponents"
-	; dex
-
-; _TornadusDexEntry::
-	; text "TORNADUS expels"
-	; next "massive energy"
-	; next "from its tail,"
-
-	; page "causing severe"
-	; next "storms. It can"
-	; next "blow houses away"
-	; dex
-
-; _ThundurusDexEntry::
-	; text "The spikes on its"
-	; next "tail discharge"
-	; next "immense bolts of"
-
-	; page "lightning. It"
-	; next "flies around,"
-	; next "firing bolts"
-	; dex
-
-; _ReshiramDexEntry::
-	; text "This #MON is"
-	; next "from legends. It"
-	; next "sends flames into"
-
-	; page "the air from its"
-	; next "tail, burning up"
-	; next "everything"
-	; dex
-
-; _ZekromDexEntry::
-	; text "Concealed in"
-	; next "lightning clouds,"
-	; next "it flies through"
-
-	; page "the skies. It"
-	; next "creates lightning"
-	; next "in its tail"
-	; dex
-
-; _LandorusDexEntry::
-	; text "From the forces of"
-	; next "lightning and"
-	; next "wind, it creates"
-
-	; page "energy to give"
-	; next "nutrients to the"
-	; next "soil"
-	; dex
-
-; _KyuremDexEntry::
-	; text "It generates a"
-	; next "powerful freezing"
-	; next "energy inside"
-
-	; page "itself. It can"
-	; next "produce ultracold"
-	; next "air"
-	; dex
-
-; _KeldeoDexEntry::
-	; text "By blasting water"
-	; next "from its hooves,"
-	; next "it can glide"
-
-	; page "across water. It"
-	; next "excels at kicking"
-	; next "techniques"
-	; dex
-
-; _MeloettaDexEntry::
-	; text "Its melodies are"
-	; next "sung with a method"
-	; next "that can control"
-
-	; page "the feelings of"
-	; next "those who hear"
-	; next "it"
-	; dex
-
-; _GenesectDexEntry::
-	; text "Over 300 million"
-	; next "years ago, it was"
-	; next "feared as the"
-
-	; page "strongest of"
-	; next "hunters"
-	; dex
-
-; _VictiniDexEntry::
-	; text "It creates an"
-	; next "unlimited supply"
-	; next "of energy inside"
-
-	; page "its body, which it"
-	; next "shares with those"
-	; next "it touches"
-	; dex
-
+_LitwickDexEntry::
+	text "LITWICK shines a"
+	next "light that absorbs"
+	next "life energy,"
+
+	page "which becomes the"
+	next "fuel that it"
+	next "burns"
+	dex
+
+_LampentDexEntry::
+	text "This ominous"
+	next "#MON is feared."
+	next "It wanders through"
+
+	page "cities, searching"
+	next "for the spirits"
+	next "of the fallen"
+	dex
+
+_ChandelureDexEntry::
+	text "Being consumed in"
+	next "CHANDELURE's"
+	next "flame burns up"
+
+	page "the spirit,"
+	next "leaving the body"
+	next "behind"
+	dex
+
+_AxewDexEntry::
+	text "Its tusks have a"
+	next "tendency to break,"
+	next "but each time"
+
+	page "they grow back,"
+	next "they become harder"
+	next "and stronger"
+	dex
+
+_FraxureDexEntry::
+	text "Their tusks can"
+	next "shatter rocks."
+	next "Territory battles"
+
+	page "between FRAXURE"
+	next "can be intensely"
+	next "violent"
+	dex
+
+_HaxorusDexEntry::
+	text "Their tusks will"
+	next "stay sharp even"
+	next "if used to cut"
+
+	page "steel beams. These"
+	next "#MON are cased"
+	next "in hard armor"
+	dex
+
+_CubchooDexEntry::
+	text "Its nose is"
+	next "always running."
+	next "The mucus provides"
+
+	page "the raw material"
+	next "for its ice type"
+	next "powers"
+	dex
+
+_BearticDexEntry::
+	text "It freezes its"
+	next "breath to create"
+	next "fangs and claws"
+
+	page "of ice to fight"
+	next "with. It lives"
+	next "in cold areas"
+	dex
+
+_CryogonalDexEntry::
+	text "They are born in"
+	next "snow clouds. They"
+	next "use chains made"
+
+	page "of ice crystals"
+	next "to ensnare their"
+	next "prey"
+	dex
+
+_ShelmetDexEntry::
+	text "It defends itself"
+	next "by closing the"
+	next "lid of its shell."
+
+	page "It can spit a"
+	next "sticky, poisonous"
+	next "liquid"
+	dex
+
+_AccelgorDexEntry::
+	text "Having removed"
+	next "its heavy shell,"
+	next "it becomes very"
+
+	page "light, and can"
+	next "fight with ninja-"
+	next "like movements"
+	dex
+
+_StunfiskDexEntry::
+	text "It conceals itself"
+	next "in the mud of the"
+	next "seashore, then it"
+
+	page "waits. When prey"
+	next "touch it, it uses"
+	next "an electric shock"
+	dex
+
+_MienfooDexEntry::
+	text "They have mastered"
+	next "elegant combos."
+	next "As they focus,"
+
+	page "their battle moves"
+	next "become even more"
+	next "precise"
+	dex
+
+_MienshaoDexEntry::
+	text "It wields the fur"
+	next "on its arms like"
+	next "a whip. Its arm"
+
+	page "attacks are so"
+	next "rapid they can't"
+	next "be seen"
+	dex
+
+_DruddigonDexEntry::
+	text "It races through"
+	next "narrow caves,"
+	next "using its sharp"
+
+	page "claws to catch"
+	next "prey. Its head is"
+	next "harder than rock"
+	dex
+
+_GolettDexEntry::
+	text "Ancient science"
+	next "fashioned this"
+	next "#MON from clay."
+
+	page "It's been active"
+	next "for thousands"
+	next "of years"
+	dex
+
+_GolurkDexEntry::
+	text "GOLURK were"
+	next "created to protect"
+	next "people and"
+
+	page "#MON. They run"
+	next "on a mysterious"
+	next "energy"
+	dex
+
+_PawniardDexEntry::
+	text "Blades cover this"
+	next "#MON's entire"
+	next "body. It sharpens"
+
+	page "them on stones"
+	next "if they are dulled"
+	next "in battle"
+	dex
+
+_BisharpDexEntry::
+	text "BISHARP pursues"
+	next "prey with a group"
+	next "of PAWNIARD. The"
+
+	page "BISHARP will"
+	next "finish off"
+	next "the prey"
+	dex
+
+_BouffalantDexEntry::
+	text "They charge wildly"
+	next "and headbutt"
+	next "anything. Their"
+
+	page "headbutts have"
+	next "enough force to"
+	next "derail a train"
+	dex
+
+_RuffletDexEntry::
+	text "They will stand"
+	next "up to anything,"
+	next "even strong"
+
+	page "#MON. This"
+	next "helps them become"
+	next "stronger"
+	dex
+
+_BraviaryDexEntry::
+	text "The more scars"
+	next "they have, the"
+	next "more respect they"
+
+	page "receive from their"
+	next "peers"
+	dex
+
+_VullabyDexEntry::
+	text "They tend to"
+	next "guard themselves"
+	next "with bones they"
+
+	page "have found. They"
+	next "pursue weak"
+	next "#MON"
+	dex
+
+_MandibuzzDexEntry::
+	text "It makes a nest"
+	next "of bones it finds."
+	next "It grabs weakened"
+
+	page "prey in its claws"
+	next "and brings it to"
+	next "its nest of bones"
+	dex
+
+_HeatmorDexEntry::
+	text "It draws in air"
+	next "through its tail"
+	next "and uses it to"
+
+	page "fuel its internal"
+	next "fire, using it"
+	next "like a tongue"
+	dex
+
+_DurantDexEntry::
+	text "DURANT dig nests"
+	next "in mountains."
+	next "They build their"
+
+	page "complicated"
+	next "tunnels like"
+	next "mazes"
+	dex
+
+_DeinoDexEntry::
+	text "It tends to bite"
+	next "everything, and"
+	next "it is not a picky"
+
+	page "eater. Approaching"
+	next "it carelessly"
+	next "is dangerous"
+	dex
+
+_ZweilousDexEntry::
+	text "Since their two"
+	next "heads do not get"
+	next "along and compete"
+
+	page "with each other"
+	next "for food, it eats"
+	next "too much"
+	dex
+
+_HydreigonDexEntry::
+	text "The heads on its"
+	next "arms do not have"
+	next "brains. It uses"
+
+	page "all three heads"
+	next "to consume and"
+	next "destroy anything"
+	dex
+
+_LarvestaDexEntry::
+	text "This #MON was"
+	next "belived to be born"
+	next "from the sun. It"
+
+	page "shoots fire from"
+	next "its horns to repel"
+	next "enemies"
+	dex
+
+_VolcaronaDexEntry::
+	text "A sea of fire"
+	next "engulfs their"
+	next "battles. They use"
+
+	page "their six wings"
+	next "to scatter fiery"
+	next "scales"
+	dex
+
+_CobalionDexEntry::
+	text "It has a heart"
+	next "and body of."
+	next "steel. Its glare"
+
+	page "will make even an"
+	next "unruly #MON"
+	next "obey it"
+	dex
+
+_TerrakionDexEntry::
+	text "Its charge is"
+	next "strong enough to"
+	next "break through a"
+
+	page "castle wall in"
+	next "one blow"
+	dex
+
+_VirizionDexEntry::
+	text "Its head sprouts"
+	next "horns as sharp as"
+	next "blades. Using"
+
+	page "spinning moves,"
+	next "it swiftly cuts"
+	next "opponents"
+	dex
+
+_TornadusDexEntry::
+	text "TORNADUS expels"
+	next "massive energy"
+	next "from its tail,"
+
+	page "causing severe"
+	next "storms. It can"
+	next "blow houses away"
+	dex
+
+_ThundurusDexEntry::
+	text "The spikes on its"
+	next "tail discharge"
+	next "immense bolts of"
+
+	page "lightning. It"
+	next "flies around,"
+	next "firing bolts"
+	dex
+
+_ReshiramDexEntry::
+	text "This #MON is"
+	next "from legends. It"
+	next "sends flames into"
+
+	page "the air from its"
+	next "tail, burning up"
+	next "everything"
+	dex
+
+_ZekromDexEntry::
+	text "Concealed in"
+	next "lightning clouds,"
+	next "it flies through"
+
+	page "the skies. It"
+	next "creates lightning"
+	next "in its tail"
+	dex
+
+_LandorusDexEntry::
+	text "From the forces of"
+	next "lightning and"
+	next "wind, it creates"
+
+	page "energy to give"
+	next "nutrients to the"
+	next "soil"
+	dex
+
+_KyuremDexEntry::
+	text "It generates a"
+	next "powerful freezing"
+	next "energy inside"
+
+	page "itself. It can"
+	next "produce ultracold"
+	next "air"
+	dex
+
+_KeldeoDexEntry::
+	text "By blasting water"
+	next "from its hooves,"
+	next "it can glide"
+
+	page "across water. It"
+	next "excels at kicking"
+	next "techniques"
+	dex
+
+_MeloettaDexEntry::
+	text "Its melodies are"
+	next "sung with a method"
+	next "that can control"
+
+	page "the feelings of"
+	next "those who hear"
+	next "it"
+	dex
+
+_GenesectDexEntry::
+	text "Over 300 million"
+	next "years ago, it was"
+	next "feared as the"
+
+	page "strongest of"
+	next "hunters"
+	dex
+
+_VictiniDexEntry::
+	text "It creates an"
+	next "unlimited supply"
+	next "of energy inside"
+
+	page "its body, which it"
+	next "shares with those"
+	next "it touches"
+	dex

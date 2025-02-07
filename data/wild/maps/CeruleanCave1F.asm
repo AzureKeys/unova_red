@@ -8,8 +8,8 @@ CeruleanCave1FWildMons:
 	db 52, EXCADRILL
 	db 54, GALVANTULA
 	db 54, AMOONGUSS
-	db 55, DITTO
-	db 60, DITTO
+	db 55, DEINO
+	db 60, DEINO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

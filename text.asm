@@ -236,6 +236,7 @@ INCLUDE "text/SaffronPokecenter.asm"
 INCLUDE "text/MrPsychicsHouse.asm"
 
 INCLUDE "data/text/text_7.asm"
+INCLUDE "engine/battle/slot_machines.asm"
 
 
 SECTION "Text 8", ROMX

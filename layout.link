@@ -81,7 +81,6 @@ ROMX $C
 	"Pics 4"
 ROMX $D
 	"Pics 5"
-	"Slot Machines"
 ROMX $E
 	"Battle Engine 6"
 ROMX $F
@@ -230,7 +229,6 @@ WRAM0
 	"Audio RAM"
 	org $c100
 	"Sprite State Data"
-	org $c300
 	"OAM Buffer"
 	"Tilemap"
 	"Overworld Map"

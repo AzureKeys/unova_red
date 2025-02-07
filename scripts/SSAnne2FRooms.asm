@@ -71,7 +71,10 @@ SSAnne2FRoomsGentleman3Text:
 	ld hl, .Text
 	call PrintText
 	call LoadScreenTilesFromBuffer1
-	ld a, DITTO
+	ld a, TORNADUS
+	call DisplayPokedex
+	call LoadScreenTilesFromBuffer1
+	ld a, THUNDURUS
 	call DisplayPokedex
 	jp TextScriptEnd
 

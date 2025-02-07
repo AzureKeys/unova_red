@@ -482,7 +482,7 @@ Func_3b10f:
 .asm_3b130
 	inc c
 	ld a, c
-	cp VILEPLUME
+	cp VICTINI
 	jr c, .asm_3b111
 	and a
 	ret

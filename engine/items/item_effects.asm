@@ -488,7 +488,7 @@ ItemUseBall:
 	ld hl, wEnemyBattleStatus3
 	bit TRANSFORMED, [hl]
 	jr z, .notTransformed
-	ld a, DITTO
+	ld a, SNIVY ; This never occurs, since Transformed status bit is never set
 	ld [wEnemyMonSpecies2], a
 	jr .skip6
 
@@ -2026,7 +2026,7 @@ CoinCaseNumCoinsText:
 ItemUseOldRod:
 	call FishingInit
 	jp c, ItemUseNotTime
-	lb bc, 5, MAGIKARP
+	lb bc, 5, TYMPOLE
 	ld a, $1 ; set bite
 	jr RodResponse
 

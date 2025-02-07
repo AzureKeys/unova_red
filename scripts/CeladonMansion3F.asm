@@ -23,7 +23,7 @@ CeladonMansion3F_TextPointers:
 CeladonMansion3FProgrammerText:
 	text_asm
 	call CeladonMansion3_PokedexCount
-	cp NUM_POKEMON - 1 ; discount Mew
+	cp NUM_POKEMON - 1 ; discount Pikachu
 	ld hl, CeladonMansion3Text_486f5
 	jr nc, .print
 	ld hl, CeladonMansion3Text_486f0

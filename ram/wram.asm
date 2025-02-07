@@ -2053,7 +2053,6 @@ wd472:: db
 wd474:: db
 	ds 4
 wd479:: db
-	ds 24
 wd492:: db
 	ds 1
 wSurfingMinigameHiScore:: dw ; little-endian BCD
@@ -2064,7 +2063,6 @@ wPrinterConnectionOpen:: db
 wPrinterOpcode:: db
 wd49b:: db
 
-	ds 19
 
 ; number of signs in the current map (up to 16)
 wNumSigns:: db

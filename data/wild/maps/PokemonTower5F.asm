@@ -1,15 +1,15 @@
 PokemonTower5FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 22, GASTLY
-	db 23, GASTLY
-	db 24, GASTLY
-	db 25, GASTLY
-	db 26, GASTLY
-	db 21, GASTLY
-	db 20, CUBONE
-	db 27, GASTLY
-	db 22, HAUNTER
-	db 27, HAUNTER
+	db 22, LITWICK
+	db 23, LITWICK
+	db 24, LITWICK
+	db 25, LITWICK
+	db 26, LITWICK
+	db 21, LITWICK
+	db 20, GOLETT
+	db 27, LITWICK
+	db 22, LAMPENT
+	db 27, LAMPENT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

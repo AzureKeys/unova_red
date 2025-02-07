@@ -18,17 +18,8 @@ CeladonMansion1FMeowthText:
 	jp TextScriptEnd
 
 CeladonMansion1FGrannyText:
-	text_asm
-	farcall CeladonMansion1FPrintGrannyText
-	ld a, [wPikachuHappiness]
-	cp 251
-	jr c, .asm_485d9
-	ld c, 50
-	call DelayFrames
-	ldpikacry e, PikachuCry23
-	callfar PlayPikachuSoundClip
-.asm_485d9
-	jp TextScriptEnd
+	text_far _CeladonMansion1FGrannyText
+	text_end
 
 CeladonMansion1FClefairyText:
 	text_far _CeladonMansion1FClefairyText

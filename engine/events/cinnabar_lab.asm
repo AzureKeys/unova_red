@@ -38,11 +38,6 @@ GiveFossilToCinnabarLab::
 	ldh [hItemToRemoveID], a
 	cp DOME_FOSSIL
 	jr z, .choseDomeFossil
-	cp HELIX_FOSSIL
-	jr z, .choseHelixFossil
-	ld b, AERODACTYL
-	jr .fossilSelected
-.choseHelixFossil
 	ld b, TIRTOUGA
 	jr .fossilSelected
 .choseDomeFossil

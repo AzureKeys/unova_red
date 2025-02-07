@@ -3,11 +3,11 @@ CeruleanCaveB1FWildMons:
 	db 54, SWOOBAT
 	db 59, SWOOBAT
 	db 55, BOLDORE
-	db 52, RHYHORN
-	db 62, RHYHORN
-	db 60, DITTO
+	db 52, BOLDORE
+	db 62, BOLDORE
+	db 60, DEINO
 	db 56, AUDINO
-	db 65, DITTO
+	db 65, DEINO
 	db 55, AUDINO
 	db 50, AUDINO
 	end_grass_wildmons

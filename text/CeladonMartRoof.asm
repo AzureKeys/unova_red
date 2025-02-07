@@ -57,7 +57,11 @@ _CeladonMartRoofLittleGirlTM48ExplanationText::
 	para "@"
 	text_ram wStringBuffer
 	text " contains"
-	line "ROCK SLIDE!@"
+	line "ROCK SLIDE!"
+
+	para "It can sometimes"
+	line "make the target"
+	cont "flinch!@"
 	text_end
 
 _CeladonMartRoofLittleGirlYayLemonadeText::
@@ -80,7 +84,11 @@ _CeladonMartRoofLittleGirlTM49ExplanationText::
 	text_start
 
 	para "TM49 contains"
-	line "TRI ATTACK!@"
+	line "TRI ATTACK!"
+
+	para "It can paralyze,"
+	line "burn, or even"
+	cont "freeze the target!@"
 	text_end
 
 _CeladonMartRoofLittleGirlNoRoomText::

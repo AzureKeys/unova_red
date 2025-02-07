@@ -2,8 +2,8 @@ SafariZoneCenterWildMons:
 	def_grass_wildmons 30 ; encounter rate
 	db 14, LILLIPUP
 	db 36, LILLIPUP
-	db 24, EXEGGCUTE
-	db 20, RHYHORN
+	db 24, PETILIL
+	db 20, BOLDORE
 	db 23, HERDIER
 	db 27, AMOONGUSS
 	db 27, FOONGUS

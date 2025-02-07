@@ -118,50 +118,51 @@ CryData::
 	mon_cry SFX_CRY_06, $8F, $FF ; Eelektross
 	mon_cry SFX_CRY_0D, $88, $20 ; Elgyem
 	mon_cry SFX_CRY_0D, $EE, $40 ; Beheeyem
-	mon_cry SFX_CRY_10, $00, $80 ; Spearow
-	mon_cry SFX_CRY_18, $40, $A0 ; Fearow
-	mon_cry SFX_CRY_00, $00, $80 ; Nidoran♂
-	mon_cry SFX_CRY_00, $2C, $C0 ; Nidorino
-	mon_cry SFX_CRY_09, $00, $80 ; Nidoking
-	mon_cry SFX_CRY_23, $22, $FF ; Vileplume
-	mon_cry SFX_CRY_25, $00, $80 ; Ponyta
-	mon_cry SFX_CRY_25, $20, $C0 ; Rapidash
-	mon_cry SFX_CRY_02, $00, $80 ; Slowpoke
-	mon_cry SFX_CRY_0B, $BB, $01 ; Doduo
-	mon_cry SFX_CRY_0B, $99, $20 ; Dodrio
-	mon_cry SFX_CRY_1C, $00, $80 ; Gastly
-	mon_cry SFX_CRY_1C, $30, $40 ; Haunter
-	mon_cry SFX_CRY_07, $00, $FF ; Gengar
-	mon_cry SFX_CRY_0B, $00, $80 ; Exeggcute
+	mon_cry SFX_CRY_1C, $00, $80 ; Litwick
+	mon_cry SFX_CRY_1C, $30, $40 ; Lampent
+	mon_cry SFX_CRY_07, $00, $FF ; Chandelure
+	mon_cry SFX_CRY_0F, $60, $40 ; Axew
+	mon_cry SFX_CRY_0F, $40, $80 ; Fraxure
+	mon_cry SFX_CRY_0F, $3C, $C0 ; Haxorus
+	mon_cry SFX_CRY_16, $80, $40 ; Cubchoo
+	mon_cry SFX_CRY_16, $10, $FF ; Beartic
+	mon_cry SFX_CRY_0B, $00, $80 ; Cryogonal
+	mon_cry SFX_CRY_04, $00, $80 ; Shelmet
+	mon_cry SFX_CRY_11, $00, $80 ; Accelgor
+	mon_cry SFX_CRY_02, $00, $80 ; Stunfisk
+	mon_cry SFX_CRY_25, $00, $80 ; Mienfoo
+	mon_cry SFX_CRY_25, $20, $C0 ; Mienshao
+	mon_cry SFX_CRY_20, $08, $40 ; Druddigon
+	mon_cry SFX_CRY_19, $00, $80 ; Golett
+	mon_cry SFX_CRY_08, $4F, $60 ; Golurk
+	mon_cry SFX_CRY_00, $00, $80 ; Pawniard
+	mon_cry SFX_CRY_00, $2C, $C0 ; Bisharp
+	mon_cry SFX_CRY_1D, $11, $40 ; Bouffalant
+	mon_cry SFX_CRY_10, $00, $80 ; Rufflet
+	mon_cry SFX_CRY_18, $40, $A0 ; Braviary
+	mon_cry SFX_CRY_0B, $BB, $01 ; Vullaby
+	mon_cry SFX_CRY_0B, $99, $20 ; Mandibuzz
+	mon_cry SFX_CRY_04, $FF, $30 ; Heatmor
+	mon_cry SFX_CRY_14, $00, $80 ; Durant
+	mon_cry SFX_CRY_17, $80, $00 ; Deino
+	mon_cry SFX_CRY_17, $00, $80 ; Zweilous
+	mon_cry SFX_CRY_09, $00, $80 ; Hydreigon
+	mon_cry SFX_CRY_1E, $EE, $FF ; Larvesta
+	mon_cry SFX_CRY_1E, $99, $FF ; Volcarona
+	mon_cry SFX_CRY_16, $00, $80 ; Cobalion
+	mon_cry SFX_CRY_17, $FF, $C0 ; Terrakion
+	mon_cry SFX_CRY_23, $22, $FF ; Virizion
+	mon_cry SFX_CRY_09, $80, $40 ; Tornadus
+	mon_cry SFX_CRY_18, $FF, $80 ; Thundurus
+	mon_cry SFX_CRY_09, $F8, $40 ; Reshiram
+	mon_cry SFX_CRY_18, $FF, $80 ; Zekrom
+	mon_cry SFX_CRY_23, $20, $F0 ; Landorus
+	mon_cry SFX_CRY_09, $80, $40 ; Kyurem
+	mon_cry SFX_CRY_0F, $60, $40 ; Keldeo
+	mon_cry SFX_CRY_1C, $00, $80 ; Meloetta
+	mon_cry SFX_CRY_25, $AA, $FF ; Genesect
+	mon_cry SFX_CRY_1A, $10, $20 ; Victini
 	mon_cry SFX_CRY_0D, $00, $80 ; Exeggutor
-	mon_cry SFX_CRY_19, $00, $80 ; Cubone
-	mon_cry SFX_CRY_08, $4F, $60 ; Marowak
-	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
-	mon_cry SFX_CRY_11, $00, $80 ; Rhydon
-	mon_cry SFX_CRY_16, $80, $40 ; Goldeen
-	mon_cry SFX_CRY_16, $10, $FF ; Seaking
-	mon_cry SFX_CRY_20, $08, $40 ; Mr.Mime
-	mon_cry SFX_CRY_16, $00, $80 ; Scyther
-	mon_cry SFX_CRY_04, $FF, $30 ; Magmar
-	mon_cry SFX_CRY_14, $00, $80 ; Pinsir
-	mon_cry SFX_CRY_1D, $11, $40 ; Tauros
-	mon_cry SFX_CRY_17, $80, $00 ; Magikarp
-	mon_cry SFX_CRY_17, $00, $80 ; Gyarados
-	mon_cry SFX_CRY_1A, $10, $20 ; Flareon
-	mon_cry SFX_CRY_23, $20, $F0 ; Aerodactyl
-	mon_cry SFX_CRY_09, $80, $40 ; Articuno
-	mon_cry SFX_CRY_18, $FF, $80 ; Zapdos
-	mon_cry SFX_CRY_09, $F8, $40 ; Moltres
-	mon_cry SFX_CRY_0F, $60, $40 ; Dratini
-	mon_cry SFX_CRY_0F, $40, $80 ; Dragonair
-	mon_cry SFX_CRY_0F, $3C, $C0 ; Dragonite
-	mon_cry SFX_CRY_1E, $99, $FF ; Mewtwo
-	mon_cry SFX_CRY_1E, $EE, $FF ; Mew
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
@@ -193,7 +194,6 @@ CryData::
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_1D, $00, $80 ; MissingNo.
-	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	mon_cry SFX_CRY_00, $00, $00 ; MissingNo.
 	assert_table_length NUM_POKEMON_INDEXES

@@ -16,9 +16,9 @@ PrizeMenuMon1Cost:
 	db "@"
 
 PrizeMenuMon2Entries:
-	db SCYTHER
-	db PINSIR
-	db PORYGON
+	db HEATMOR
+	db DURANT
+	db CRYOGONAL
 	db "@"
 
 PrizeMenuMon2Cost:

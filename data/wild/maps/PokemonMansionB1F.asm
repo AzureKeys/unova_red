@@ -6,10 +6,10 @@ PokemonMansionB1FWildMons:
 	db 40, WATCHOG
 	db 41, GARBODOR
 	db 43, WATCHOG
-	db 24, DITTO
+	db 24, DEINO
 	db 46, WATCHOG
-	db 18, DITTO
-	db 12, DITTO
+	db 18, DEINO
+	db 12, DEINO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

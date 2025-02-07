@@ -7,9 +7,9 @@ Route22WildMons:
 	db  4, LILLIPUP
 	db  4, LILLIPUP
 	db  5, SCRAGGY
-	db  2, SPEAROW
-	db  4, SPEAROW
-	db  6, SPEAROW
+	db  2, RUFFLET
+	db  4, RUFFLET
+	db  6, RUFFLET
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

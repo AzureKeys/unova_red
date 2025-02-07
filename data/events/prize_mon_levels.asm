@@ -3,6 +3,6 @@ PrizeMonLevelDictionary:
 	db DARUMAKA,   18
 	db MUSHARNA,   22
 
-	db SCYTHER,    30
-	db PINSIR,     30
-	db PORYGON,    26
+	db HEATMOR,    30
+	db DURANT,     30
+	db CRYOGONAL,  26

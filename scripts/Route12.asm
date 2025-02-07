@@ -30,7 +30,7 @@ Route12DefaultScript:
 	ld a, TEXT_ROUTE12_SNORLAX_WOKE_UP
 	ldh [hTextID], a
 	call DisplayTextID
-	ld a, DITTO
+	ld a, THUNDURUS
 	ld [wCurOpponent], a
 	ld a, 30
 	ld [wCurEnemyLevel], a

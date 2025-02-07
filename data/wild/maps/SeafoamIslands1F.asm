@@ -5,8 +5,8 @@ SeafoamIslands1FWildMons:
 	db 27, DWEBBLE
 	db 27, WOOBAT
 	db 36, WOOBAT
-	db 28, SLOWPOKE
-	db 30, SLOWPOKE
+	db 28, STUNFISK
+	db 30, STUNFISK
 	db  9, WOOBAT
 	db 27, SWOOBAT
 	db 36, SWOOBAT

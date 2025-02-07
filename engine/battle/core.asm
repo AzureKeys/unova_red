@@ -5525,7 +5525,7 @@ AIGetTypeEffectiveness:
 	cp LORELEI
 	jr nz, .ok
 	ld a, [wEnemyMonSpecies]
-	cp SEAKING
+	cp BEARTIC
 	jr nz, .ok
 	call BattleRandom
 	cp $66 ; 40 percent

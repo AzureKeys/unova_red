@@ -110,7 +110,7 @@ PowerPlantVoltorbBattleText:
 PowerPlantZapdosBattleText:
 	text_far _PowerPlantZapdosBattleText
 	text_asm
-	ld a, ZAPDOS
+	ld a, ZEKROM
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

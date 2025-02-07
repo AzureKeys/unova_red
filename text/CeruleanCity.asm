@@ -137,21 +137,24 @@ _CeruleanCityGuardText::
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeUseSonicboomText::
-	text "OK! ELECTRODE!"
-	line "Use SONICBOOM!"
-	cont "Please ELECTRODE,"
+	text "OK! AMOONGUSS!"
+	line "Use STUN SPORE!"
+	cont "Please AMOONGUSS,"
 	cont "pay attention!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodePunchText::
-	text "ELECTRODE, TACKLE!"
-	line "No! You blew it"
-	cont "again!"
+	text "AMOONGUSS, use"
+	line "MEGA DRAIN!"
+	
+	para "No! You blew it"
+	line "again!"
 	done
 
 _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
-	text "ELECTRODE, SWIFT!"
-	line "No! That's wrong!"
+	text "AMOONGUSS, try"
+	line "FAINT ATTACK!"
+	cont "No! That's wrong!"
 
 	para "Training #MON"
 	line "is difficult!"
@@ -163,22 +166,22 @@ _CeruleanCityCooltrainerF1ElectrodeWithdrawText::
 	done
 
 _CeruleanCityElectrodeTookASnoozeText::
-	text "ELECTRODE took a"
+	text "AMOONGUSS took a"
 	line "snooze..."
 	done
 
 _CeruleanCityElectrodeIsLoafingAroundText::
-	text "ELECTRODE is"
+	text "AMOONGUSS is"
 	line "loafing around..."
 	done
 
 _CeruleanCityElectrodeTurnedAwayText::
-	text "ELECTRODE turned"
+	text "AMOONGUSS turned"
 	line "away..."
 	done
 
 _CeruleanCityElectrodeIgnoredOrdersText::
-	text "ELECTRODE"
+	text "AMOONGUSS"
 	line "ignored orders..."
 	done
 

@@ -61,16 +61,16 @@ _CeladonCityGramps3TM41NoRoomText::
 
 _CeladonCityFisherText::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, SIMIPOUR!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "PANPOUR when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
+	text "SIMIPOUR: Ook!"
+	line "Oo ook!@"
 	text_end
 
 _CeladonCityRocket1Text::

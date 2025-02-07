@@ -112,76 +112,61 @@ PokedexEntryPointers:
 	dw EelektrossDexEntry
 	dw ElgyemDexEntry
 	dw BeheeyemDexEntry
-	dw SpearowDexEntry
-	dw NidokingDexEntry
-	dw ExeggcuteDexEntry
-	dw GengarDexEntry
-	dw CuboneDexEntry
-	dw RhyhornDexEntry
-	dw MewDexEntry
-	dw GyaradosDexEntry
-	dw GastlyDexEntry
-	dw ScytherDexEntry
-	dw PinsirDexEntry
+	dw LitwickDexEntry
+	dw LampentDexEntry
+	dw ChandelureDexEntry
+	dw AxewDexEntry
+	dw FraxureDexEntry
+	dw HaxorusDexEntry
+	dw CubchooDexEntry
+	dw BearticDexEntry
+	dw CryogonalDexEntry
+	dw ShelmetDexEntry
+	dw AccelgorDexEntry
+	dw StunfiskDexEntry
+	dw MienfooDexEntry
+	dw MienshaoDexEntry
+	dw DruddigonDexEntry
+	dw GolettDexEntry
+	dw GolurkDexEntry
+	dw PawniardDexEntry
+	dw BisharpDexEntry
+	dw BouffalantDexEntry
+	dw RuffletDexEntry
+	dw BraviaryDexEntry
+	dw VullabyDexEntry
+	dw MandibuzzDexEntry
+	dw HeatmorDexEntry
+	dw DurantDexEntry
+	dw DeinoDexEntry
+	dw ZweilousDexEntry
+	dw HydreigonDexEntry
+	dw LarvestaDexEntry
+	dw VolcaronaDexEntry
+	dw CobalionDexEntry
+	dw TerrakionDexEntry
+	dw VirizionDexEntry
+	dw TornadusDexEntry
+	dw ThundurusDexEntry
+	dw ReshiramDexEntry
+	dw ZekromDexEntry
+	dw LandorusDexEntry
+	dw KyuremDexEntry
+	dw KeldeoDexEntry
+	dw MeloettaDexEntry
+	dw GenesectDexEntry
+	dw VictiniDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw FearowDexEntry
-	dw SlowpokeDexEntry
-	dw MrMimeDexEntry
-	dw MissingNoDexEntry
-	dw MagmarDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw TaurosDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw DragoniteDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw DoduoDexEntry
-	dw MoltresDexEntry
-	dw ArticunoDexEntry
-	dw ZapdosDexEntry
-	dw DittoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw PikachuDexEntry
-	dw RaichuDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw DratiniDexEntry
-	dw DragonairDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw DodrioDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MewtwoDexEntry
-	dw MagikarpDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MarowakDexEntry
-	dw MissingNoDexEntry
-	dw HaunterDexEntry
-	dw MissingNoDexEntry
-	dw GoldeenDexEntry
-	dw SeakingDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw MissingNoDexEntry
-	dw PonytaDexEntry
-	dw RapidashDexEntry
-	dw NidorinoDexEntry
-	dw PorygonDexEntry
-	dw AerodactylDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
@@ -189,7 +174,22 @@ PokedexEntryPointers:
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
 	dw MissingNoDexEntry
-	dw VileplumeDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
+	dw MissingNoDexEntry
 	assert_table_length NUM_POKEMON_INDEXES
 
 ; string: species name
@@ -197,277 +197,11 @@ PokedexEntryPointers:
 ; weight in tenths of a pound
 ; text entry
 
-SpearowDexEntry:
-	db "TINY BIRD@"
-	db 1,0
-	dw 40
-	text_far _SpearowDexEntry
-	text_end
-
-FearowDexEntry:
-	db "BEAK@"
-	db 3,11
-	dw 840
-	text_far _FearowDexEntry
-	text_end
-
 PikachuDexEntry:
 	db "MOUSE@"
 	db 1,4
 	dw 130
 	text_far _PikachuDexEntry
-	text_end
-
-RaichuDexEntry:
-	db "MOUSE@"
-	db 2,7
-	dw 660
-	text_far _RaichuDexEntry
-	text_end
-
-NidorinoDexEntry:
-	db "POISON PIN@"
-	db 2,11
-	dw 430
-	text_far _NidorinoDexEntry
-	text_end
-
-NidokingDexEntry:
-	db "DRILL@"
-	db 4,7
-	dw 1370
-	text_far _NidokingDexEntry
-	text_end
-
-VileplumeDexEntry:
-	db "FLOWER@"
-	db 3,11
-	dw 410
-	text_far _VileplumeDexEntry
-	text_end
-
-PonytaDexEntry:
-	db "FIRE HORSE@"
-	db 3,3
-	dw 660
-	text_far _PonytaDexEntry
-	text_end
-
-RapidashDexEntry:
-	db "FIRE HORSE@"
-	db 5,7
-	dw 2090
-	text_far _RapidashDexEntry
-	text_end
-
-SlowpokeDexEntry:
-	db "DOPEY@"
-	db 3,11
-	dw 790
-	text_far _SlowpokeDexEntry
-	text_end
-
-DoduoDexEntry:
-	db "TWIN BIRD@"
-	db 4,7
-	dw 860
-	text_far _DoduoDexEntry
-	text_end
-
-DodrioDexEntry:
-	db "TRIPLEBIRD@"
-	db 5,11
-	dw 1880
-	text_far _DodrioDexEntry
-	text_end
-
-GastlyDexEntry:
-	db "GAS@"
-	db 4,3
-	dw 2
-	text_far _GastlyDexEntry
-	text_end
-
-HaunterDexEntry:
-	db "GAS@"
-	db 5,3
-	dw 2
-	text_far _HaunterDexEntry
-	text_end
-
-GengarDexEntry:
-	db "SHADOW@"
-	db 4,11
-	dw 890
-	text_far _GengarDexEntry
-	text_end
-
-ExeggcuteDexEntry:
-	db "EGG@"
-	db 1,4
-	dw 60
-	text_far _ExeggcuteDexEntry
-	text_end
-
-CuboneDexEntry:
-	db "LONELY@"
-	db 1,4
-	dw 140
-	text_far _CuboneDexEntry
-	text_end
-
-MarowakDexEntry:
-	db "BONEKEEPER@"
-	db 3,3
-	dw 990
-	text_far _MarowakDexEntry
-	text_end
-
-RhyhornDexEntry:
-	db "SPIKES@"
-	db 3,3
-	dw 2540
-	text_far _RhyhornDexEntry
-	text_end
-
-GoldeenDexEntry:
-	db "GOLDFISH@"
-	db 2,0
-	dw 330
-	text_far _GoldeenDexEntry
-	text_end
-
-SeakingDexEntry:
-	db "GOLDFISH@"
-	db 4,3
-	dw 860
-	text_far _SeakingDexEntry
-	text_end
-
-MrMimeDexEntry:
-	db "BARRIER@"
-	db 4,3
-	dw 1200
-	text_far _MrMimeDexEntry
-	text_end
-
-ScytherDexEntry:
-	db "MANTIS@"
-	db 4,11
-	dw 1230
-	text_far _ScytherDexEntry
-	text_end
-
-MagmarDexEntry:
-	db "SPITFIRE@"
-	db 4,3
-	dw 980
-	text_far _MagmarDexEntry
-	text_end
-
-PinsirDexEntry:
-	db "STAGBEETLE@"
-	db 4,11
-	dw 1210
-	text_far _PinsirDexEntry
-	text_end
-
-TaurosDexEntry:
-	db "WILD BULL@"
-	db 4,7
-	dw 1950
-	text_far _TaurosDexEntry
-	text_end
-
-MagikarpDexEntry:
-	db "FISH@"
-	db 2,11
-	dw 220
-	text_far _MagikarpDexEntry
-	text_end
-
-GyaradosDexEntry:
-	db "ATROCIOUS@"
-	db 21,4
-	dw 5180
-	text_far _GyaradosDexEntry
-	text_end
-
-DittoDexEntry:
-	db "TRANSFORM@"
-	db 1,0
-	dw 90
-	text_far _DittoDexEntry
-	text_end
-
-PorygonDexEntry:
-	db "VIRTUAL@"
-	db 2,7
-	dw 800
-	text_far _PorygonDexEntry
-	text_end
-
-AerodactylDexEntry:
-	db "FOSSIL@"
-	db 5,11
-	dw 1300
-	text_far _AerodactylDexEntry
-	text_end
-
-ArticunoDexEntry:
-	db "FREEZE@"
-	db 5,7
-	dw 1220
-	text_far _ArticunoDexEntry
-	text_end
-
-ZapdosDexEntry:
-	db "ELECTRIC@"
-	db 5,3
-	dw 1160
-	text_far _ZapdosDexEntry
-	text_end
-
-MoltresDexEntry:
-	db "FLAME@"
-	db 6,7
-	dw 1320
-	text_far _MoltresDexEntry
-	text_end
-
-DratiniDexEntry:
-	db "DRAGON@"
-	db 5,11
-	dw 70
-	text_far _DratiniDexEntry
-	text_end
-
-DragonairDexEntry:
-	db "DRAGON@"
-	db 13,1
-	dw 360
-	text_far _DragonairDexEntry
-	text_end
-
-DragoniteDexEntry:
-	db "DRAGON@"
-	db 7,3
-	dw 4630
-	text_far _DragoniteDexEntry
-	text_end
-
-MewtwoDexEntry:
-	db "GENETIC@"
-	db 6,7
-	dw 2690
-	text_far _MewtwoDexEntry
-	text_end
-
-MewDexEntry:
-	db "NEW SPECIE@"
-	db 1,4
-	dw 90
-	text_far _MewDexEntry
 	text_end
 
 MissingNoDexEntry:
@@ -1260,310 +994,310 @@ BeheeyemDexEntry:
         text_far _BeheeyemDexEntry
         text_end
 
-; LitwickDexEntry:
-        ; db "CANDLE@"
-        ; db 1,0
-        ; dw 7
-        ; text_far _LitwickDexEntry
-        ; text_end
+LitwickDexEntry:
+        db "CANDLE@"
+        db 1,0
+        dw 7
+        text_far _LitwickDexEntry
+        text_end
 
-; LampentDexEntry:
-        ; db "LAMP@"
-        ; db 2,0
-        ; dw 29
-        ; text_far _LampentDexEntry
-        ; text_end
+LampentDexEntry:
+        db "LAMP@"
+        db 2,0
+        dw 29
+        text_far _LampentDexEntry
+        text_end
 
-; ChandelureDexEntry:
-        ; db "LURING@"
-        ; db 3,3
-        ; dw 76
-        ; text_far _ChandelureDexEntry
-        ; text_end
+ChandelureDexEntry:
+        db "LURING@"
+        db 3,3
+        dw 76
+        text_far _ChandelureDexEntry
+        text_end
 
-; AxewDexEntry:
-        ; db "TUSK@"
-        ; db 2,0
-        ; dw 40
-        ; text_far _AxewDexEntry
-        ; text_end
+AxewDexEntry:
+        db "TUSK@"
+        db 2,0
+        dw 40
+        text_far _AxewDexEntry
+        text_end
 
-; FraxureDexEntry:
-        ; db "AXE JAW@"
-        ; db 3,3
-        ; dw 79
-        ; text_far _FraxureDexEntry
-        ; text_end
+FraxureDexEntry:
+        db "AXE JAW@"
+        db 3,3
+        dw 79
+        text_far _FraxureDexEntry
+        text_end
 
-; HaxorusDexEntry:
-        ; db "AXE JAW@"
-        ; db 5,11
-        ; dw 233
-        ; text_far _HaxorusDexEntry
-        ; text_end
+HaxorusDexEntry:
+        db "AXE JAW@"
+        db 5,11
+        dw 233
+        text_far _HaxorusDexEntry
+        text_end
 
-; CubchooDexEntry:
-        ; db "CHILL@"
-        ; db 1,8
-        ; dw 19
-        ; text_far _CubchooDexEntry
-        ; text_end
+CubchooDexEntry:
+        db "CHILL@"
+        db 1,8
+        dw 19
+        text_far _CubchooDexEntry
+        text_end
 
-; BearticDexEntry:
-        ; db "FREEZING@"
-        ; db 8,6
-        ; dw 573
-        ; text_far _BearticDexEntry
-        ; text_end
+BearticDexEntry:
+        db "FREEZING@"
+        db 8,6
+        dw 573
+        text_far _BearticDexEntry
+        text_end
 
-; CryogonalDexEntry:
-        ; db "CRYSTLIZNG@"
-        ; db 3,7
-        ; dw 326
-        ; text_far _CryogonalDexEntry
-        ; text_end
+CryogonalDexEntry:
+        db "CRYSTLIZNG@"
+        db 3,7
+        dw 326
+        text_far _CryogonalDexEntry
+        text_end
 
-; ShelmetDexEntry:
-        ; db "SNAIL@"
-        ; db 1,4
-        ; dw 17
-        ; text_far _ShelmetDexEntry
-        ; text_end
+ShelmetDexEntry:
+        db "SNAIL@"
+        db 1,4
+        dw 17
+        text_far _ShelmetDexEntry
+        text_end
 
-; AccelgorDexEntry:
-        ; db "SHELL OUT@"
-        ; db 2,7
-        ; dw 56
-        ; text_far _AccelgorDexEntry
-        ; text_end
+AccelgorDexEntry:
+        db "SHELL OUT@"
+        db 2,7
+        dw 56
+        text_far _AccelgorDexEntry
+        text_end
 
-; StunfiskDexEntry:
-        ; db "TRAP@"
-        ; db 2,4
-        ; dw 24
-        ; text_far _StunfiskDexEntry
-        ; text_end
+StunfiskDexEntry:
+        db "TRAP@"
+        db 2,4
+        dw 24
+        text_far _StunfiskDexEntry
+        text_end
 
-; MienfooDexEntry:
-        ; db "MARTIALART@"
-        ; db 2,11
-        ; dw 44
-        ; text_far _MienfooDexEntry
-        ; text_end
+MienfooDexEntry:
+        db "MARTIALART@"
+        db 2,11
+        dw 44
+        text_far _MienfooDexEntry
+        text_end
 
-; MienshaoDexEntry:
-        ; db "MARTIALART@"
-        ; db 4,7
-        ; dw 78
-        ; text_far _MienshaoDexEntry
-        ; text_end
+MienshaoDexEntry:
+        db "MARTIALART@"
+        db 4,7
+        dw 78
+        text_far _MienshaoDexEntry
+        text_end
 
-; DruddigonDexEntry:
-        ; db "CAVE@"
-        ; db 5,3
-        ; dw 306
-        ; text_far _DruddigonDexEntry
-        ; text_end
+DruddigonDexEntry:
+        db "CAVE@"
+        db 5,3
+        dw 306
+        text_far _DruddigonDexEntry
+        text_end
 
-; GolettDexEntry:
-        ; db "AUTOMATON@"
-        ; db 3,3
-        ; dw 203
-        ; text_far _GolettDexEntry
-        ; text_end
+GolettDexEntry:
+        db "AUTOMATON@"
+        db 3,3
+        dw 203
+        text_far _GolettDexEntry
+        text_end
 
-; GolurkDexEntry:
-        ; db "AUTOMATON@"
-        ; db 9,2
-        ; dw 728
-        ; text_far _GolurkDexEntry
-        ; text_end
+GolurkDexEntry:
+        db "AUTOMATON@"
+        db 9,2
+        dw 728
+        text_far _GolurkDexEntry
+        text_end
 
-; PawniardDexEntry:
-        ; db "SHARPBLADE@"
-        ; db 1,8
-        ; dw 22
-        ; text_far _PawniardDexEntry
-        ; text_end
+PawniardDexEntry:
+        db "SHARPBLADE@"
+        db 1,8
+        dw 22
+        text_far _PawniardDexEntry
+        text_end
 
-; BisharpDexEntry:
-        ; db "SHARPSWORD@"
-        ; db 5,3
-        ; dw 154
-        ; text_far _BisharpDexEntry
-        ; text_end
+BisharpDexEntry:
+        db "SHARPSWORD@"
+        db 5,3
+        dw 154
+        text_far _BisharpDexEntry
+        text_end
 
-; BouffalantDexEntry:
-        ; db "BASHBUFALO@"
-        ; db 5,3
-        ; dw 208
-        ; text_far _BouffalantDexEntry
-        ; text_end
+BouffalantDexEntry:
+        db "BASHBUFALO@"
+        db 5,3
+        dw 208
+        text_far _BouffalantDexEntry
+        text_end
 
-; RuffletDexEntry:
-        ; db "EAGLET@"
-        ; db 1,8
-        ; dw 23
-        ; text_far _RuffletDexEntry
-        ; text_end
+RuffletDexEntry:
+        db "EAGLET@"
+        db 1,8
+        dw 23
+        text_far _RuffletDexEntry
+        text_end
 
-; BraviaryDexEntry:
-        ; db "VALIANT@"
-        ; db 4,11
-        ; dw 90
-        ; text_far _BraviaryDexEntry
-        ; text_end
+BraviaryDexEntry:
+        db "VALIANT@"
+        db 4,11
+        dw 90
+        text_far _BraviaryDexEntry
+        text_end
 
-; VullabyDexEntry:
-        ; db "DIAPERED@"
-        ; db 1,8
-        ; dw 20
-        ; text_far _VullabyDexEntry
-        ; text_end
+VullabyDexEntry:
+        db "DIAPERED@"
+        db 1,8
+        dw 20
+        text_far _VullabyDexEntry
+        text_end
 
-; MandibuzzDexEntry:
-        ; db "BONEVULTUR@"
-        ; db 3,11
-        ; dw 87
-        ; text_far _MandibuzzDexEntry
-        ; text_end
+MandibuzzDexEntry:
+        db "BONEVULTUR@"
+        db 3,11
+        dw 87
+        text_far _MandibuzzDexEntry
+        text_end
 
-; HeatmorDexEntry:
-        ; db "ANTEATER@"
-        ; db 4,7
-        ; dw 128
-        ; text_far _HeatmorDexEntry
-        ; text_end
+HeatmorDexEntry:
+        db "ANTEATER@"
+        db 4,7
+        dw 128
+        text_far _HeatmorDexEntry
+        text_end
 
-; DurantDexEntry:
-        ; db "IRON ANT@"
-        ; db 1,0
-        ; dw 73
-        ; text_far _DurantDexEntry
-        ; text_end
+DurantDexEntry:
+        db "IRON ANT@"
+        db 1,0
+        dw 73
+        text_far _DurantDexEntry
+        text_end
 
-; DeinoDexEntry:
-        ; db "IRATE@"
-        ; db 2,7
-        ; dw 38
-        ; text_far _DeinoDexEntry
-        ; text_end
+DeinoDexEntry:
+        db "IRATE@"
+        db 2,7
+        dw 38
+        text_far _DeinoDexEntry
+        text_end
 
-; ZweilousDexEntry:
-        ; db "HOSTILE@"
-        ; db 4,7
-        ; dw 110
-        ; text_far _ZweilousDexEntry
-        ; text_end
+ZweilousDexEntry:
+        db "HOSTILE@"
+        db 4,7
+        dw 110
+        text_far _ZweilousDexEntry
+        text_end
 
-; HydreigonDexEntry:
-        ; db "BRUTAL@"
-        ; db 5,11
-        ; dw 353
-        ; text_far _HydreigonDexEntry
-        ; text_end
+HydreigonDexEntry:
+        db "BRUTAL@"
+        db 5,11
+        dw 353
+        text_far _HydreigonDexEntry
+        text_end
 
-; LarvestaDexEntry:
-        ; db "TORCH@"
-        ; db 3,7
-        ; dw 64
-        ; text_far _LarvestaDexEntry
-        ; text_end
+LarvestaDexEntry:
+        db "TORCH@"
+        db 3,7
+        dw 64
+        text_far _LarvestaDexEntry
+        text_end
 
-; VolcaronaDexEntry:
-        ; db "SUN@"
-        ; db 5,3
-        ; dw 101
-        ; text_far _VolcaronaDexEntry
-        ; text_end
+VolcaronaDexEntry:
+        db "SUN@"
+        db 5,3
+        dw 101
+        text_far _VolcaronaDexEntry
+        text_end
 
-; CobalionDexEntry:
-        ; db "IRON WILL@"
-        ; db 6,11
-        ; dw 551
-        ; text_far _CobalionDexEntry
-        ; text_end
+CobalionDexEntry:
+        db "IRON WILL@"
+        db 6,11
+        dw 551
+        text_far _CobalionDexEntry
+        text_end
 
-; TerrakionDexEntry:
-        ; db "CAVERN@"
-        ; db 6,3
-        ; dw 573
-        ; text_far _TerrakionDexEntry
-        ; text_end
+TerrakionDexEntry:
+        db "CAVERN@"
+        db 6,3
+        dw 573
+        text_far _TerrakionDexEntry
+        text_end
 
-; VirizionDexEntry:
-        ; db "GRASSLAND@"
-        ; db 6,7
-        ; dw 441
-        ; text_far _VirizionDexEntry
-        ; text_end
+VirizionDexEntry:
+        db "GRASSLAND@"
+        db 6,7
+        dw 441
+        text_far _VirizionDexEntry
+        text_end
 
-; TornadusDexEntry:
-        ; db "CYCLONE@"
-        ; db 4,11
-        ; dw 139
-        ; text_far _TornadusDexEntry
-        ; text_end
+TornadusDexEntry:
+        db "CYCLONE@"
+        db 4,11
+        dw 139
+        text_far _TornadusDexEntry
+        text_end
 
-; ThundurusDexEntry:
-        ; db "BOLTSTRIKE@"
-        ; db 4,11
-        ; dw 134
-        ; text_far _ThundurusDexEntry
-        ; text_end
+ThundurusDexEntry:
+        db "BOLTSTRIKE@"
+        db 4,11
+        dw 134
+        text_far _ThundurusDexEntry
+        text_end
 
-; ReshiramDexEntry:
-        ; db "VAST WHITE@"
-        ; db 10,6
-        ; dw 728
-        ; text_far _ReshiramDexEntry
-        ; text_end
+ReshiramDexEntry:
+        db "VAST WHITE@"
+        db 10,6
+        dw 728
+        text_far _ReshiramDexEntry
+        text_end
 
-; ZekromDexEntry:
-        ; db "PITCHBLACK@"
-        ; db 9,6
-        ; dw 761
-        ; text_far _ZekromDexEntry
-        ; text_end
+ZekromDexEntry:
+        db "PITCHBLACK@"
+        db 9,6
+        dw 761
+        text_far _ZekromDexEntry
+        text_end
 
-; LandorusDexEntry:
-        ; db "ABUNDANCE@"
-        ; db 4,11
-        ; dw 150
-        ; text_far _LandorusDexEntry
-        ; text_end
+LandorusDexEntry:
+        db "ABUNDANCE@"
+        db 4,11
+        dw 150
+        text_far _LandorusDexEntry
+        text_end
 
-; KyuremDexEntry:
-        ; db "BOUNDARY@"
-        ; db 9,10
-        ; dw 716
-        ; text_far _KyuremDexEntry
-        ; text_end
+KyuremDexEntry:
+        db "BOUNDARY@"
+        db 9,10
+        dw 716
+        text_far _KyuremDexEntry
+        text_end
 
-; KeldeoDexEntry:
-        ; db "COLT@"
-        ; db 4,7
-        ; dw 107
-        ; text_far _KeldeoDexEntry
-        ; text_end
+KeldeoDexEntry:
+        db "COLT@"
+        db 4,7
+        dw 107
+        text_far _KeldeoDexEntry
+        text_end
 
-; MeloettaDexEntry:
-        ; db "MELODY@"
-        ; db 2,0
-        ; dw 14
-        ; text_far _MeloettaDexEntry
-        ; text_end
+MeloettaDexEntry:
+        db "MELODY@"
+        db 2,0
+        dw 14
+        text_far _MeloettaDexEntry
+        text_end
 
-; GenesectDexEntry:
-        ; db "PALEOZOIC@"
-        ; db 4,11
-        ; dw 182
-        ; text_far _GenesectDexEntry
-        ; text_end
+GenesectDexEntry:
+        db "PALEOZOIC@"
+        db 4,11
+        dw 182
+        text_far _GenesectDexEntry
+        text_end
 
-; VictiniDexEntry:
-        ; db "VICTORY@"
-        ; db 1,4
-        ; dw 9
-        ; text_far _VictiniDexEntry
-        ; text_end
+VictiniDexEntry:
+        db "VICTORY@"
+        db 1,4
+        dw 9
+        text_far _VictiniDexEntry
+        text_end

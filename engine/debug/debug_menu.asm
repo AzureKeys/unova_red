@@ -969,7 +969,7 @@ Func_fee56:
 	ld hl, wCurPartySpecies
 	dec [hl]
 	jr nz, Func_fee23
-	ld [hl], DEX_MEW
+	ld [hl], DEX_VICTINI
 	jr Func_fee23
 
 Func_fee60:

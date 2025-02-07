@@ -1,5 +1,5 @@
 FanClubPicture1:
-	ld a, RAPIDASH
+	ld a, GARBODOR
 	ld [wCurPartySpecies], a
 	call DisplayMonFrontSpriteInBox
 	call EnableAutoTextBoxDrawing
@@ -11,7 +11,7 @@ FanClubPicture1Text::
 	text_end
 
 FanClubPicture2:
-	ld a, FEAROW
+	ld a, BRAVIARY
 	ld [wCurPartySpecies], a
 	call DisplayMonFrontSpriteInBox
 	call EnableAutoTextBoxDrawing

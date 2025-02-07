@@ -13,19 +13,19 @@ _CeladonMart3FGameBoyKid2Text::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "BOUFFALANT for my"
+	cont "BOLDORE!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Come on BOLDORE!"
 
-	para "I love GRAVELER!"
+	para "I love BOLDORE!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
+	para "BOLDORE turned"
 	line "into a different"
 	cont "#MON!"
 	done
@@ -66,8 +66,8 @@ _CeladonMart3FCurrentFloorSignText::
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Black and White!"
+	line "New #MON games!"
 	done
 
 _CeladonMart3FClerkTM18PreReceiveText::

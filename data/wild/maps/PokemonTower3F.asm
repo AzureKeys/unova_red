@@ -1,15 +1,15 @@
 PokemonTower3FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 20, GASTLY
-	db 21, GASTLY
-	db 22, GASTLY
-	db 23, GASTLY
-	db 24, GASTLY
-	db 19, GASTLY
-	db 18, GASTLY
-	db 25, GASTLY
-	db 20, HAUNTER
-	db 25, HAUNTER
+	db 20, LITWICK
+	db 21, LITWICK
+	db 22, LITWICK
+	db 23, LITWICK
+	db 24, LITWICK
+	db 19, LITWICK
+	db 18, LITWICK
+	db 25, LITWICK
+	db 20, LAMPENT
+	db 25, LAMPENT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

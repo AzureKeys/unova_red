@@ -36,7 +36,7 @@ CeruleanCaveB1FMewtwoText:
 MewtwoBattleText:
 	text_far _MewtwoBattleText
 	text_asm
-	ld a, MEWTWO
+	ld a, RESHIRAM
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

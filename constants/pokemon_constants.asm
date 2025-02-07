@@ -119,84 +119,84 @@
 	const EELEKTROSS         ; $6E
 	const ELGYEM             ; $6F
 	const BEHEEYEM           ; $70
-	const_skip             ; $71
-	const_skip           ; $72
-	const_skip               ; $73
-	const DODRIO             ; $74
-	const ARTICUNO           ; $75
-	const TAUROS            ; $76
-	const DRATINI           ; $77
-	const_skip            ; $78
-	const_skip               ; $79
-	const_skip               ; $7A
-	const GASTLY           ; $7B
-	const_skip            ; $7C
-	const EXEGGCUTE        ; $7D
-	const SLOWPOKE            ; $7E
-	const_skip               ; $7F
-	const_skip            ; $80
-	const MAGMAR              ; $81
-	const_skip             ; $82
-	const MEWTWO             ; $83
-	const DRAGONITE            ; $84
-	const MAGIKARP           ; $85
-	const_skip               ; $86
-	const_skip               ; $87
-	const RHYHORN                ; $88
-	const_skip               ; $89
-	const_skip           ; $8A
-	const_skip           ; $8B
-	const_skip               ; $8C
-	const_skip          ; $8D
-	const DODUO           ; $8E
-	const ZAPDOS            ; $8F
-	const_skip            ; $90
-	const MAROWAK            ; $91
-	const_skip               ; $92
-	const HAUNTER            ; $93
-	const_skip               ; $94
-	const_skip           ; $95
-	const SCYTHER          ; $96
-	const MR_MIME            ; $97
-	const_skip            ; $98
-	const NIDOKING          ; $99
-	const_skip           ; $9A
-	const MOLTRES         ; $9B
-	const_skip               ; $9C
-	const GOLDEEN            ; $9D
-	const SEAKING            ; $9E
+	const LITWICK            ; $71
+	const LAMPENT            ; $72
+	const CHANDELURE         ; $73
+	const AXEW               ; $74
+	const FRAXURE            ; $75
+	const HAXORUS            ; $76
+	const CUBCHOO            ; $77
+	const BEARTIC            ; $78
+	const CRYOGONAL          ; $79
+	const SHELMET            ; $7A
+	const ACCELGOR           ; $7B
+	const STUNFISK           ; $7C
+	const MIENFOO            ; $7D
+	const MIENSHAO           ; $7E
+	const DRUDDIGON          ; $7F
+	const GOLETT             ; $80
+	const GOLURK             ; $81
+	const PAWNIARD           ; $82
+	const BISHARP            ; $83
+	const BOUFFALANT         ; $84
+	const RUFFLET            ; $85
+	const BRAVIARY           ; $86
+	const VULLABY            ; $87
+	const MANDIBUZZ          ; $88
+	const HEATMOR            ; $89
+	const DURANT             ; $8A
+	const DEINO              ; $8B
+	const ZWEILOUS           ; $8C
+	const HYDREIGON          ; $8D
+	const LARVESTA           ; $8E
+	const VOLCARONA          ; $8F
+	const COBALION           ; $90
+	const TERRAKION          ; $91
+	const VIRIZION           ; $92
+	const TORNADUS           ; $93
+	const THUNDURUS          ; $94
+	const RESHIRAM           ; $95
+	const ZEKROM             ; $96
+	const LANDORUS           ; $97
+	const KYUREM             ; $98
+	const KELDEO             ; $99
+	const MELOETTA           ; $9A
+	const GENESECT           ; $9B
+	const VICTINI            ; $9C
+	const_skip            ; $9D
+	const_skip           ; $9E
 	const_skip               ; $9F
 	const_skip               ; $A0
 	const_skip               ; $A1
 	const_skip               ; $A2
-	const PONYTA             ; $A3
-	const RAPIDASH           ; $A4
-	const DRAGONAIR            ; $A5
-	const CUBONE           ; $A6
-	const NIDORINO           ; $A7
-	const GENGAR           ; $A8
+	const_skip             ; $A3
+	const_skip           ; $A4
+	const_skip            ; $A5
+	const_skip           ; $A6
+	const_skip           ; $A7
+	const_skip           ; $A8
 	const_skip            ; $A9
-	const PORYGON            ; $AA
-	const AERODACTYL         ; $AB
+	const_skip            ; $AA
+	const_skip         ; $AB
 	const_skip               ; $AC
-	const DITTO          ; $AD
+	const_skip          ; $AD
 	const_skip               ; $AE
 	const_skip               ; $AF
 	const_skip           ; $B0
-	const FEAROW            ; $B1
-	const SPEAROW            ; $B2
-	const PINSIR            ; $B3
+	const_skip            ; $B1
+	const_skip            ; $B2
+	const_skip            ; $B3
 	const_skip            ; $B4
 	const_skip               ; $B5
 	const FOSSIL_KABUTOPS    ; $B6
 	const FOSSIL_AERODACTYL  ; $B7
 	const MON_GHOST          ; $B8
-	const MEW             ; $B9
-	const GYARADOS              ; $BA
-	const VILEPLUME          ; $BB
+	const_skip             ; $B9
+	const_skip              ; $BA
+	const_skip          ; $BB
 	const_skip         ; $BC
-	const PIKACHU         ; $BD
-	const RAICHU         ; $BE
+	const_skip         ; $BD
+	const PIKACHU         ; $BE
 
 DEF NUM_POKEMON_INDEXES EQU const_value - 1
 
@@ -214,4 +214,4 @@ DEF RIVAL_STARTER_FLAREON  EQU 2
 DEF RIVAL_STARTER_VAPOREON EQU 3
 
 ; ghost Marowak in Pokémon Tower
-DEF RESTLESS_SOUL EQU MAROWAK
+DEF RESTLESS_SOUL EQU COFAGRIGUS

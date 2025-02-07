@@ -4,7 +4,7 @@ Route15GateLeftBinoculars:
 	ret nz
 	call EnableAutoTextBoxDrawing
 	tx_pre Route15UpstairsBinocularsText
-	ld a, ARTICUNO
+	ld a, KYUREM
 	ld [wCurPartySpecies], a
 	call PlayCry
 	call DisplayMonFrontSpriteInBox

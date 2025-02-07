@@ -1,15 +1,15 @@
 PokemonTower7FWildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 24, GASTLY
-	db 25, GASTLY
-	db 26, GASTLY
-	db 27, GASTLY
-	db 28, GASTLY
-	db 23, GASTLY
-	db 24, CUBONE
-	db 29, GASTLY
-	db 24, HAUNTER
-	db 29, HAUNTER
+	db 24, LITWICK
+	db 25, LITWICK
+	db 26, LITWICK
+	db 27, LITWICK
+	db 28, LITWICK
+	db 23, LITWICK
+	db 24, GOLETT
+	db 29, LITWICK
+	db 24, LAMPENT
+	db 29, LAMPENT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

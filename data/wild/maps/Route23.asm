@@ -5,9 +5,9 @@ Route23WildMons:
 	db 36, SCRAGGY
 	db 44, HERDIER
 	db 44, HERDIER
-	db 40, FEAROW
+	db 40, BRAVIARY
 	db 41, SCRAGGY
-	db 45, FEAROW
+	db 45, BRAVIARY
 	db 41, SCRAFTY
 	db 46, SCRAFTY
 	end_grass_wildmons

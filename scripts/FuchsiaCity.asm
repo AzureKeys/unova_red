@@ -108,7 +108,7 @@ FuchsiaCitySlowpokeSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SLOWPOKE
+	ld a, STUNFISK
 	call DisplayPokedex
 	jp TextScriptEnd
 

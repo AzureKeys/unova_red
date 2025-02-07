@@ -202,8 +202,6 @@ PokeCup::
 	ld b, $3
 .loop
 	ld a, [hli]
-	cp MEW
-	jp z, MewInParty
 	dec b
 	jr nz, .loop
 	dec hl
@@ -248,8 +246,6 @@ PikaCup::
 	ld b, $3
 .loop
 	ld a, [hli] ; wPartySpecies
-	cp MEW
-	jp z, MewInParty
 	dec b
 	jr nz, .loop
 	dec hl
@@ -294,8 +290,6 @@ PetitCup::
 	ld b, $3
 .loop
 	ld a, [hli]
-	cp MEW
-	jp z, MewInParty
 	dec b
 	jr nz, .loop
 	dec hl

@@ -14,7 +14,7 @@ _ViridianForestYoungster2BattleText::
 
 _ViridianForestYoungster2EndBattleText::
 	text "No!"
-	line "CATERPIE can't"
+	line "SEWADDLE can't"
 	cont "cut it!"
 	prompt
 

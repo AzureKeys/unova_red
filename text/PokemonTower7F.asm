@@ -34,11 +34,12 @@ _PokemonTower7FMrFujiRescueText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "YAMASK's mother."
 
-	para "I think MAROWAK's"
-	line "spirit has gone"
-	cont "to the afterlife."
+	para "I think the spirit"
+	line "of COFAGRIGUS has"
+	cont "gone to the"
+	cont "afterlife."
 
 	para "I must thank you"
 	line "for your kind"

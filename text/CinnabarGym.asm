@@ -58,8 +58,8 @@ _CinnabarGymBlaineTM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "DARUMAKA or"
+	line "PIGNITE would be"
 	cont "good bets!"
 	done
 
@@ -136,6 +136,10 @@ _CinnabarGymSuperNerd4AfterBattleText::
 	text "I wish there was"
 	line "a thief #MON!"
 	cont "I'd use that!"
+	
+	para "Too bad that move"
+	line "wasn't added to"
+	cont "this game!"
 	done
 
 _CinnabarGymSuperNerd5BattleText::
@@ -150,8 +154,9 @@ _CinnabarGymSuperNerd5EndBattleText::
 _CinnabarGymSuperNerd5AfterBattleText::
 	text "BLAINE was lost"
 	line "in the mountains"
-	cont "when a fiery bird"
-	cont "#MON appeared."
+	cont "when a fiery"
+	cont "dragon #MON"
+	cont "appeared."
 
 	para "Its light enabled"
 	line "BLAINE to find"
@@ -171,8 +176,8 @@ _CinnabarGymSuperNerd6EndBattleText::
 
 _CinnabarGymSuperNerd6AfterBattleText::
 	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	line "fans like HEATMOR"
+	cont "and DARMANITAN!"
 	done
 
 _CinnabarGymSuperNerd7BattleText::

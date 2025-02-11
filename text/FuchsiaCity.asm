@@ -62,44 +62,45 @@ _FuchsiaCityGymSignText::
 	done
 
 _FuchsiaCityChanseySignText::
-	text "Name: CHANSEY"
+	text "Name: AUDINO"
 
-	para "Catching one is"
-	line "all up to chance."
+	para "Rare, but good for"
+	line "training against."
 	prompt
 
 _FuchsiaCityVoltorbSignText::
-	text "Name: VOLTORB"
+	text "Name: AMOONGUSS"
 
-	para "The very image of"
-	line "a # BALL."
+	para "A mushroom that"
+	line "looks like a #-"
+	cont "BALL."
 	prompt
 
 _FuchsiaCityKangaskhanSignText::
-	text "Name: KANGASKHAN"
+	text "Name: BOUFFALANT"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "A rare #MON"
+	line "with a thick"
+	cont "skull and powerful"
+	cont "horns."
 	prompt
 
 _FuchsiaCitySlowpokeSignText::
-	text "Name: SLOWPOKE"
+	text "Name: STUNFISK"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Careful not to"
+	line "step on it!"
 	prompt
 
 _FuchsiaCityLaprasSignText::
-	text "Name: LAPRAS"
+	text "Name: JELLICENT"
 
-	para "A.K.A. the king"
+	para "The ghostly king"
 	line "of the seas."
 	prompt
 
 _FuchsiaCityFossilSignOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: TIRTOUGA"
 
 	para "A #MON that"
 	line "was resurrected"
@@ -107,7 +108,7 @@ _FuchsiaCityFossilSignOmanyteText::
 	prompt
 
 _FuchsiaCityFossilSignKabutoText::
-	text "Name: KABUTO"
+	text "Name: ARCHEN"
 
 	para "A #MON that"
 	line "was resurrected"

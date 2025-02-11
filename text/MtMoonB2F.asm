@@ -23,12 +23,12 @@ _MtMoonJessieJamesText4::
 
 _MtMoonB2FDomeFossilYouWantText::
 	text "You want the"
-	line "DOME FOSSIL?"
+	line "PLUME FOSSIL?"
 	done
 
 _MtMoonB2FHelixFossilYouWantText::
 	text "You want the"
-	line "HELIX FOSSIL?"
+	line "COVER FOSSIL?"
 	done
 
 _MtMoonB2FReceivedFossilText::

@@ -163,7 +163,7 @@ PokemonFanClubSeelText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, PANSEAR
+	ld a, PANPOUR
 	call PlayCry
 	call WaitForSoundToFinish
 	jp TextScriptEnd

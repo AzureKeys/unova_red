@@ -67,15 +67,15 @@ _SilphCo5FRocket2BattleText::
 	done
 
 _SilphCo5FRocket2EndBattleText::
-	text "Cough..."
-	line "Cough..."
+	text "Trashed like"
+	line "TRUBBISH..."
 	prompt
 
 _SilphCo5FRocket2AfterBattleText::
 	text "Which reminds me."
 
-	para "KOFFING evolves"
-	line "into WEEZING!"
+	para "TRUBBISH evolves"
+	line "into GARBODOR!"
 	done
 
 _SilphCo5FPokemonReport1Text::
@@ -83,9 +83,10 @@ _SilphCo5FPokemonReport1Text::
 	line "REPORT!"
 
 	para "#MON LAB"
-	line "created PORYGON,"
-	cont "the first virtual"
-	cont "reality #MON."
+	line "created GENESECT,"
+	cont "the first fully"
+	cont "artificial"
+	cont "#MON."
 	done
 
 _SilphCo5FPokemonReport2Text::
@@ -101,7 +102,8 @@ _SilphCo5FPokemonReport3Text::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "The #MON that"
+	line "evolve only when"
+	cont "traded can now"
+	cont "evolve by level."
 	done

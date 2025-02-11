@@ -1,11 +1,11 @@
 _PokemonFanClubClefairyFanNormalText::
 	text "Won't you admire"
-	line "my CLEFAIRY's"
-	cont "adorable tail?"
+	line "my MUNNA's"
+	cont "adorable nose?"
 	done
 
 _PokemonFanClubClefairyFanBetterText::
-	text "Humph! My CLEFAIRY"
+	text "Humph! My MUNNA"
 	line "is twice as cute"
 	cont "as that one!"
 	done
@@ -17,12 +17,12 @@ _PokemonFanClubClefairyFanText::
 
 	para "He gave me a nice"
 	line "PRINT of my cute"
-	cont "CLEFAIRY."
+	cont "MUNNA."
 	done
 
 _PokemonFanClubSeelFanNormalText::
 	text "I just love my"
-	line "SEEL!"
+	line "PANPOUR!"
 
 	para "It squeals when I"
 	line "hug it!"
@@ -31,7 +31,7 @@ _PokemonFanClubSeelFanNormalText::
 _PokemonFanClubSeelFanBetterText::
 	text "Oh dear!"
 
-	para "My SEEL is far"
+	para "My PANPOUR is far"
 	line "more attractive!"
 	done
 
@@ -39,15 +39,15 @@ _PokemonFanClubSeelFanText::
 	text "I'm going to hook"
 	line "up the cable to"
 	cont "get a photo PRINT"
-	cont "of my SEEL!"
+	cont "of my PANPOUR!"
 	done
 
 _PokemonFanClubClefairyText::
-	text "CLEFAIRY: Pippii!"
+	text "MUNNA: Muuuu."
 	done
 
 _PokemonFanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "PANPOUR: Oo, ook!"
 	done
 
 _PokemonFanClubChairmanIntroText::
@@ -74,7 +74,7 @@ _PokemonFanClubChairmanStoryText::
 	line "Then listen up!"
 
 	para "My favorite"
-	line "RAPIDASH..."
+	line "GARBODOR..."
 
 	para "It...cute..."
 	line "lovely...smart..."
@@ -113,7 +113,7 @@ _PokemonFanClubExplainBikeVoucherText::
 	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "FEAROW will FLY"
+	line "BRAVIARY will FLY"
 	cont "me anywhere!"
 
 	para "So, I don't need a"

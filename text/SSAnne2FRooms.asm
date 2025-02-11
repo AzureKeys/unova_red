@@ -2,7 +2,7 @@ _SSAnne2FRoomsGentleman3Text::
 	text "In all my travels,"
 	line "I've never seen"
 	cont "any #MON sleep"
-	cont "like this one!"
+	cont "like these!"
 
 	para "It was something"
 	line "like this!"

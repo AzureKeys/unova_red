@@ -118,13 +118,13 @@ _Route11Youngster3EndBattleText::
 	prompt
 
 _Route11Youngster3AfterBattleText::
-	text "There's a fat"
-	line "#MON that"
-	cont "comes down from"
+	text "There are storm-"
+	line "cloud #MON that"
+	cont "come down from"
 	cont "the mountains."
 
-	para "It's strong if"
-	line "you can get it."
+	para "They're strong if"
+	line "you can get 'em."
 	done
 
 _Route11SuperNerd2BattleText::
@@ -158,5 +158,5 @@ _Route11Youngster4AfterBattleText::
 	done
 
 _Route11DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
+	text "DIGGER's CAVE"
 	done

@@ -63,7 +63,7 @@ _CopycatsHouse2FCopycatTM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FDoduoText::
-	text "DODUO: Giiih!"
+	text "VULLABY: Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
@@ -78,9 +78,10 @@ _CopycatsHouse2FRareDollText::
 	done
 
 _CopycatsHouse2FSNESText::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "A special version"
+	line "of Zelda with all"
+	cont "of the items in"
+	cont "random places!"
 	done
 
 _CopycatsHouse2FPCMySecretsText::
@@ -92,7 +93,7 @@ _CopycatsHouse2FPCMySecretsText::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "AUDINO!"
 	done
 
 _CopycatsHouse2FPCCantSeeText::

@@ -10,8 +10,8 @@ _SilphCo7FSilphWorkerM1HaveThisPokemonText::
 	prompt
 
 _SilphCo7FSilphWorkerM1LaprasDescriptionText::
-	text "It's LAPRAS. It's"
-	line "very intelligent."
+	text "It's a rare"
+	line "#MON."
 
 	para "We kept it in our"
 	line "lab, but it will"
@@ -20,11 +20,7 @@ _SilphCo7FSilphWorkerM1LaprasDescriptionText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
-
-	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	cont "for it!"
 	done
 
 _SilphCo7FSilphWorkerM1IsOurPresidentOkText::

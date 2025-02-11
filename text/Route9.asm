@@ -22,13 +22,13 @@ _Route9AJBattleText::
 
 _Route9AJEndBattleText::
 	text "My"
-	line "SANDSHREW lost?"
+	line "SANDILE lost?"
 	prompt
 
 _Route9AJAfterBattleText::
 	text "I'll restart my"
 	line "100-win streak"
-	cont "with SANDSHREW."
+	cont "with SANDILE."
 	done
 
 _Route9CooltrainerM2BattleText::

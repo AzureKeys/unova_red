@@ -25,10 +25,12 @@ _SSAnneKitchenCook4Text::
 
 _SSAnneKitchenCook5Text::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "TORNADUS and"
+	cont "THUNDURUS?"
 
-	para "All it does is"
-	line "eat and sleep!"
+	para "All they do is"
+	line "sleep and cause"
+	cont "mischief!"
 	done
 
 _SSAnneKitchenCook6Text::

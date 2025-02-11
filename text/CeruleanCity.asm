@@ -196,14 +196,9 @@ _CeruleanCityCooltrainerF2Text::
 
 _CeruleanCitySuperNerd3Text::
 	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
+	line "CAVE! A legendary"
+	cont "#MON is said to"
 	cont "live in there!"
-
-	para "The #MON LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
 	done
 
 _CeruleanCitySignText::

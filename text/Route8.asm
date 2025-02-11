@@ -40,14 +40,14 @@ _Route8SuperNerd2EndBattleText::
 	prompt
 
 _Route8SuperNerd2AfterBattleText::
-	text "Go with GRIMER"
+	text "Go with TRUBBISH"
 	line "first...and..."
 	cont "...and...then..."
 	done
 
 _Route8CooltrainerF1BattleText::
-	text "I like NIDORAN, so"
-	line "I collect them!"
+	text "I like LILLIPUP,"
+	line "so I collect them!"
 	done
 
 _Route8CooltrainerF21EndBattleText::
@@ -78,8 +78,8 @@ _Route8SuperNerd3AfterBattleText::
 	done
 
 _Route8CooltrainerF2BattleText::
-	text "MEOWTH is so cute,"
-	line "meow, meow, meow!"
+	text "PURRLOIN is so"
+	line "cute, meow, meow!"
 	done
 
 _Route8CooltrainerF2EndBattleText::
@@ -87,8 +87,8 @@ _Route8CooltrainerF2EndBattleText::
 	prompt
 
 _Route8CooltrainerF2AfterBattleText::
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think PIDOVE"
+	line "and LILLIPUP"
 	cont "are cute too!"
 	done
 
@@ -137,12 +137,12 @@ _Route8CooltrainerF4EndBattleText::
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my MUNNA!"
 	prompt
 
 _Route8CooltrainerF4AfterBattleText::
 	text "I heard that"
-	line "CLEFAIRY evolves"
+	line "MUNNA evolves"
 	cont "when it's exposed"
 	cont "to a MOON STONE."
 	done

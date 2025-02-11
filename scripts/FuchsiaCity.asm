@@ -96,7 +96,7 @@ FuchsiaCityKangaskhanSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, SNIVY
+	ld a, BOUFFALANT
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -120,7 +120,7 @@ FuchsiaCityLaprasSignText:
 	text_asm
 	ld hl, .Text
 	call PrintText
-	ld a, BASCULIN
+	ld a, JELLICENT
 	call DisplayPokedex
 	jp TextScriptEnd
 

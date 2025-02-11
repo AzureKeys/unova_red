@@ -22,6 +22,6 @@ _PewterPokecenterText3::
 	done
 
 _PewterPokecenterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
-	line "pupuu!"
+	text "MINCCINO: Miiii-"
+	line "miiiin!"
 	done

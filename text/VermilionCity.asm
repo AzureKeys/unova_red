@@ -2,8 +2,9 @@ _VermilionCityBeautyText::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
+	para "We've heard"
+	line "TRUBBISH can "
+	cont "multiply in"
 	cont "toxic sludge!"
 	done
 
@@ -67,13 +68,13 @@ _VermilionCityGambler2Text::
 	done
 
 _VermilionCityMachopText::
-	text "MACHOP: Guoh!"
+	text "TIMBURR: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityMachopStompingTheLandFlatText::
 	text_start
-	para "A MACHOP is"
+	para "A TIMBURR is"
 	line "stomping the land"
 	cont "flat."
 	done
@@ -89,7 +90,7 @@ _VermilionCitySailor2Text::
 
 _OfficerJennyText1::
 	text "I just caught a"
-	line "SQUIRTLE that was"
+	line "#MON that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -106,7 +107,7 @@ _OfficerJennyText2::
 	line "good trainer!"
 
 	para "I just caught a"
-	line "SQUIRTLE that was"
+	line "#MON that was"
 	cont "always getting"
 	cont "into mischief."
 
@@ -116,7 +117,7 @@ _OfficerJennyText2::
 
 _OfficerJennyText3::
 	text "OK! Please treat"
-	line "SQUIRTLE right!@"
+	line "it right!@"
 	text_end
 
 _OfficerJennyText4::
@@ -125,8 +126,8 @@ _OfficerJennyText4::
 	done
 
 _OfficerJennyText5::
-	text "How is SQUIRTLE"
-	line "doing?"
+	text "How is your #-"
+	line "MON doing?"
 	done
 
 _VermilionCitySignText::

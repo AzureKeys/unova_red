@@ -1,9 +1,7 @@
 _CinnabarLabMetronomeRoomScientist1Text::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	text "I made a cool TM!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "You should try it!"
 	prompt
 
 _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
@@ -14,14 +12,13 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 	text_end
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a LIGHT SCRE!"
+	text "That TM creates a"
+	cont "LIGHT SCREEN!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "It's a magical"
+	line "shield that halves"
+	cont "damage from"
+	cont "special moves!"
 	done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
@@ -30,9 +27,13 @@ _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
 	done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "There are three"
+	line "rare stag #MON"
+	cont "that are known."
+	
+	para "But some say there"
+	line "is a fourth that"
+	cont "is even more rare!"
 	done
 
 _CinnabarLabMetronomeRoomPCText::
@@ -42,9 +43,9 @@ _CinnabarLabMetronomeRoomPCText::
 	para "..."
 
 	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
+	line "dragon #MON are"
+	cont "RESHIRAM, ZEKROM,"
+	cont "and KYUREM."
 
 	para "Their whereabouts"
 	line "are unknown."

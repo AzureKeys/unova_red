@@ -81,7 +81,7 @@ _Route14CooltrainerM5EndBattleText::
 _Route14CooltrainerM5AfterBattleText::
 	text "The 3 legendary"
 	line "#MON are all"
-	cont "birds of prey."
+	cont "powerful dragons!"
 	done
 
 _Route14CooltrainerM6BattleText::

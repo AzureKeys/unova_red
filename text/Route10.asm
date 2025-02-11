@@ -97,6 +97,10 @@ _Route10CooltrainerF2AfterBattleText::
 	cont "There should be a"
 	cont "pink one with a"
 	cont "floral pattern!"
+	
+	para "Oh wait, I can"
+	line "find MUNNA in"
+	cont "MT.MOON!"
 	done
 
 _Route10RockTunnelSignText::

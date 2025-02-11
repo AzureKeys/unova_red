@@ -113,9 +113,9 @@ _Route20Swimmer7EndBattleText::
 	prompt
 
 _Route20Swimmer7AfterBattleText::
-	text "Will my pearls"
-	line "grow bigger"
-	cont "inside CLOYSTER?"
+	text "Are there any sea"
+	line "#MON that grow"
+	cont "pearls?"
 	done
 
 _Route20Swimmer8BattleText::

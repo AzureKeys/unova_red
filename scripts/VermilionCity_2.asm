@@ -1,6 +1,6 @@
 VermilionCityPrintOfficerJennyText::
 	CheckEvent EVENT_GOT_SQUIRTLE_FROM_OFFICER_JENNY
-	jr nz, .asm_f1a69
+	jp nz, .asm_f1a69
 	ld a, [wBeatGymFlags]
 	bit BIT_THUNDERBADGE, a
 	jr nz, .asm_f1a24
@@ -15,6 +15,36 @@ VermilionCityPrintOfficerJennyText::
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .asm_f1a62
+	
+	ld a, [wRivalStarter]
+	cp STARTER2
+	jr nz, .not_oshawott
+	
+	ld a, SNIVY
+	ld [wNamedObjectIndex], a
+	ld [wCurPartySpecies], a
+	call GetMonName
+	ld a, $1
+	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
+	lb bc, SNIVY, 10
+	call GivePokemon
+	ret nc
+	jr .JennyGaveMon
+.not_oshawott
+	cp STARTER3
+	jr nz, .not_snivy
+	
+	ld a, TEPIG
+	ld [wNamedObjectIndex], a
+	ld [wCurPartySpecies], a
+	call GetMonName
+	ld a, $1
+	ld [wDoNotWaitForButtonPressAfterDisplayingText], a
+	lb bc, TEPIG, 10
+	call GivePokemon
+	ret nc
+	jr .JennyGaveMon
+.not_snivy
 	ld a, OSHAWOTT
 	ld [wNamedObjectIndex], a
 	ld [wCurPartySpecies], a
@@ -24,6 +54,8 @@ VermilionCityPrintOfficerJennyText::
 	lb bc, OSHAWOTT, 10
 	call GivePokemon
 	ret nc
+; fallthrough
+.JennyGaveMon
 	ld a, [wAddedToParty]
 	and a
 	call z, WaitForTextScrollButtonPress

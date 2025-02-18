@@ -293,9 +293,26 @@ SilphCo7FSilphWorkerM1Text:
 .give_lapras
 	ld hl, .HaveThisPokemonText
 	call PrintText
-	lb bc, BASCULIN, 15
+	
+	ld a, [wRivalStarter]
+	cp STARTER2
+	jr nz, .not_oshawott
+	lb bc, OSHAWOTT, 15
 	call GivePokemon
 	jr nc, .done
+	jr .gave_mon
+.not_oshawott
+	cp STARTER3
+	jr nz, .not_snivy
+	lb bc, SNIVY, 15
+	call GivePokemon
+	jr nc, .done
+	jr .gave_mon
+.not_snivy
+	lb bc, TEPIG, 15
+	call GivePokemon
+	jr nc, .done
+.gave_mon
 	ld a, [wSimulatedJoypadStatesEnd]
 	and a
 	call z, WaitForTextScrollButtonPress

@@ -69,7 +69,6 @@ SilphCo11FTeamRocketLeavesScript::
 	db HS_SILPH_CO_10F_1
 	db HS_SILPH_CO_10F_2
 	db HS_SILPH_CO_11F_1
-	db HS_SILPH_CO_11F_JAMES
 	db HS_SILPH_CO_11F_2
-	db HS_SILPH_CO_11F_JESSIE
+	db HS_SILPH_CO_11F_3
 	db -1 ; end

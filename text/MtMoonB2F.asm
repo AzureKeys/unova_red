@@ -1,26 +1,3 @@
-_MtMoonJessieJamesText1::
-	text "Stop right there!@"
-	text_end
-
-_MtMoonJessieJamesText2::
-	text "That fossil is"
-	line "TEAM ROCKET's!"
-
-	para "Surrender now, or "
-	line "prepare to fight!"
-	done
-
-_MtMoonJessieJamesText3::
-	text "A"
-	line "brat beat us?"
-	prompt
-
-_MtMoonJessieJamesText4::
-	text "TEAM ROCKET, blast"
-	line "off at the speed"
-	cont "of light!@"
-	text_end
-
 _MtMoonB2FDomeFossilYouWantText::
 	text "You want the"
 	line "PLUME FOSSIL?"
@@ -77,6 +54,24 @@ _MtMoonB2FSuperNerdThenThisIsMineText::
 	text "All right. Then"
 	line "this is mine!@"
 	text_end
+
+_MtMoonB2FRocket1BattleText::
+	text "TEAM ROCKET will"
+	line "find the fossils,"
+	cont "revive and sell"
+	cont "them for cash!"
+	done
+
+_MtMoonB2FRocket1EndBattleText::
+	text "Urgh!"
+	line "Now I'm mad!"
+	prompt
+
+_MtMoonB2FRocket1AfterBattleText::
+	text "You made me mad!"
+	line "TEAM ROCKET will"
+	cont "blacklist you!"
+	done
 
 _MtMoonB2FRocket2BattleText::
 	text "We, TEAM ROCKET,"

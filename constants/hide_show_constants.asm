@@ -116,8 +116,6 @@ DEF SHOW EQU $15
 	const HS_MT_MOON_1F_ITEM_4             ; 6A
 	const HS_MT_MOON_1F_ITEM_5             ; 6B
 	const HS_MT_MOON_1F_ITEM_6             ; 6C
-	const HS_MT_MOON_B2F_JESSIE            ; 6D
-	const HS_MT_MOON_B2F_JAMES             ; 6E
 	const HS_MT_MOON_B2F_FOSSIL_1          ; 6F
 	const HS_MT_MOON_B2F_FOSSIL_2          ; 70
 	const HS_MT_MOON_B2F_ITEM_1            ; 71

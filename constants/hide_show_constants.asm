@@ -98,7 +98,7 @@ DEF SHOW EQU $15
 	const HS_POWER_PLANT_ITEM_3            ; 58
 	const HS_POWER_PLANT_ITEM_4            ; 59
 	const HS_POWER_PLANT_ITEM_5            ; 5A
-	const HS_MOLTRES                       ; 5B
+	const HS_VICTORY_ROAD_2F_FOSSIL        ; 5B
 	const HS_VICTORY_ROAD_2F_ITEM_1        ; 5C
 	const HS_VICTORY_ROAD_2F_ITEM_2        ; 5D
 	const HS_VICTORY_ROAD_2F_ITEM_3        ; 5E

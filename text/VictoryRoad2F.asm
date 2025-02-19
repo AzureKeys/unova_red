@@ -1,7 +1,3 @@
-_VictoryRoad2FMoltresBattleText::
-	text "Gyaoo!@"
-	text_end
-
 _VictoryRoad2FHikerBattleText::
 	text "VICTORY ROAD is"
 	line "the final test"
@@ -84,3 +80,15 @@ _VictoryRoad2FSuperNerd3AfterBattleText::
 	line "up the challenge"
 	cont "here."
 	done
+
+_VictoryRoad2FReceivedFossilText::
+	text "<PLAYER> got the"
+	line "@"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
+
+_VictoryRoad2FYouHaveNoRoomText::
+	text "There's no room"
+	line "for this!@"
+	text_end

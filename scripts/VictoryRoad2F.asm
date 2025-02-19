@@ -78,7 +78,7 @@ VictoryRoad2F_TextPointers:
 	dw_const VictoryRoad2FCooltrainerMText, TEXT_VICTORYROAD2F_COOLTRAINER_M
 	dw_const VictoryRoad2FSuperNerd2Text,   TEXT_VICTORYROAD2F_SUPER_NERD2
 	dw_const VictoryRoad2FSuperNerd3Text,   TEXT_VICTORYROAD2F_SUPER_NERD3
-	dw_const VictoryRoad2FMoltresText,      TEXT_VICTORYROAD2F_MOLTRES
+	dw_const VictoryRoad2FFossilText,       TEXT_VICTORYROAD2F_FOSSIL
 	dw_const PickUpItemText,                TEXT_VICTORYROAD2F_TM_BRICK_BREAK
 	dw_const PickUpItemText,                TEXT_VICTORYROAD2F_FULL_HEAL
 	dw_const PickUpItemText,                TEXT_VICTORYROAD2F_TM_MEGA_KICK
@@ -99,8 +99,6 @@ VictoryRoad2TrainerHeader3:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_3, 1, VictoryRoad2FSuperNerd2BattleText, VictoryRoad2FSuperNerd2EndBattleText, VictoryRoad2FSuperNerd2AfterBattleText
 VictoryRoad2TrainerHeader4:
 	trainer EVENT_BEAT_VICTORY_ROAD_2_TRAINER_4, 3, VictoryRoad2FSuperNerd3BattleText, VictoryRoad2FSuperNerd3EndBattleText, VictoryRoad2FSuperNerd3AfterBattleText
-MoltresTrainerHeader:
-	trainer EVENT_BEAT_MOLTRES, 0, VictoryRoad2FMoltresBattleText, VictoryRoad2FMoltresBattleText, VictoryRoad2FMoltresBattleText
 	db -1 ; end
 
 VictoryRoad2FHikerText:
@@ -133,19 +131,43 @@ VictoryRoad2FSuperNerd3Text:
 	call TalkToTrainer
 	jp TextScriptEnd
 
-VictoryRoad2FMoltresText:
+VictoryRoad2FFossilText:
 	text_asm
-	ld hl, MoltresTrainerHeader
-	call TalkToTrainer
+	CheckEvent EVENT_GOT_DOME_FOSSIL
+	jr z, .get_helix
+	lb bc, DOME_FOSSIL, 1
+	jr .continue
+.get_helix
+	lb bc, HELIX_FOSSIL, 1
+.continue
+	call GiveItem
+	jp nc, VictoryRoad2FYouHaveNoRoomText
+	call VictoryRoad2FReceivedFossilText
+	ld a, HS_VICTORY_ROAD_2F_FOSSIL
+	ld [wMissableObjectIndex], a
+	predef HideObject
+	SetEvent EVENT_GOT_VICTORY_ROAD_FOSSIL
+	jp TextScriptEnd
+	
+VictoryRoad2FReceivedFossilText:
+	ld hl, .Text
+	jp PrintText
+
+.Text:
+	text_far _VictoryRoad2FReceivedFossilText
+	sound_get_key_item
+	text_waitbutton
+	text_end
+
+VictoryRoad2FYouHaveNoRoomText:
+	ld hl, .Text
+	call PrintText
 	jp TextScriptEnd
 
-VictoryRoad2FMoltresBattleText:
-	text_far _VictoryRoad2FMoltresBattleText
-	text_asm
-	ld a, PATRAT
-	call PlayCry
-	call WaitForSoundToFinish
-	jp TextScriptEnd
+.Text:
+	text_far _VictoryRoad2FYouHaveNoRoomText
+	text_waitbutton
+	text_end
 
 VictoryRoad2FHikerBattleText:
 	text_far _VictoryRoad2FHikerBattleText

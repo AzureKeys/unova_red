@@ -1,29 +1,3 @@
-_PokemonTowerJessieJamesText1::
-	text "Stop right there!@"
-	text_end
-
-_PokemonTowerJessieJamesText2::
-	text "Grampa here wanted"
-	line "to complain, so"
-	cont "we're setting him"
-	cont "straight."
-
-	para "So render yourself"
-	line "invisible, or"
-	cont "prepare to fight!"
-	done
-
-_PokemonTowerJessieJamesText3::
-	text "You"
-	line "will regret this!"
-	prompt
-
-_PokemonTowerJessieJamesText4::
-	text "Looks like TEAM"
-	line "ROCKET's blasting"
-	cont "off again!@"
-	text_end
-
 _PokemonTower7FMrFujiRescueText::
 	text "MR.FUJI: Heh? You"
 	line "came to save me?"
@@ -49,4 +23,57 @@ _PokemonTower7FMrFujiRescueText::
 	line "home, #MON"
 	cont "HOUSE at the foot"
 	cont "of this tower."
+	done
+
+_PokemonTower7FRocket1BattleText::
+	text "What do you want?"
+	line "Why are you here?"
+	done
+
+_PokemonTower7FRocket1EndBattleText::
+	text "I give up!"
+	prompt
+
+_PokemonTower7FRocket1AfterBattleText::
+	text "I'm not going to"
+	line "forget this!"
+	done
+
+_PokemonTower7FRocket2BattleText::
+	text "This old guy came"
+	line "and complained"
+	cont "about us harming"
+	cont "useless #MON!"
+
+	para "We're talking it"
+	line "over as adults!"
+	done
+
+_PokemonTower7FRocket2EndBattleText::
+	text "Please!"
+	line "No more!"
+	prompt
+
+_PokemonTower7FRocket2AfterBattleText::
+	text "#MON are only"
+	line "good for making"
+	cont "money!"
+
+	para "Stay out of our"
+	line "business!"
+	done
+
+_PokemonTower7FRocket3BattleText::
+	text "You're not saving"
+	line "anyone, kid!"
+	done
+
+_PokemonTower7FRocket3EndBattleText::
+	text "Don't"
+	line "fight us ROCKETs!"
+	prompt
+
+_PokemonTower7FRocket3AfterBattleText::
+	text "You're not getting"
+	line "away with this!"
 	done

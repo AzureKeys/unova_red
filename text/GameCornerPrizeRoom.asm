@@ -1,6 +1,6 @@
 _GameCornerPrizeRoomBaldingGuyText::
 	text "I sure do fancy"
-	line "that AXEW!"
+	line "that GENESECT!"
 
 	para "But, it's hard to"
 	line "win at slots!"

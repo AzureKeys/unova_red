@@ -26,7 +26,7 @@ _Museum1FScientist1DoYouKnowWhatAmberIsText::
 
 	para "Oh, whatever!"
 	line "Do you know what"
-	cont "AMBER is?"
+	cont "FOSSILs are?"
 	done
 
 _Museum1FScientist1TheresALabSomewhereText::
@@ -34,12 +34,17 @@ _Museum1FScientist1TheresALabSomewhereText::
 	line "somewhere trying"
 	cont "to resurrect"
 	cont "ancient #MON"
-	cont "from AMBER."
+	cont "from FOSSILs."
 	done
 
 _Museum1FScientist1AmberIsFossilizedTreeSapText::
-	text "AMBER is fossil-"
-	line "ized tree sap."
+	text "FOSSILs are the"
+	line "remains of ancient"
+	cont "#MON."
+	
+	para "Some are said to"
+	line "be buried in MT."
+	cont "MOON!"
 	done
 
 _Museum1FScientist1GoToOtherSideText::
@@ -82,7 +87,7 @@ _Museum1FScientist2TakeThisToAPokemonLabText::
 
 _Museum1FScientist2ReceivedOldAmberText::
 	text "<PLAYER> received"
-	line "OLD AMBER!@"
+	line "REVEAL GLASS!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
@@ -103,6 +108,6 @@ _Museum1FScientist3Text::
 	done
 
 _Museum1FOldAmberText::
-	text "The AMBER is"
-	line "clear and gold!"
+	text "The MIRROR is"
+	line "clear and bright!"
 	done

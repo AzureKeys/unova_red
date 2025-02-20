@@ -30,7 +30,7 @@ ItemNames::
 	li "EARTHBADGE"
 	li "ESCAPE ROPE"
 	li "REPEL"
-	li "OLD AMBER"
+	li "REVEAL GLASS"
 	li "FIRE STONE"
 	li "THUNDERSTONE"
 	li "WATER STONE"
@@ -43,7 +43,7 @@ ItemNames::
 	li "DOME FOSSIL"
 	li "HELIX FOSSIL"
 	li "SECRET KEY"
-	li "?????" ; ITEM_2C
+	li "SHELL STONE"
 	li "BIKE VOUCHER"
 	li "X ACCURACY"
 	li "LEAF STONE"

@@ -1470,7 +1470,7 @@ EmolgaEvosMoves:
 	
 KarrablastEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, ESCAVALIER
+	db EVOLVE_ITEM, SHELL_STONE, 1, ESCAVALIER
 	db 0
 ; Learnset
 	db 8, LEER
@@ -1874,7 +1874,7 @@ CryogonalEvosMoves:
 	
 ShelmetEvosMoves:
 ; Evolutions
-	db EVOLVE_ITEM, MOON_STONE, 1, ACCELGOR
+	db EVOLVE_ITEM, SHELL_STONE, 1, ACCELGOR
 	db 0
 ; Learnset
 	db 8, BIDE

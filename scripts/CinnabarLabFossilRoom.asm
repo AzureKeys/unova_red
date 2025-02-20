@@ -43,7 +43,6 @@ Lab4Script_GetFossilsInBag:
 FossilsList:
 	db DOME_FOSSIL
 	db HELIX_FOSSIL
-	db OLD_AMBER
 	db 0 ; end
 
 CinnabarLabFossilRoomScientist1Text:

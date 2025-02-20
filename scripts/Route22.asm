@@ -25,7 +25,19 @@ Route22NoopScript:
 Route22Script_50ed6:
 	ld a, OPP_RIVAL1
 	ld [wCurOpponent], a
-	ld a, $2
+	ld a, [wRivalStarter]
+	cp STARTER2
+	jr nz, .not_oshawott
+	ld a, $4
+	jr .done
+.not_oshawott
+	cp STARTER3
+	jr nz, .not_snivy
+	ld a, $5
+	jr .done
+.not_snivy
+	ld a, $6
+.done
 	ld [wTrainerNo], a
 	ret
 
@@ -33,7 +45,18 @@ Route22Script_50ee1:
 	ld a, OPP_RIVAL2
 	ld [wCurOpponent], a
 	ld a, [wRivalStarter]
-	add 7
+	cp STARTER2
+	jr nz, .not_oshawott
+	ld a, $a
+	jr .done
+.not_oshawott
+	cp STARTER3
+	jr nz, .not_snivy
+	ld a, $b
+	jr .done
+.not_snivy
+	ld a, $c
+.done
 	ld [wTrainerNo], a
 	ret
 
@@ -148,12 +171,6 @@ Route22Rival1AfterBattleScript:
 	ld a, [wIsInBattle]
 	cp $ff
 	jp z, Route22SetDefaultScript
-	ld a, [wRivalStarter]
-	cp RIVAL_STARTER_FLAREON
-	jr nz, .keep_rival_starter
-	ld a, RIVAL_STARTER_JOLTEON
-	ld [wRivalStarter], a
-.keep_rival_starter
 	ld a, [wSpritePlayerStateData1FacingDirection]
 	and a ; cp SPRITE_FACING_DOWN
 	jr nz, .not_facing_down

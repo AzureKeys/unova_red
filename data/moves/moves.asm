@@ -97,7 +97,7 @@ Moves:
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
 	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
-	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      70, 10
+	move THUNDER,      PARALYZE_SIDE_EFFECT2,      120, ELECTRIC,      70, 10
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        50, ROCK,          90, 15
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
@@ -134,10 +134,10 @@ Moves:
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
 	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
 	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
-	move SLUDGE_BOMB,  POISON_SIDE_EFFECT2,         90, POISON,       100, 10
+	move SLUDGE_BOMB,  POISON_SIDE_EFFECT1,         90, POISON,       100, 10
 	move FAINT_ATTACK, SWIFT_EFFECT,                60, DARK,         100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT1,          120, FIRE,          85,  5
-	move WATERFALL,    FLINCH_SIDE_EFFECT2,         80, WATER,        100, 15
+	move WATERFALL,    FLINCH_SIDE_EFFECT1,         80, WATER,        100, 15
 	move CRUNCH,       DEFENSE_DOWN_SIDE_EFFECT,    80, DARK,         100, 15
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              100, NORMAL,       100, 15
@@ -167,7 +167,7 @@ Moves:
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, NORMAL,        80, 15
 	move SACRED_SWORD, NO_ADDITIONAL_EFFECT,        90, FIGHTING,     100, 20
 	move REST,         HEAL_EFFECT,                  0, PSYCHIC_TYPE, 100, 10
-	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT1,         75, ROCK,          90, 10
+	move ROCK_SLIDE,   FLINCH_SIDE_EFFECT2,         75, ROCK,          90, 10
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,         80, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 30
 	move SHIFT_GEAR,   SHIFT_GEAR_EFFECT,            0, STEEL,        100, 10

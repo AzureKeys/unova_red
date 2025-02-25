@@ -106,9 +106,15 @@ PoisonEffect:
 	ld a, [hld]
 	cp POISON ; can't poison a poison-type target
 	jr z, .noEffect
+	dec de
+	ld a, [de] ; Get move num
+	inc de
+	cp TWINEEDLE
+	ld b, 20 percent + 1 ; chance of poisoning
+	jr z, .sideEffectTest
 	ld a, [de]
 	cp POISON_SIDE_EFFECT1
-	ld b, 20 percent + 1 ; chance of poisoning
+	ld b, 30 percent + 1 ; chance of poisoning
 	jr z, .sideEffectTest
 	cp POISON_SIDE_EFFECT2
 	ld b, 40 percent + 1 ; chance of poisoning
@@ -633,7 +639,7 @@ StatModifierUpEffect:
 	cp ATTACK_UP_SIDE_EFFECT
 	jr c, .nonSideEffect
 	call BattleRandom
-	cp 33 percent + 1 ; chance for side effects
+	cp 10 percent + 1 ; chance for side effects
 	ret nc
 	ld a, [de]
 	sub ATTACK_UP_SIDE_EFFECT ; map each stat to 0-6
@@ -860,8 +866,20 @@ StatModifierDownEffect:
 	inc de
 	cp MUD_SHOT
 	jr z, .SkipRandom
+	push bc
+	ld b, 40 percent + 1 ; chance for side effect
+	cp NIGHT_DAZE
+	jr z, .got_percent
+	ld b, 20 percent + 1 ; chance for side effect
+	cp CRUNCH
+	jr z, .got_percent
+	cp SHADOW_BALL
+	jr z, .got_percent
+	ld b, 10 percent + 1 ; chance for side effect
+.got_percent	
 	call BattleRandom
-	cp 33 percent + 1 ; chance for side effects
+	cp b
+	pop bc
 	jp nc, CantLowerAnymore
 .SkipRandom
 	ld a, [de]
@@ -1270,10 +1288,15 @@ FlinchSideEffect:
 	cp LINK_STATE_BATTLING
 	call z, ClearHyperBeam
 	ld a, [de]
-	cp FLINCH_SIDE_EFFECT1
-	ld b, 10 percent + 1 ; chance of flinch (FLINCH_SIDE_EFFECT1)
+	cp FLINCH_SIDE_EFFECT2
+	ld b, 30 percent + 1 ; chance of flinch
 	jr z, .gotEffectChance
-	ld b, 30 percent + 1 ; chance of flinch otherwise
+	dec de ; move num
+	ld a, [de]
+	cp WATERFALL
+	ld b, 20 percent + 1 ; chance of flinch otherwise
+	jr z, .gotEffectChance
+	ld b, 10 percent + 1 ; chance of flinch otherwise
 .gotEffectChance
 	call BattleRandom
 	cp b
@@ -1437,8 +1460,23 @@ RecoilEffect:
 	jpfar RecoilEffect_
 
 ConfusionSideEffect:
+	ld de, wPlayerMoveEffect
+	ldh a, [hWhoseTurn]
+	and a
+	jr z, .got_move
+	ld de, wEnemyMoveEffect
+.got_move
+	ld a, [de]
+	ld b, 30 percent + 1 ; chance of confusion
+	cp HURRICANE
+	jr z, .got_percent
+	ld b, 20 percent + 1 ; chance of confusion
+	cp DIZZY_PUNCH
+	jr z, .got_percent
+	ld b, 10 percent + 1 ; chance of confusion
+.got_percent
 	call BattleRandom
-	cp 10 percent ; chance of confusion
+	cp b
 	ret nc
 	jr ConfusionSideEffectSuccess
 

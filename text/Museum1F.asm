@@ -91,8 +91,8 @@ _Museum1FScientist2ReceivedOldAmberText::
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Ssh! Get the OLD"
-	line "AMBER checked!"
+	text "Go get the REVEAL"
+	line "GLASS checked!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::

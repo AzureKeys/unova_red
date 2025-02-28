@@ -63,8 +63,9 @@ _ViridianForestYoungster4AfterBattleText::
 	done
 
 _ViridianForestCooltrainerFBattleText::
-	text "Hi, do you have a"
-	line "PIKACHU?"
+	text "Have you caught"
+	line "any of the three"
+	cont "monkey #MON?"
 	done
 
 _ViridianForestCooltrainerFEndBattleText::
@@ -73,9 +74,9 @@ _ViridianForestCooltrainerFEndBattleText::
 	prompt
 
 _ViridianForestCooltrainerFAfterBattleText::
-	text "I looked forever,"
-	line "but I never found"
-	cont "a PIKACHU here!"
+	text "All three types of"
+	line "monkey are here in"
+	cont "VIRIDIAN FOREST!"
 	done
 
 _ViridianForestYoungster5BattleText::
@@ -90,7 +91,7 @@ _ViridianForestYoungster5EndBattleText::
 	prompt
 
 _ViridianForestYoungster5AfterBattleText::
-	text "A METAPOD is cool"
+	text "A cocoon is cool"
 	line "because its"
 	cont "attack is its"
 	cont "defense!"

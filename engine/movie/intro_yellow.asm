@@ -1,4 +1,4 @@
-PlayIntroScene:
+PlayIntroSceneYellow:
 	ldh a, [rIE]
 	push af
 	xor a

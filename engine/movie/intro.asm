@@ -11,41 +11,12 @@ PlayIntro:
 	inc a
 	ldh [hAutoBGTransferEnabled], a
 	call PlayShootingStar
-	callfar PlayIntroScene
+	call GBFadeOutToWhite
 	xor a
 	ldh [hSCX], a
 	ldh [hAutoBGTransferEnabled], a
 	call ClearSprites
 	call DelayFrame
-	ret
-
-InitIntroNidorinoOAM:
-	ld hl, wShadowOAM
-	ld d, 0
-.loop
-	push bc
-	ld a, [wBaseCoordY]
-	ld e, a
-.innerLoop
-	ld a, e
-	add 8
-	ld e, a
-	ld [hli], a ; Y
-	ld a, [wBaseCoordX]
-	ld [hli], a ; X
-	ld a, d
-	ld [hli], a ; tile
-	ld a, OAM_BEHIND_BG
-	ld [hli], a ; attributes
-	inc d
-	dec c
-	jr nz, .innerLoop
-	ld a, [wBaseCoordX]
-	add 8
-	ld [wBaseCoordX], a
-	pop bc
-	dec b
-	jr nz, .loop
 	ret
 
 IntroClearScreen:
@@ -74,6 +45,9 @@ IntroPlaceBlackTiles:
 	dec c
 	jr nz, .loop
 	ret
+
+IntroCopyTiles:
+	hlcoord 13, 7
 
 CopyTileIDsFromList_ZeroBaseTileID:
 	ld c, 0
@@ -146,9 +120,6 @@ IntroDrawBlackBars:
 	hlbgcoord 0, 14, vBGMap1
 	ld c,  BG_MAP_WIDTH * 4
 	jp IntroPlaceBlackTiles
-
-EmptyFunc2:
-	ret
 
 GameFreakIntro:
 	INCBIN "gfx/splash/gamefreak_presents.2bpp"

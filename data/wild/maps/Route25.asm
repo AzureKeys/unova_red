@@ -1,15 +1,15 @@
 Route25WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 12, COTTONEE
-	db 12, COTTONEE
-	db 13, PIDOVE
+	db 12, VENIPEDE
+	db 12, SEWADDLE
+	db 13, GOTHITA
 	db 14, COTTONEE
-	db 14, COTTONEE
-	db 15, PIDOVE
-	db 13, JOLTIK
-	db 16, JOLTIK
-	db 17, PIDOVE
-	db 17, TRANQUILL
+	db 15, COTTONEE
+	db 14, PETILIL
+	db 16, PETILIL
+	db 16, PETILIL
+	db 15, GOTHITA
+	db 17, GOTHITA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -1,7 +1,7 @@
 Route1WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db  3, PIDOVE
-	db  4, PIDOVE
+	db  4, PATRAT
 	db  2, PATRAT
 	db  3, PATRAT
 	db  2, PIDOVE

@@ -137,8 +137,8 @@ DisplayTitleScreen:
 	ld b, SET_PAL_TITLE_SCREEN
 	call RunPaletteCommand
 	call GBPalNormal
-	ld a, %11100100
-	ldh [rOBP0], a
+	ld a, %11010100
+	ldh [rOBP1], a
 
 ; make pokemon logo bounce up and down
 	ld bc, hSCY ; background scroll Y

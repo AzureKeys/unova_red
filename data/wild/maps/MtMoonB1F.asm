@@ -5,9 +5,9 @@ MtMoonB1FWildMons:
 	db 10, WOOBAT
 	db 10, ROGGENROLA
 	db 11, ROGGENROLA
-	db 11, WOOBAT
-	db  9, FOONGUS
-	db 11, FOONGUS
+	db 11, ROGGENROLA
+	db  9, AUDINO
+	db 11, AUDINO
 	db 10, MUNNA
 	db 12, MUNNA
 	end_grass_wildmons

@@ -7,8 +7,8 @@ MtMoon1FWildMons:
 	db  7, WOOBAT
 	db 10, WOOBAT
 	db 10, ROGGENROLA
-	db 11, WOOBAT
-	db 12, DRILBUR
+	db 11, AUDINO
+	db 12, AUDINO
 	db 11, MUNNA
 	end_grass_wildmons
 

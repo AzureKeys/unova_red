@@ -1,15 +1,15 @@
 Route5WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 15, PIDOVE
-	db 14, PATRAT
-	db  7, GOTHITA
-	db 16, PIDOVE
-	db 16, PATRAT
-	db 17, PIDOVE
-	db 17, TRANQUILL
-	db  3, MUNNA
-	db  5, MUNNA
-	db  7, MUNNA
+	db 15, LILLIPUP
+	db 14, MINCCINO
+	db 16, PANPOUR
+	db 16, PANSAGE
+	db 16, PANSEAR
+	db 15, AUDINO
+	db 16, PANSEAR
+	db 16, PANPOUR
+	db 15, LILLIPUP
+	db 17, LILLIPUP
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

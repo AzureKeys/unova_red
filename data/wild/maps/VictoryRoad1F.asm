@@ -1,15 +1,15 @@
 VictoryRoad1FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 26, ROGGENROLA
-	db 31, ROGGENROLA
-	db 36, ROGGENROLA
-	db 39, WOOBAT
-	db 44, WOOBAT
-	db 41, ROGGENROLA
+	db 36, DWEBBLE
+	db 31, BOLDORE
+	db 36, GURDURR
+	db 39, SWOOBAT
+	db 44, DRUDDIGON
+	db 41, DURANT
 	db 43, KROKOROK
-	db 45, KROKOROK
-	db 41, BOLDORE
-	db 47, BOLDORE
+	db 35, DEINO
+	db 41, CRUSTLE
+	db 47, CRUSTLE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

@@ -1,15 +1,15 @@
 PokemonMansionB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 35, TRUBBISH
-	db 38, TRUBBISH
 	db 37, WATCHOG
-	db 40, WATCHOG
-	db 41, GARBODOR
-	db 43, WATCHOG
-	db 24, DEINO
-	db 46, WATCHOG
-	db 18, DEINO
-	db 12, DEINO
+	db 36, PAWNIARD
+	db 37, HEATMOR
+	db 36, LITWICK
+	db 41, DARUMAKA
+	db 43, TRUBBISH
+	db 24, LARVESTA
+	db 46, GARBODOR
+	db 28, LARVESTA
+	db 32, LARVESTA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

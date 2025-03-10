@@ -1,6 +1,7 @@
 	object_const_def
 	const_export ROUTE2_MOON_STONE
 	const_export ROUTE2_HP_UP
+	const_export ROUTE2_VIRIZION
 
 Route2_Object:
 	db $f ; border block
@@ -21,7 +22,8 @@ Route2_Object:
 	def_object_events
 	object_event 13, 54, SPRITE_POKE_BALL, STAY, NONE, TEXT_ROUTE2_MOON_STONE, MOON_STONE
 	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, TEXT_ROUTE2_HP_UP, HP_UP
-
+	object_event 14, 65, SPRITE_MONSTER, STAY, DOWN, TEXT_ROUTE2_VIRIZION, VIRIZION, 25
+	
 	def_warps_to ROUTE_2
 
 	; unused

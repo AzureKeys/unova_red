@@ -1,14 +1,14 @@
 PokemonMansion2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 37, PATRAT
-	db 37, WATCHOG
-	db 26, TRUBBISH
-	db 29, TRUBBISH
-	db 40, PATRAT
-	db 40, WATCHOG
 	db 32, TRUBBISH
-	db 35, TRUBBISH
-	db 35, GARBODOR
+	db 33, DARUMAKA
+	db 31, PAWNIARD
+	db 30, LITWICK
+	db 35, DARUMAKA
+	db 33, LITWICK
+	db 32, WATCHOG
+	db 35, HEATMOR
+	db 35, WATCHOG
 	db 38, GARBODOR
 	end_grass_wildmons
 

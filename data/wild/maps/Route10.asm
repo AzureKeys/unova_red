@@ -1,15 +1,15 @@
 Route10WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 16, TYNAMO
-	db 18, PATRAT
-	db 18, TYNAMO
-	db 20, TYNAMO
-	db 17, LILLIPUP
-	db 17, LILLIPUP
-	db 22, TYNAMO
-	db 20, WATCHOG
-	db 16, TIMBURR
+	db 16, BLITZLE
+	db 18, JOLTIK
 	db 18, TIMBURR
+	db 18, KARRABLAST
+	db 18, SHELMET
+	db 17, MARACTUS
+	db 20, KARRABLAST
+	db 20, SHELMET
+	db 16, EMOLGA
+	db 22, EMOLGA
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

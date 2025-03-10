@@ -1,15 +1,15 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 21, LILLIPUP
-	db 29, LILLIPUP
-	db 22, PETILIL
+	db 21, WHIRLIPEDE
+	db 21, SWADLOON
+	db 22, FOONGUS
+	db 29, DRUDDIGON
+	db 32, DURANT
+	db 19, AXEW
+	db 27, WHIRLIPEDE
+	db 27, SWADLOON
 	db 21, BOUFFALANT
-	db 32, HERDIER
-	db 19, GOLETT
-	db 26, PETILIL
-	db 24, GOLETT
-	db 21, AUDINO
-	db 15, DURANT
+	db 35, BOUFFALANT
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

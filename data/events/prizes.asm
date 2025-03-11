@@ -4,27 +4,27 @@ PrizeDifferentMenuPtrs:
 	dw PrizeMenuTMsEntries,  PrizeMenuTMsCost
 
 PrizeMenuMon1Entries:
-	db GOTHITA
-	db DARUMAKA
-	db MUSHARNA
+	db MUNNA
+	db CUBCHOO
+	db KLINK
 	db "@"
 
 PrizeMenuMon1Cost:
-	bcd2 230
-	bcd2 1000
-	bcd2 2680
+	bcd2 180
+	bcd2 500
+	bcd2 1200
 	db "@"
 
 PrizeMenuMon2Entries:
-	db HEATMOR
+	db AXEW
 	db DURANT
-	db CRYOGONAL
+	db VICTINI
 	db "@"
 
 PrizeMenuMon2Cost:
+	bcd2 2500
+	bcd2 4600
 	bcd2 6500
-	bcd2 6500
-	bcd2 9999
 	db "@"
 
 PrizeMenuTMsEntries:

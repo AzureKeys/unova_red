@@ -235,6 +235,7 @@
 ; Route 2 events
 	const_next $3D8
 	const EVENT_GOT_HM05
+	const EVENT_BEAT_VIRIZION
 
 ; Route 3 events
 	const_next $3E0
@@ -338,7 +339,7 @@
 ; Route 12 events
 	const_next $480
 	const EVENT_GOT_TM39
-	const_skip
+	const EVENT_BEAT_KELDEO
 	const EVENT_BEAT_ROUTE_12_TRAINER_0
 	const EVENT_BEAT_ROUTE_12_TRAINER_1
 	const EVENT_BEAT_ROUTE_12_TRAINER_2
@@ -527,7 +528,7 @@
 	const EVENT_BEAT_ROUTE_25_TRAINER_6
 	const EVENT_BEAT_ROUTE_25_TRAINER_7
 	const EVENT_BEAT_ROUTE_25_TRAINER_8
-	const_skip
+	const EVENT_BEAT_COBALION
 	const EVENT_USED_CELL_SEPARATOR_ON_BILL
 	const EVENT_GOT_SS_TICKET
 	const EVENT_MET_BILL_2
@@ -768,7 +769,7 @@ DEF INDIGO_PLATEAU_EVENTS_END EQU const_value - 1
 
 ; Rock Tunnel events
 	const_next $9B0
-	const_skip
+	const EVENT_BEAT_TERRAKION
 	const EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_0
 	const EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_1
 	const EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_2

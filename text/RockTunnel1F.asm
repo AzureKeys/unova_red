@@ -113,3 +113,7 @@ _RockTunnel1FSignText::
 	line "CERULEAN CITY -"
 	cont "LAVENDER TOWN"
 	done
+	
+_TerrakionBattleText::
+	text "Turrrgh!@"
+	text_end

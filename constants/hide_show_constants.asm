@@ -37,6 +37,7 @@ DEF SHOW EQU $15
 	const HS_ROUTE_4_ITEM                  ; 1C
 	const HS_ROUTE_9_ITEM                  ; 1D
 	const HS_ROUTE_12_SNORLAX              ; 1E
+	const HS_ROUTE_12_KELDEO               ; 1E
 	const HS_ROUTE_12_ITEM_1               ; 1F
 	const HS_ROUTE_12_ITEM_2               ; 20
 	const HS_ROUTE_15_ITEM                 ; 21
@@ -46,6 +47,7 @@ DEF SHOW EQU $15
 	const HS_NUGGET_BRIDGE_GUY             ; 25
 	const HS_ROUTE_24_ITEM                 ; 26
 	const HS_ROUTE_25_ITEM                 ; 27
+	const HS_ROUTE_25_COBALION             ; 27
 	const HS_DAISY_SITTING                 ; 28
 	const HS_DAISY_WALKING                 ; 29
 	const HS_TOWN_MAP                      ; 2A
@@ -85,6 +87,7 @@ DEF SHOW EQU $15
 	const HS_FIGHTING_DOJO_GIFT_1          ; 4A
 	const HS_FIGHTING_DOJO_GIFT_2          ; 4B
 	const HS_SILPH_CO_1F_RECEPTIONIST      ; 4C
+	const HS_ROCKTUNNEL1F_TERRAKION        ; 4D
 	const HS_VOLTORB_1                     ; 4D
 	const HS_VOLTORB_2                     ; 4E
 	const HS_VOLTORB_3                     ; 4F

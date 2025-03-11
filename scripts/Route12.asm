@@ -64,6 +64,7 @@ Route12SnorlaxPostBattleScript:
 Route12_TextPointers:
 	def_text_pointers
 	dw_const Route12SnorlaxText,           TEXT_ROUTE12_SNORLAX
+	dw_const Route12KeldeoText,            TEXT_ROUTE12_KELDEO
 	dw_const Route12Fisher1Text,           TEXT_ROUTE12_FISHER1
 	dw_const Route12Fisher2Text,           TEXT_ROUTE12_FISHER2
 	dw_const Route12CooltrainerMText,      TEXT_ROUTE12_COOLTRAINER_M
@@ -94,6 +95,8 @@ Route12TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_5, 4, Route12Fisher4BattleText, Route12Fisher4EndBattleText, Route12Fisher4AfterBattleText
 Route12TrainerHeader6:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_6, 1, Route12Fisher5BattleText, Route12Fisher5EndBattleText, Route12Fisher5AfterBattleText
+KeldeoTrainerHeader:
+	trainer EVENT_BEAT_KELDEO, 0, KeldeoBattleText, KeldeoBattleText, KeldeoBattleText
 	db -1 ; end
 
 Route12SnorlaxText:
@@ -107,6 +110,20 @@ Route12SnorlaxWokeUpText:
 Route12SnorlaxCalmedDownText:
 	text_far _Route12SnorlaxCalmedDownText
 	text_end
+
+Route12KeldeoText:
+	text_asm
+	ld hl, KeldeoTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+KeldeoBattleText:
+	text_far _KeldeoBattleText
+	text_asm
+	ld a, KELDEO
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
 
 Route12Fisher1Text:
 	text_asm

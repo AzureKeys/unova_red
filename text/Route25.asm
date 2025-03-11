@@ -154,3 +154,7 @@ _Route25BillSignText::
 	text "SEA COTTAGE"
 	line "BILL lives here!"
 	done
+	
+_CobalionBattleText::
+	text "Cohhh!@"
+	text_end

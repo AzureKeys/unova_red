@@ -7,3 +7,7 @@ _Route2SignText::
 _Route2DiglettsCaveSignText::
 	text "DIGGER's CAVE"
 	done
+	
+_VirizionBattleText::
+	text "Virii!@"
+	text_end

@@ -15,6 +15,7 @@ RockTunnel1F_ScriptPointers:
 
 RockTunnel1F_TextPointers:
 	def_text_pointers
+	dw_const RockTunnel1FTerrakionText,     TEXT_ROCKTUNNEL1F_TERRAKION
 	dw_const RockTunnel1FHiker1Text,        TEXT_ROCKTUNNEL1F_HIKER1
 	dw_const RockTunnel1FHiker2Text,        TEXT_ROCKTUNNEL1F_HIKER2
 	dw_const RockTunnel1FHiker3Text,        TEXT_ROCKTUNNEL1F_HIKER3
@@ -40,7 +41,23 @@ RockTunnel1TrainerHeader5:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_5, 4, RockTunnel1FCooltrainerF2BattleText, RockTunnel1FCooltrainerF2EndBattleText, RockTunnel1FCooltrainerF2AfterBattleText
 RockTunnel1TrainerHeader6:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_6, 4, RockTunnel1FCooltrainerF3BattleText, RockTunnel1FCooltrainerF3EndBattleText, RockTunnel1FCooltrainerF3AfterBattleText
+TerrakionTrainerHeader:
+	trainer EVENT_BEAT_TERRAKION, 0, TerrakionBattleText, TerrakionBattleText, TerrakionBattleText
 	db -1 ; end
+
+RockTunnel1FTerrakionText:
+	text_asm
+	ld hl, TerrakionTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+TerrakionBattleText:
+	text_far _TerrakionBattleText
+	text_asm
+	ld a, TERRAKION
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
 
 RockTunnel1FHiker1Text:
 	text_asm

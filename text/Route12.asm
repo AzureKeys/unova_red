@@ -137,3 +137,7 @@ _Route12SignText::
 _Route12SportFishingSignText::
 	text "SPORT FISHING AREA"
 	done
+	
+_KeldeoBattleText::
+	text "Kaaah!@"
+	text_end

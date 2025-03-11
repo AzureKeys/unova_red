@@ -1,8 +1,8 @@
 PrizeMonLevelDictionary:
-	db GOTHITA,    15
-	db DARUMAKA,   18
-	db MUSHARNA,   22
+	db MUNNA,      15
+	db CUBCHOO,    18
+	db KLINK,      20
 
-	db HEATMOR,    30
-	db DURANT,     30
-	db CRYOGONAL,  26
+	db AXEW,       20
+	db DURANT,     20
+	db VICTINI,    15

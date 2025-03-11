@@ -53,6 +53,7 @@ Route25_ScriptPointers:
 
 Route25_TextPointers:
 	def_text_pointers
+	dw_const Route25CobalionText,      TEXT_ROUTE25_COBALION
 	dw_const Route25Youngster1Text,    TEXT_ROUTE25_YOUNGSTER1
 	dw_const Route25Youngster2Text,    TEXT_ROUTE25_YOUNGSTER2
 	dw_const Route25CooltrainerMText,  TEXT_ROUTE25_COOLTRAINER_M
@@ -85,7 +86,23 @@ Route25TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_7, 2, Route25Hiker2BattleText, Route25Hiker2EndBattleText, Route25Hiker2AfterBattleText
 Route25TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_8, 2, Route25Hiker3BattleText, Route25Hiker3EndBattleText, Route25Hiker3AfterBattleText
+CobalionTrainerHeader:
+	trainer EVENT_BEAT_COBALION, 0, CobalionBattleText, CobalionBattleText, CobalionBattleText
 	db -1 ; end
+
+Route25CobalionText:
+	text_asm
+	ld hl, CobalionTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+CobalionBattleText:
+	text_far _CobalionBattleText
+	text_asm
+	ld a, COBALION
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
 
 Route25Youngster1Text:
 	text_asm

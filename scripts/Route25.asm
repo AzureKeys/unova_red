@@ -68,6 +68,8 @@ Route25_TextPointers:
 
 Route25TrainerHeaders:
 	def_trainers
+CobalionTrainerHeader:
+	trainer EVENT_BEAT_COBALION, 0, CobalionBattleText, CobalionBattleText, CobalionBattleText
 Route25TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_0, 2, Route25Youngster1BattleText, Route25Youngster1EndBattleText, Route25Youngster1AfterBattleText
 Route25TrainerHeader1:
@@ -86,8 +88,6 @@ Route25TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_7, 2, Route25Hiker2BattleText, Route25Hiker2EndBattleText, Route25Hiker2AfterBattleText
 Route25TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_25_TRAINER_8, 2, Route25Hiker3BattleText, Route25Hiker3EndBattleText, Route25Hiker3AfterBattleText
-CobalionTrainerHeader:
-	trainer EVENT_BEAT_COBALION, 0, CobalionBattleText, CobalionBattleText, CobalionBattleText
 	db -1 ; end
 
 Route25CobalionText:

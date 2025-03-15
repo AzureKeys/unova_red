@@ -30,8 +30,11 @@ _PokemonMansion3FScientistAfterBattleText::
 
 _PokemonMansion3FDiaryText::
 	text "Diary: Feb. 6"
-	line "MEW gave birth."
+	line "KYUREM is awake!"
 
-	para "We named the"
-	line "newborn MEWTWO."
+	para "Its behaviors are"
+	line "violent. We have"
+	cont "contained it here"
+	cont "for further"
+	cont "observation."
 	done

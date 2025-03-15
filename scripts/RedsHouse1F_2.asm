@@ -46,6 +46,16 @@ RedsHouse1FPrintTVText::
 	ld hl, .StandByMeMovieText
 .got_text
 	call PrintText
+	
+	; lb bc, KYUREM, 50
+	; call GivePokemon
+	; ld hl, wObtainedBadges
+	; set BIT_BOULDERBADGE, [hl]
+	; ld hl, wBeatGymFlags
+	; set BIT_BOULDERBADGE, [hl]
+	; lb bc, POKE_FLUTE, 1
+	; call GiveItem
+	
 	ret
 
 .StandByMeMovieText:

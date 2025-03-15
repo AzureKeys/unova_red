@@ -81,6 +81,8 @@ Route12_TextPointers:
 
 Route12TrainerHeaders:
 	def_trainers 2
+KeldeoTrainerHeader:
+	trainer EVENT_BEAT_KELDEO, 0, KeldeoBattleText, KeldeoBattleText, KeldeoBattleText
 Route12TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_0, 4, Route12Fisher1BattleText, Route12Fisher1EndBattleText, Route12Fisher1AfterBattleText
 Route12TrainerHeader1:
@@ -95,8 +97,6 @@ Route12TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_5, 4, Route12Fisher4BattleText, Route12Fisher4EndBattleText, Route12Fisher4AfterBattleText
 Route12TrainerHeader6:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_6, 1, Route12Fisher5BattleText, Route12Fisher5EndBattleText, Route12Fisher5AfterBattleText
-KeldeoTrainerHeader:
-	trainer EVENT_BEAT_KELDEO, 0, KeldeoBattleText, KeldeoBattleText, KeldeoBattleText
 	db -1 ; end
 
 Route12SnorlaxText:

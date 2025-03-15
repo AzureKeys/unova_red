@@ -131,7 +131,7 @@ ViridianCityPrintOldManText::
 	call YesNoChoice
 	ld a, [wCurrentMenuItem]
 	and a
-	jr nz, .refused
+	jr z, .refused
 	ld hl, .WatchCloselyText
 	call PrintText
 	ld a, SCRIPT_VIRIDIANCITY_OLD_MAN_START_CATCH_TRAINING

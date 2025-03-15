@@ -27,6 +27,8 @@ RockTunnel1F_TextPointers:
 
 RockTunnel1TrainerHeaders:
 	def_trainers
+TerrakionTrainerHeader:
+	trainer EVENT_BEAT_TERRAKION, 0, TerrakionBattleText, TerrakionBattleText, TerrakionBattleText
 RockTunnel1TrainerHeader0:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_0, 4, RockTunnel1FHiker1BattleText, RockTunnel1FHiker1EndBattleText, RockTunnel1FHiker1AfterBattleText
 RockTunnel1TrainerHeader1:
@@ -41,8 +43,6 @@ RockTunnel1TrainerHeader5:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_5, 4, RockTunnel1FCooltrainerF2BattleText, RockTunnel1FCooltrainerF2EndBattleText, RockTunnel1FCooltrainerF2AfterBattleText
 RockTunnel1TrainerHeader6:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_6, 4, RockTunnel1FCooltrainerF3BattleText, RockTunnel1FCooltrainerF3EndBattleText, RockTunnel1FCooltrainerF3AfterBattleText
-TerrakionTrainerHeader:
-	trainer EVENT_BEAT_TERRAKION, 0, TerrakionBattleText, TerrakionBattleText, TerrakionBattleText
 	db -1 ; end
 
 RockTunnel1FTerrakionText:

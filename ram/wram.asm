@@ -2270,7 +2270,8 @@ wSeafoamIslandsB3FCurScript:: db
 wRoute23CurScript:: db
 wSeafoamIslandsB4FCurScript:: db
 wRoute18Gate1FCurScript:: db
-	ds 78
+wCeladonMansionRoofHouseCurScript:: db
+	ds 77
 wGameProgressFlagsEnd::
 
 	ds 56

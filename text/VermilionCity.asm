@@ -141,7 +141,7 @@ _VermilionCityNoticeSignText::
 
 	para "ROUTE 12 may be"
 	line "blocked off by a"
-	cont "sleeping #MON."
+	cont "large storm cloud."
 
 	para "Detour through"
 	line "ROCK TUNNEL to"

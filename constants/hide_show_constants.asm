@@ -79,7 +79,7 @@ DEF SHOW EQU $15
 	const HS_POKEMON_TOWER_7F_ROCKET3      ; 42
 	const HS_POKEMON_TOWER_7F_MR_FUJI      ; 43
 	const HS_MR_FUJIS_HOUSE_MR_FUJI        ; 44
-	const HS_CELADON_MANSION_EEVEE_GIFT    ; 45
+	const HS_CELADON_MANSION_MELOETTA      ; 45
 	const HS_GAME_CORNER_ROCKET            ; 46
 	const HS_WARDENS_HOUSE_ITEM            ; 47
 	const HS_POKEMON_MANSION_1F_ITEM_1     ; 48
@@ -199,6 +199,7 @@ DEF SHOW EQU $15
 	const HS_SILPH_CO_11F_3                ; BD
 	const HS_UNUSED_MAP_F4_1               ; BF XXX sprite doesn't exist
 	const HS_POKEMON_MANSION_2F_ITEM       ; C0
+	const HS_POKEMON_MANSION_2F_LANDORUS   ; C0
 	const HS_POKEMON_MANSION_3F_ITEM_1     ; C1
 	const HS_POKEMON_MANSION_3F_ITEM_2     ; C2
 	const HS_POKEMON_MANSION_B1F_ITEM_1    ; C3

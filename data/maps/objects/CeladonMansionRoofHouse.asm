@@ -1,6 +1,5 @@
 	object_const_def
-	const_export CELADONMANSION_ROOF_HOUSE_HIKER
-	const_export CELADONMANSION_ROOF_HOUSE_EEVEE_POKEBALL
+	const_export CELADONMANSION_ROOF_HOUSE_MELOETTA
 
 CeladonMansionRoofHouse_Object:
 	db $a ; border block
@@ -12,7 +11,6 @@ CeladonMansionRoofHouse_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  2, SPRITE_HIKER, STAY, DOWN, TEXT_CELADONMANSION_ROOF_HOUSE_HIKER
-	object_event  4,  3, SPRITE_POKE_BALL, STAY, NONE, TEXT_CELADONMANSION_ROOF_HOUSE_EEVEE_POKEBALL
-
+	object_event  3,  1, SPRITE_MONSTER, STAY, DOWN, TEXT_CELADONMANSION_ROOF_HOUSE_MELOETTA, MELOETTA, 20
+	
 	def_warps_to CELADON_MANSION_ROOF_HOUSE

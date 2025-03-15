@@ -65,9 +65,9 @@ _Museum1FGamblerText::
 
 _Museum1FScientist2TakeThisToAPokemonLabText::
 	text "Ssh! I think that"
-	line "this chunk of"
-	cont "AMBER contains"
-	cont "#MON DNA!"
+	line "this old DISC"
+	cont "contains #MON"
+	cont "DNA!"
 
 	para "It would be great"
 	line "if #MON could"
@@ -87,12 +87,12 @@ _Museum1FScientist2TakeThisToAPokemonLabText::
 
 _Museum1FScientist2ReceivedOldAmberText::
 	text "<PLAYER> received"
-	line "REVEAL GLASS!@"
+	line "ANCIENT DISC!@"
 	text_end
 
 _Museum1FScientist2GetTheOldAmberCheckText::
-	text "Go get the REVEAL"
-	line "GLASS checked!"
+	text "Go get the ANCIENT"
+	line "DISC checked!"
 	done
 
 _Museum1FScientist2YouDontHaveSpaceText::
@@ -108,6 +108,6 @@ _Museum1FScientist3Text::
 	done
 
 _Museum1FOldAmberText::
-	text "The MIRROR is"
-	line "clear and bright!"
+	text "The DISC is"
+	line "smooth and clear!"
 	done

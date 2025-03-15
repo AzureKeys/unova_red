@@ -1,6 +1,10 @@
 _GameCornerPrizeRoomBaldingGuyText::
 	text "I sure do fancy"
-	line "that GENESECT!"
+	line "that VICTINI!"
+	
+	para "They say it's"
+	line "guaranteed to"
+	cont "ensure victory."
 
 	para "But, it's hard to"
 	line "win at slots!"

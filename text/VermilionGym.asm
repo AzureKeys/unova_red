@@ -35,7 +35,7 @@ _VermilionGymLTSurgePostBattleAdviceText::
 _VermilionGymLTSurgeThunderBadgeInfoText::
 	text "The THUNDERBADGE"
 	line "cranks up your"
-	cont "#MON's SPEED!"
+	cont "#MON's DEFENSE!"
 
 	para "It also lets your"
 	line "#MON FLY any-"
@@ -133,6 +133,11 @@ _VermilionGymSailorAfterBattleText::
 	line "1st lock, the 2nd"
 	cont "lock is right"
 	cont "next to it!"
+	
+	para "Or maybe also in"
+	line "the upper-left"
+	cont "corner, it can be"
+	cont "there too."
 	done
 
 _VermilionGymGymGuideChampInMakingText::

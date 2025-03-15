@@ -57,14 +57,14 @@ SSAnneKitchenCook7SalmonDuSaladText::
 	done
 
 SSAnneKitchenCook7EelsAuBarbecueText::
-	text "Eels au Barbecue!"
+	text "Eggs du Bacon!"
 
 	para "Les guests will"
 	line "mutiny, I fear."
 	done
 
 SSAnneKitchenCook7PrimeBeefSteakText::
-	text "Prime Beef Steak!"
+	text "Volcano Bakemeat!"
 
 	para "But, have I enough"
 	line "fillets du beef?"

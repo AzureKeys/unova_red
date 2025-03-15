@@ -1,3 +1,7 @@
 _CeladonMansionRoofHouseSignText::
-	text "I KNOW EVERYTHING!"
+	text "Rare #MON"
+	line "inside."
+	
+	para "Enter at your own"
+	line "risk!"
 	done

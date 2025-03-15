@@ -30,10 +30,25 @@ _PokemonMansionB1FScientistAfterBattleText::
 
 _PokemonMansionB1FDiaryText::
 	text "Diary; Sept. 1"
-	line "MEWTWO is far too"
-	cont "powerful."
+	line "KYUREM is far too"
+	cont "powerful..."
 
-	para "We have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "Its overwhelming"
+	line "energy has split"
+	cont "its body apart."
+	
+	para "Two dragon #MON"
+	line "emerged from it"
+	cont "and quickly flew"
+	cont "away."
+	
+	para "While searching"
+	line "for them the left-"
+	cont "over shell of"
+	cont "KYUREM has dis-"
+	cont "appeared as well."
+	
+	para "The whereabouts of"
+	line "these three are"
+	cont "currently unknown."
 	done

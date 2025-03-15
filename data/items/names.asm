@@ -30,7 +30,7 @@ ItemNames::
 	li "EARTHBADGE"
 	li "ESCAPE ROPE"
 	li "REPEL"
-	li "REVEAL GLASS"
+	li "ANCIENT DISC"
 	li "FIRE STONE"
 	li "THUNDERSTONE"
 	li "WATER STONE"

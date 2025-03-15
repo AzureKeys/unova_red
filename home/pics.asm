@@ -30,7 +30,7 @@ UncompressMonSprite::
 	ld a, BANK("Pics 2")
 	jr c, .GotBank
 	ld a, b
-	cp JOLTIK + 2
+	cp JOLTIK + 1
 	ld a, BANK("Pics 3")
 	jr c, .GotBank
 	ld a, b

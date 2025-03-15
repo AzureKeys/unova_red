@@ -17,19 +17,25 @@ _PokemonMansion2FSuperNerdAfterBattleText::
 
 _PokemonMansion2FDiary1Text::
 	text "Diary: July 5"
-	line "Guyana,"
-	cont "South America"
+	line "A huge meteorite"
+	cont "landed on the"
+	cont "SEAFOAM ISLANDS."
 
-	para "A new #MON was"
-	line "discovered deep"
-	cont "in the jungle."
+	para "It appears to emit"
+	line "a strange energy."
+	cont "More study will be"
+	cont "required."
 	done
 
 _PokemonMansion2FDiary2Text::
 	text "Diary: July 10"
-	line "We christened the"
-	cont "newly discovered"
-	cont "#MON, MEW."
+	line "The meteorite was"
+	cont "actually a #MON"
+	cont "in a deep stasis!"
+	
+	para "We have named this"
+	line "new dragon-like"
+	cont "#MON KYUREM."
 	done
 
 _PokemonMansion2FSwitchText::
@@ -45,3 +51,7 @@ _PokemonMansion2FSwitchPressedText::
 _PokemonMansion2FSwitchNotPressedText::
 	text "Not quite yet!"
 	done
+	
+_LandorusBattleText::
+	text "Raauugh!@"
+	text_end

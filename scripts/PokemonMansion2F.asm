@@ -59,6 +59,7 @@ PokemonMansion2F_ScriptPointers:
 
 PokemonMansion2F_TextPointers:
 	def_text_pointers
+	dw_const PokemonMansion2FLandorusText,  TEXT_POKEMONMANSION2F_LANDORUS
 	dw_const PokemonMansion2FSuperNerdText, TEXT_POKEMONMANSION2F_SUPER_NERD
 	dw_const PickUpItemText,                TEXT_POKEMONMANSION2F_CALCIUM
 	dw_const PokemonMansion2FDiary1Text,    TEXT_POKEMONMANSION2F_DIARY1
@@ -67,9 +68,25 @@ PokemonMansion2F_TextPointers:
 
 Mansion2TrainerHeaders:
 	def_trainers
+LandorusTrainerHeader:
+	trainer EVENT_BEAT_LANDORUS, 0, LandorusBattleText, LandorusBattleText, LandorusBattleText
 Mansion2TrainerHeader0:
 	trainer EVENT_BEAT_MANSION_2_TRAINER_0, 0, PokemonMansion2FSuperNerdBattleText, PokemonMansion2FSuperNerdEndBattleText, PokemonMansion2FSuperNerdAfterBattleText
 	db -1 ; end
+
+PokemonMansion2FLandorusText:
+	text_asm
+	ld hl, LandorusTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+LandorusBattleText:
+	text_far _LandorusBattleText
+	text_asm
+	ld a, LANDORUS
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
 
 PokemonMansion2FSuperNerdText:
 	text_asm

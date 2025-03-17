@@ -20,12 +20,12 @@ _Route21Fisher2BattleText::
 
 _Route21Fisher2EndBattleText::
 	text "Darn"
-	line "TYMPOLE!"
+	line "TYNAMO!"
 	prompt
 
 _Route21Fisher2AfterBattleText::
 	text "I seem to only"
-	line "catch TYMPOLE!"
+	line "catch TYNAMO!"
 	done
 
 _Route21Swimmer1BattleText::

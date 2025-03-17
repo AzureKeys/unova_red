@@ -26,7 +26,7 @@ _RockTunnel1FHiker2EndBattleText::
 	prompt
 
 _RockTunnel1FHiker2AfterBattleText::
-	text "That sleeping"
+	text "That stormy"
 	line "#MON on ROUTE"
 	cont "12 forced me to"
 	cont "take this detour."

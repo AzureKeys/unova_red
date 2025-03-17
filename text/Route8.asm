@@ -55,10 +55,11 @@ _Route8CooltrainerF21EndBattleText::
 	prompt
 
 _Route8CooltrainerF1AfterBattleText::
-	text "When #MON grow"
-	line "up they get ugly!"
-	cont "They shouldn't"
-	cont "evolve!"
+	text "Some #MON get"
+	line "ugly when they"
+	cont "evolve, but"
+	cont "LILLIPUP always"
+	cont "stays cute!"
 	done
 
 _Route8SuperNerd3BattleText::

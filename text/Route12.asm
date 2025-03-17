@@ -59,9 +59,9 @@ _Route12CooltrainerMEndBattleText::
 	prompt
 
 _Route12CooltrainerMAfterBattleText::
-	text "I could have made"
-	line "my #MON evolve"
-	cont "with MOON STONE!"
+	text "Some #MON only"
+	line "evolve by using"
+	cont "a MOON STONE!"
 	done
 
 _Route12SuperNerdBattleText::

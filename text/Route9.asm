@@ -22,13 +22,13 @@ _Route9AJBattleText::
 
 _Route9AJEndBattleText::
 	text "My"
-	line "SANDILE lost?"
+	line "EMOLGA lost?"
 	prompt
 
 _Route9AJAfterBattleText::
 	text "I'll restart my"
 	line "100-win streak"
-	cont "with SANDILE."
+	cont "with EMOLGA."
 	done
 
 _Route9CooltrainerM2BattleText::
@@ -103,7 +103,11 @@ _Route9Youngster1BattleText::
 	text "I got up early"
 	line "every day to"
 	cont "raise my #MON"
-	cont "from cocoons!"
+	cont "into cocoons!"
+	
+	para "They'll be strong"
+	line "when they're"
+	cont "fully grown!"
 	done
 
 _Route9Youngster1EndBattleText::

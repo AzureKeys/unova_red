@@ -16,8 +16,10 @@ _Route11Gate2FLeftBinocularsSnorlaxText::
 	text "Looked into the"
 	line "binoculars."
 
-	para "A big #MON is"
-	line "asleep on a road!"
+	para "A big storm cloud"
+	line "is blocking the"
+	cont "road! Could it"
+	cont "be a #MON?"
 	done
 
 _Route11Gate2FLeftBinocularsNoSnorlaxText::

@@ -7,7 +7,7 @@
 	db 45 ; catch rate
 	db 238 ; base exp
 
-	INCBIN "gfx/pokemon/front/Samurott.pic", 0, 1 ; sprite dimensions
+	INCBIN "gfx/pokemon/front/samurott.pic", 0, 1 ; sprite dimensions
 	dw SamurottPicFront, SamurottPicBack
 
 	db SLASH, TACKLE, TAIL_WHIP, WATER_GUN ; level 1 learnset
